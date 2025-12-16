@@ -1,0 +1,134 @@
+% 2_fundamentacao_teorica.tex
+\chapter{FUNDAMENTAÇÃO TEÓRICA}
+
+
+\section{TEORIA DO FUNCIONAL DA DENSIDADE}
+
+\subsection{Equação de Kohn-Sham}
+
+\section{TERMODINÂMICA ATOMÍSTICA DE PRIMEIROS PRINCÍPIOS}
+Descreva os trabalhos relacionados, teorias e modelos relevantes \cite{rogal2006}.
+
+\subsection{Energia livre de Gibss de superfície}
+A energia livre de Gibbs de superfície (\( \gamma \)) é uma propriedade termodinâmica que descreve a estabilidade de superfícies em função de variáveis como temperatura (T), pressão (P) e composição química (N$_{\text{i}}$). \textcolor{red}{Essa propriedade é crucial para entender fenômenos como adsorção, reações de superfície e crescimento de cristais} \textcolor{blue}{[ref]}. \textcolor{red}{Uma superfície pode ser definida como uma região bidimensional de uma fase sólida que sofre ação tanto da fase externa (gás ou líquido) quanto da fase interna (sólido)} \textcolor{blue}{[ref]}. A Figura~\ref{fig:esquema_superficies_1} mostra de forma esquemática a separação entre a superfície e as fases interna e externa.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.4\textwidth]{figuras/imagens/exemplo.jpg}
+  \caption{Esquema da separação entre a superfície e as fases interna e externa.}
+  \label{fig:esquema_superficies_1}
+\end{figure}
+
+A partir dessa modelagem é possível expressar a energia livre de Gibbs do sistema em termos da contribuição da fase externa (nesse caso um gás, G$_{g}$), fase interna, ou seja, a parte sólida (G$_{\text{s}}$) e a superfície (G$_{\text{surf}}$), e com isso é possível isolar a contribuição da superfície conforme descrito pela Equação~\ref{eq:gibbs_superficie_1}:
+
+\begin{equation}
+G_{\text{surf}}(T,P) = G(T,P) - G_{\text{s}}(T,P) - G_{\text{g}}(T,P)
+\label{eq:gibbs_superficie_1}
+\end{equation}
+
+Adaptando a equação para um tungstato metálico (M$_{\text{x}}\text{WO}_4$) e considerando que superfície apresenta uma área constante (A), a energia livre de superficie por unidade de área (\( \gamma \)) dependente da temperatura (T) e pressão (P) e também que as energias livres do sistema, fase sólida (G$_{\text{M}}$ e G$_{\text{W}}$) e gás (G$_{\text{O}}$) além de dependentes de T e P também dependem das quantidades de espécies quimicas (N$_{\text{x}}$) presentes em cada fase, sendo assim é possivel rescrever a energia livre de acordo com a Equação~\ref{eq:gibbs_superficie_2}:
+
+\begin{equation}
+\gamma(T,P) = \frac{1}{A} \left[ G(T,P,N_{\text{M}},N_{\text{W}},N_{\text{O}}) - G_{\text{M}}(T,P,N_{\text{M}}) - G_{\text{W}}(T,P,N_{\text{W}}) - G_{\text{O}}(T,P,N_{\text{O}}) \right]
+\label{eq:gibbs_superficie_2}
+\end{equation}
+
+Ao modelar a superfície como duas placas (\textit{slabs}) de terminações equivalentes, pode-se definir $\gamma$ para apenas uma terminação simétrica. Além disso considerando um sistema suficientemente grande ($\approx$ infinito), tem-se então que o \textit{slab}, compõe uma parte finita desse sistema, conforme se distancia da superfície, seus efeitos passam a ser insignificantes para a fase interna e externa. Essa parcela finita  presente na energia livre do sistema acaba sendo cancelada devido essa parcela estar presente de maneira equivalente na fase interna e externa, sendo assim, é possivel descrever $\gamma$ apenas em termos da parcela finita do sistema afetada pela superfície, ou seja, da energia livre de Gibbs do \textit{slab} (G$_{\text{slab}}$) e também a parcela finita da energia livre da fase interna e externa, nesse caso, descritas em termos de seus respectivos potencias químicos ($\mu$) e composição química. Isso permite escrever a Equação~\ref{eq:gibbs_superficie_3}:
+
+\begin{equation}
+\gamma(T,P) = \frac{1}{2A} \left[ G_{\text{slab}}(T,P,N_{\text{M}},N_{\text{W}},N_{\text{O}}) - N_{\text{M}}\mu_{\text{M}}(T,P) - N_{\text{W}}\mu_{\text{W}}(T,P) - N_{\text{O}}\mu_{\text{O}}(T,P) \right]
+\label{eq:gibbs_superficie_3}
+\end{equation}
+
+Se o \textit{slab} for suficientemente grande para que a fase sólida possa ser descrita como um reservatório termodinâmico e com isso os potenciais químicos passam a depender um do outro e estão relacionados com o \textit{bulk} e seu potencial químico se aproxima da energia livre, o que permite escrever a Equação~\ref{eq:gibbs_superficie_4}:
+
+\begin{equation}
+\mu^{bulk}_{M_xWO_4}(T,P) = x\mu_{M}(T,P) + \mu_{W}(T,P) + 4\mu_{O}(T,P) \approx g^{bulk}_{M_xWO_4}(T,P)
+\label{eq:gibbs_superficie_4}
+\end{equation}
+
+Para simplificar a Equação~\ref{eq:gibbs_superficie_3} pode-se reescrever a Equação~\ref{eq:gibbs_superficie_4} para isolar o potencial químico do tungstênio, uma vez que, para o fins desse trabalho pretende-se estudar o efeito do cátion métalico modificador da rede e com isso gerar a Equação~\ref{eq:gibbs_superficie_5}:
+
+\begin{equation}
+\mu_{W} = g^{bulk}_{M_xWO_4}(T,P) - x\mu_{M}(T,P) - 4\mu_{O}(T,P)
+\label{eq:gibbs_superficie_5}
+\end{equation}
+
+Ao substituir a Equação~\ref{eq:gibbs_superficie_5} na Equação~\ref{eq:gibbs_superficie_3} é possível reescrever a energia livre de Gibbs da superfície em função do potencial químico do cátion metálico modificador da rede, o que é desejado para esse trabalho, conforme descrito na Equação~\ref{eq:gibbs_superficie_6}:
+
+\begin{dmath}
+\gamma(T,P) = \frac{1}{2A} \left[ G_{\text{slab}}(T,P,N_{\text{M}},N_{\text{W}},N_{\text{O}}) - N_{\text{M}}\mu_{\text{M}}(T,P) - N_{\text{W}}[g^{bulk}_{M_xWO_4}(T,P) - x\mu_{M}(T,P) - 4\mu_{O}(T,P)] - N_{\text{O}}\mu_{\text{O}}(T,P) \right]
+\label{eq:gibbs_superficie_6}
+\end{dmath}
+
+Ao agrupar os potenciais químicos obtemos a equação~\ref{eq:gibbs_superficie_7}:
+
+\begin{dmath}
+\gamma(T,p) = \frac{1}{2A} \left[ G_{\text{slab}}(T,P,N_{\text{M}},N_{\text{W}},N_{\text{O}}) - N_{\text{W}}g^{bulk}_{M_xWO_4}(T,P) - (N_{\text{M}} - xN_{\text{W}})\mu_{\text{M}}(T,P) - (N_{\text{O}} - 4N_{\text{W}})\mu_{\text{O}}(T,P) \right]
+\label{eq:gibbs_superficie_7}
+\end{dmath}
+
+Considerando que a as contribuições da entropia e energia vibracional são pequenas em relação à energia total do sistema \textcolor{red}{[ref]}, é possível aproximar a energia livre de Gibbs pela energia total obtida por cálculos de primeiros princípios, o que permite reescrever a Equação~\ref{eq:gibbs_superficie_8}:
+
+\begin{dmath}
+\gamma(T,P) = \frac{1}{2A} \left[ E^{\text{slab}}_{M_xWO_4} - N_{\text{W}}E^{bulk}_{M_xWO_4} - (N_{\text{M}} - xN_{\text{W}})\mu_{\text{M}}(T,P) - (N_{\text{O}} - 4N_{\text{W}})\mu_{\text{O}}(T,P) \right]
+\label{eq:gibbs_superficie_8}
+\end{dmath} 
+
+Além disso, $\mu_O$, $\mu_M$ e $\mu_W$ podem ser relacionados com as energias totais das espécies moleculares e sólidas de referência, conforme descrito nas Equações~\ref{eq:potencial_quimico_O}, \ref{eq:potencial_quimico_M} e \ref{eq:potencial_quimico_W}:
+
+\begin{subequations}
+\begin{align}
+\Delta \mu_{O}(T,P) &= \mu_{O}(T,P) - \frac{1}{2}E_{O_2} \label{eq:potencial_quimico_O} \\
+\Delta \mu_{M}(T,P) &= \mu_{M}(T,P) - E^{\text{bulk}}_{M} \label{eq:potencial_quimico_M} \\
+\Delta \mu_{W}(T,P) &= \mu_{W}(T,P) - E^{\text{bulk}}_{W} \label{eq:potencial_quimico_W}
+\end{align}
+\end{subequations}
+
+Substituindo as Equações~\ref{eq:potencial_quimico_O} e \ref{eq:potencial_quimico_M} na Equação~\ref{eq:gibbs_superficie_8} e reorganizando a equação é obtida a Equação~\ref{eq:gibbs_superficie_9}:
+
+\begin{dmath}
+\gamma(T,P) = \frac{1}{2A} \left[ E^{ \text{slab}}_{M_xWO_4} - N_{\text{W}}E^{bulk}_{M_xWO_4} - (N_{\text{M}} - xN_{\text{W}})E^{\text{bulk}}_{M} - (N_{\text{O}} - 4N_{\text{W}})\frac{1}{2}E_{O_2} - (N_{\text{M}} - xN_{\text{W}})\Delta \mu_{\text{M}}(T,P) - (N_{\text{O}} - 4N_{\text{W}})\Delta \mu_{\text{O}}(T,P)\right]
+\label{eq:gibbs_superficie_9}
+\end{dmath}
+
+Para simplificar a notação, podemos agrupar os termos da Equação~\ref{eq:gibbs_superficie_9} a partir das Equações~\ref{eq:delta_M_W}, \ref{eq:delta_O_W} e \ref{eq:fi}:
+
+\begin{subequations}
+\begin{gather}
+\Delta N_{M,W} = (N_M - xN_W) \label{eq:delta_M_W} \\
+\Delta N_{O,W} = (N_O - 4N_W) \label{eq:delta_O_W} \\
+\phi = E^{ \text{slab}}_{M_xWO_4} - N_{\text{W}}E^{bulk}_{M_xWO_4} - \Delta N_{M,W}E^{\text{bulk}}_{M} - \Delta N_{O,W}\frac{1}{2}E_{O_2} \label{eq:fi}
+\end{gather}
+\end{subequations}
+
+Substituindo as Equações~\ref{eq:delta_M_W}, \ref{eq:delta_O_W} e \ref{eq:fi} na Equação~\ref{eq:gibbs_superficie_9}, obtemos a forma final da energia livre de superfície conforme descrito na Equação~\ref{eq:gibbs_superficie_final}:
+
+\begin{dmath}
+\gamma(T,P) = \frac{1}{2A} \left[ \phi - \Delta N_{M,W}\Delta \mu_{M}(T,P) - \Delta N_{O,W}\Delta \mu_{O}(T,P) \right]
+\label{eq:gibbs_superficie_final}
+\end{dmath}
+
+Por meio do potencial químico do oxigênio é possível também relacionar a temperatura e pressão do sistema, permitindo assim estabelecer condições experimentais para a obtenção de determinadas terminações superficiais. A partir do modelo dos gases ideais acossiado a mecânica estatistica \textcolor{red}{[ref]}, o potencial químico do oxigênio pode ser expresso em função da temperatura e pressão conforme descrito na Equação~\ref{eq:mu_o_temp_press}:
+
+\begin{dmath}
+\mu_{O}(T,P) = \frac{1}{2} E_{O_2} + \frac{1}{2}E^{ZPE}_{O_2} + \Delta \mu_O (T,P)
+\label{eq:mu_o_temp_press}
+\end{dmath}
+
+Aplicando a Equação~\ref{eq:potencial_quimico_O} na Equação~\ref{eq:mu_o_temp_press} é possível obter a variação do potencial químico do oxigênio em função da temperatura e pressão, conforme descrito na Equação~\ref{eq:delta_mu_o_temp_press}:
+
+\begin{dmath}
+\Delta \mu_{O}(T,P) = -\frac{1}{2}k_BT \ln \left(\frac{P}{P^0}\right) -\frac{1}{2}k_BT \left\{\ln \left[\left( \frac{2\pi m_{O_2}}{h^2} \right)^{3/2} \left(k_BT \right)^{5/2}\right] + \ln \left(\frac{k_BT}{\sigma^s B_O}\right) - \ln \left[1  - exp\left(\frac{\hbar \omega_O}{k_B T}\right)\right] + \ln \left(\textit{I}^{spin} \right)\right\}
+\label{eq:delta_mu_o_temp_press}
+\end{dmath}
+
+A partir dessa equação é possível avaliar a estabilidade de diferentes terminações superficiais em função dos potenciais químicos do oxigênio e do cátion metálico modificador da rede, permitindo assim identificar quais terminações são termodinamicamente mais estáveis sob diferentes condições de ambiente químico e também de temperatura e pressão.
+
+\section{DINÂMICA MOLECULAR QUÂNTICA}
+
+
+
+
+\section{MÉTODO \textit{NUDGED ELASTIC BAND}}
+

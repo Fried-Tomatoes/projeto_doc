@@ -1,0 +1,184 @@
+% 0_pre_textuais.tex - páginas pré-textuais (capa, resumo, agradecimentos)
+
+% --- Capa simples (com logos) ---
+\ifincluircapa
+\begin{titlepage}
+  \centering
+  \noindent
+  \begin{minipage}[t]{0.18\textwidth}
+    \raggedright
+    \IfFileExists{figures/logo_left.png}{\includegraphics[height=2.2cm]{figures/logo_left.png}}{} % LOGO ESQUERDA
+  \end{minipage}%
+  \begin{minipage}[t]{0.64\textwidth}
+    \centering
+    {\large UNIVERSIDADE ESTADUAL DE CAMPINAS\par}
+    {\large INSTITUTO DE QUÍMICA\par}
+  \end{minipage}%
+  \begin{minipage}[t]{0.18\textwidth}
+    \raggedleft
+    \IfFileExists{figures/logo_right.png}{\includegraphics[height=2.2cm]{figures/logo_right.png}}{} % LOGO DIREITA
+  \end{minipage}
+
+  \vspace{4cm}
+  {\large THOMAS ANTONIO CARDOZO MARTINS\par}
+
+  \vspace*{4cm}
+
+  {\large TUNGSTATOS DE METAIS DE TRANSIÇÃO APLICADOS COMO FOTOCATALISADORES E BIOCIDAS: AVALIAÇÃO TEÓRICA DAS ESPÉCIES REATIVAS DE OXIGÊNIO\par}
+
+  \vspace*{\fill}
+  {\large CAMPINAS\par}
+  {\large \the\year\par} % ano atual automático
+\end{titlepage}
+\fi
+
+% --- Folha de rosto ---
+\ifincluirfolhaderosto
+\begin{titlepage}
+  \centering
+   {\large THOMAS ANTONIO CARDOZO MARTINS\par}
+    \vspace*{9cm}
+   {\large TUNGSTATOS DE METAIS DE TRANSIÇÃO APLICADOS COMO FOTOCATALISADORES E BIOCIDAS: AVALIAÇÃO TEÓRICA DAS ESPÉCIES REATIVAS DE OXIGÊNIO\par}
+    \vspace*{2cm}
+    % Position the paragraph so its left edge starts at the horizontal center of the page
+   \noindent\hspace*{0.5\textwidth}\begin{minipage}[t]{0.5\textwidth}
+     \raggedright
+     \justifying
+      {\noindent Exame de qualificação geral de doutorado apresentada ao Programa de Pós-Graduação em Química, Instituto de Química, Universidade Estadual de Campinas, como requisito parcial à obtenção do título de Doutor em Química.}
+        \par\vspace{0.5\baselineskip}
+      {\noindent Orientador: Miguel Angel San-Miguel Barrera}\par
+         \par\vspace{0.5\baselineskip}
+      %{\noindent Coorientador: Juan Andrés}\par
+    \end{minipage}
+
+  \vspace*{\fill}
+  {\large CAMPINAS\par}
+  {\large \the\year\par}
+\end{titlepage}
+\fi
+
+
+% --- Ficha Catalográfica ---
+\ifincluirfichacatalografica
+\clearpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+  \IfFileExists{figures/ficha_catalografica.pdf}{%
+    \includegraphics[width=\textwidth,height=\textheight]{figures/ficha_catalografica.pdf}
+  }{%
+    \IfFileExists{figures/ficha_catalografica.png}{%
+      \includegraphics[width=\textwidth,height=\textheight]{figures/ficha_catalografica.png}
+    }{%
+      % Caso a imagem não exista, exibir mensagem
+      \vspace*{3cm}
+      {\large \textbf{FICHA CATALOGRÁFICA}\par}
+      \vspace{1cm}
+      {\normalsize [Insira aqui a imagem digitalizada da ficha catalográfica]\par}
+      \vspace{1cm}
+      {\small Arquivo esperado: figures/ficha\_catalografica.pdf ou figures/ficha\_catalografica.png\par}
+    }%
+  }%
+\end{center}
+\vspace*{\fill}
+\fi
+
+
+% --- Folha de Aprovação ---
+\ifincluirfolhadeaprovado
+\clearpage
+\begin{center}
+  \thispagestyle{empty}
+  \vspace*{\fill}
+  \IfFileExists{figures/folha_aprovacao.pdf}{%
+    \includegraphics[width=\textwidth,height=0.95\textheight,keepaspectratio]{figures/folha_aprovacao.pdf}
+  }{%
+    \IfFileExists{figures/folha_aprovacao.png}{%
+      \includegraphics[width=\textwidth,height=0.95\textheight,keepaspectratio]{figures/folha_aprovacao.png}
+    }{%
+      % Caso a imagem não exista, exibir mensagem
+      \vspace*{3cm}
+      {\large \textbf{FOLHA DE APROVAÇÃO}\par}
+      \vspace{1cm}
+      {\normalsize [Insira aqui a imagem digitalizada da folha de aprovação]\par}
+      \vspace{1cm}
+      {\small Arquivo esperado: figures/folha\_aprovacao.pdf ou figures/folha\_aprovacao.png\par}
+    }%
+  }%
+  \vspace*{\fill}
+\end{center}
+\fi
+
+% --- Epígrafe ---
+\ifincluirepigrafe
+\clearpage
+\vspace*{\fill}
+\begin{flushright}
+  Epígrafe - lerolerolerolerolerolero
+\end{flushright}
+\fi
+
+
+% --- Agradecimentos (opcional) ---
+\ifincluiragradecimentos
+\clearpage
+\begin{center}
+\fontsize{14}{16}\selectfont\textbf{AGRADECIMENTOS}
+\end{center}
+
+\begin{text}
+  Ao meu orientador prof. Dr. Miguel Angel San-Miguel Barrera...
+
+  Ao meu coorientador prof. Dr. Juan Andrés...
+\end{text}
+\fi
+
+% --- Resumo (em português) ---
+\ifincluirresumo
+\clearpage
+\begin{center}
+  \fontsize{14}{16}\selectfont\textbf{Resumo}
+\end{center}
+\begin{text}
+    \noindent Espécies reativas de oxigênio (ROS), como superóxidos ($^\bullet$O$_{\text{2}}^{-}$) e radicais hidroxila ($^{\bullet}$OH), desempenham papel central na eliminação de patógenos e células cancerígenas no meio biológico, despertando crescente interesse na sua geração controlada para aplicações em saúde. Semicondutores destacam-se como materiais promissores para esse fim, pois permitem a formação fotocatalítica de ROS a partir de moléculas de H$_{\text{2}}$O e O$_{\text{2}}$ adsorvidas em suas superfícies. Assim, o desenvolvimento de novos semicondutores, com propriedades estruturais e eletrônicas otimizadas, é essencial para aprimorar sua eficiência fotocatalítica. Entre esses materiais, os tungstatos metálicos (M$_{\text{x}}$WO$_{\text{4}}$) apresentam desempenho promissor e relevância estratégica no Brasil, que possui reservas minerais significativas no estado do Rio Grande do Norte. Contudo, abordagens exclusivamente experimentais podem ser limitadas para o estudo aprofundado de suas propriedades eletrônicas. Nesse contexto, métodos teóricos baseados em química computacional oferecem uma abordagem eficazes para investigar, em nível atômico, suas características estruturais, eletrônicas e morfológicas dos materiais. Este projeto propõe o uso da Teoria do Funcional da Densidade (DFT) e de Dinâmica Molecular Quântica para estudar tungstatos metálicos (ZnWO$_{\text{4}}$, NiWO$_{\text{4}}$ e CoWO$_{\text{4}}$), avaliando o efeito do cátion modificador da rede sobre suas propriedades e sua capacidade de adsorver H$_{\text{2}}$O e O$_{\text{2}}$, visando compreender os mecanismos de geração de ROS e sua potencial atividade bactericida.
+    
+    \vspace{1em}    
+    \noindent \textbf{Palavras-chave:} Tungstatos; ROS; Química computacional; Fotocatálise.
+\end{text}
+\fi
+
+% --- Abstract ---
+\ifincluirabstract
+\clearpage
+\begin{center}
+  \fontsize{14}{16}\selectfont\textbf{ABSTRACT}
+\end{center}
+  \begin{text}
+  \noindent Reactive oxygen species (ROS), such as superoxide ($^{\bullet}$O$_2^{-}$) and hydroxyl radicals ($^{\bullet}$OH), play a central role in eliminating pathogens and cancer cells in biological systems, generating increasing interest in their controlled production for healthcare applications. Semiconductors stand out as promising materials for this purpose, as they enable the photocatalytic formation of ROS from H$_{\text{2}}$O and O$_{\text{2}}$ molecules adsorbed on their surfaces. Therefore, the development of novel semiconductors with optimized structural and electronic properties is essential to enhance their photocatalytic efficiency. Among these materials, metal tungstates (M$_{\text{x}}$WO$_{\text{4}}$) exhibit promising performance and strategic relevance in Brazil, which holds significant mineral reserves in the state of Rio Grande do Norte. However, purely experimental approaches may be limited in providing an in-depth understanding of their electronic properties. In this context, theoretical methods based on computational chemistry provide an effective approach to investigate, at the atomic level, their structural, electronic, and morphological properties of materials.tungstates (ZnWO$_{\text{4}}$, NiWO$_{\text{4}}$, and CoWO$_{\text{4}}$), evaluating the effect of the network-modifying cation on their properties and their ability to adsorb H$_{\text{2}}$O and O$_{\text{2}}$, with the goal of elucidating the mechanisms of ROS generation and their potential bactericidal activity. 
+
+  \vspace{1em}
+  \noindent \textbf{Keywords:} Tungstates; ROS; Computational chemistry; Photocatalysis.
+\end{text}
+\fi
+
+% --- Sumário ---
+\ifincluirsumario
+\tableofcontents
+\fi
+
+% --- Lista de Figuras ---
+\ifincluirlistafiguras
+\listoffigures
+\fi
+
+% --- Lista de Tabelas ---
+\ifincluirlistatabelas
+
+\listoftables
+\fi
+
+% --- Lista de Abreviaturas e Siglas ---
+\ifincluirlistaabreviaturas
+\printglossary[type=\acronymtype, title={}]
+\fi
+

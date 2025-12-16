@@ -1,0 +1,64 @@
+% 4_metodologia.tex
+\chapter{METODOLOGIA}
+
+\section{PROCEDIMENTO COMPUTACIONAL}
+A partir dos cálculos de DFT serão exploradas as propriedades estruturais, morfológicas e eletrônicas dos tungstatos metálicos avaliados (NiWO$_4$, ZnWO$_4$ e CoWO$_4$) com o objetivo de investigar as principais terminações expostas em suas superfícies e estabelecer correlações com a reatividade frente às moléculas de O$_2$ e H$_2$O para formação das ROS. Esses cálculos serão conduzidos no \textit{Vienna Ab Initio Simulation Package} (VASP) [71,72], empregando a aproximação do gradiente generalizado (GGA, \textit{Generalized Gradient Approximation}) com o funcional de troca e correlação de Perdew–Burke–Ernzerhof (PBE) na determinação inicial das estruturas geométricas [73]. Adicionalmente, serão incluídas correções para descrever as interações de dispersão entre moléculas adsorvidas e a superfície, bem como avaliados funcionais híbridos em sistemas específicos que demandem uma descrição mais acurada da estrutura eletrônica.
+
+\section{SIMULAÇÕES DAS PROPRIEDADES ESTRUTURASI E MORFOLÓGICAS}
+
+
+\subsection{Otimização das estruturas internas (\textit{bulk})}
+Para a otimização do \textit{bulk} dos tungstatos metálicos estudados, serão realizados cálculos variando a energia de corte (ENCUT, do inglês \textit{energy cutoff}), associada ao tamanho da expansão da função de base, até identificar o valor no qual os cálculos de relaxação convergem. Em seguida, serão otimizados os pontos de amostragem do espaço recíproco (\textit{k-points}), variando seu número até alcançar a convergência da energia do sistema, de forma análoga à otimização do ENCUT. Também serão testados diferentes funcionais de troca e correlação no âmbito da GGA, comparando-se as energias livres de formação obtidas com valores reportados na literatura, a fim de selecionar o funcional que melhor descreve a estrutura eletrônica e que eventualmente será usado em etapas posteriores. O funcional de troca e correlação escolhido será empregado na minimização estrutural, variando-se o parâmetro de rede e correlacionando a energia total relaxada com o volume da célula, de modo a determinar o volume mínimo do \textit{bulk}. Uma vez definido o \textit{bulk} com menor energia, será possível avançar para o estudo das superfícies, considerando que suas propriedades estão intimamente relacionadas à estrutura de \textit{bulk}.
+
+
+\subsection{Construção das superfícies e estudo de estabilidade }
+Os modelos das terminações mais favoráveis para as diferentes superfícies dos materiais estudados serão avaliados por meio da termodinâmica atomística de primeiros princípios, proposta por Rogal e Reuter [74]. A partir do recorte dos cristais (\textit{slabs}) em planos de baixos índices de Miller, serão geradas diferentes terminações superficiais. Para cada orientação, será avaliada a espessura dos \textit{slabs} de modo a garantir que a região central preserve as características de \textit{bulk}, enquanto as faces apresentem propriedades de superfície, para garantir a representatividade do modelo de superfície. A energia de superfície será analisada em função do número de repetições do \textit{bulk} para cada espessura de \textit{slab}, a fim de encontrar a espessura em que a energia de superfície comece a convergir. Uma vez definida a espessura representativa, será estudada a estabilidade das diferentes terminações geradas para cada superfície.
+
+A estabilidade dessas terminações superficiais será avaliada com o programa \textit{Predicting Stability of Terminations of Oxides} (PS-TEROS), desenvolvido em nosso grupo [75]. Por meio de uma plataforma computacional automatizada, o programa calcula a energia livre de Gibbs para superfícies de óxidos em função do potencial químico de seus constituintes (${\Delta}{\mu}$M, ${\Delta}{\mu}$W e ${\Delta}{\mu}$O). Com o auxílio dos cálculos automatizados do PS-TEROS será identificada a terminação mais estável para cada orientação estudada, a partir de diagramas de energia e de superfícies que relacionam a energia livre de superfície com os potenciais químicos dos elementos que constituem o metal, de acordo com a Equação \ref{eq:gibbs_superficie_final}:
+
+\begin{dmath*}
+\gamma(T,P) = \frac{1}{2A} \left[ \phi - \Delta N_{M,W}\Delta \mu_{M}(T,P) - \Delta N_{O,W}\Delta \mu_{O}(T,P) \right]
+\hfill (\ref{eq:gibbs_superficie_final})
+\end{dmath*}
+
+O ${\Delta}{\mu_O}$ será relacionado à temperatura e pressão do sistema, conforme descrito na Equação \ref{eq:delta_mu_o_temp_press}, a fim de estabelecer condições experimentais para a obtenção de determinadas terminações superficiais:
+
+\begin{dmath*}
+\Delta \mu_{O}(T,P) = -\frac{1}{2}k_BT \ln \left(\frac{P}{P^0}\right) -\frac{1}{2}k_BT \left\{\ln \left[\left( \frac{2\pi m_{O_2}}{h^2} \right)^{3/2} \left(k_BT \right)^{5/2}\right] + \ln \left(\frac{k_BT}{\sigma^s B_O}\right) - \ln \left[1  - exp\left(\frac{\hbar \omega_O}{k_B T}\right)\right] + \ln \left(\textit{I}^{spin} \right)\right\} \\
+\hfill (\ref{eq:delta_mu_o_temp_press})
+\end{dmath*}
+
+Para melhor compreender a estabilidade das superfícies, serão calculadas as energias de clivagem e relaxação das terminações geradas.
+
+\subsection{Cálculo de energia de relaxação e clivagem das superfícies}
+A energia de clivagem (E$_c$) corresponde à energia necessária para quebrar um cristal e gerar duas superfícies complementares, que ao serem combinadas formam o cristal original. A E$_c$ pode ser calculada utilizando a Equação~\ref{eq:energia_clivagem}:
+
+\begin{equation}
+E_{c}(i,j) = \frac{1}{2A} \left( E^{slab}_i + E^{slab}_j - nE^{bulk} \right)
+\label{eq:energia_clivagem}
+\end{equation}
+
+\vspace{1em}
+
+A fim de verificar a estabilização das superfícies após sua clivagem é possível calcular a energia de relaxação (E$_r$), que corresponde à energia liberada quando uma superfície clivada (E$_{unrelaxed}^{slab}$) é relaxada (E$_{relaxed}^{slab}$) para sua configuração de menor energia. A E$_r$ pode ser calculada utilizando a Equação~\ref{eq:energia_relaxacao}:
+
+\begin{equation}
+E_{r} = E_{relaxed}^{slab} - E_{unrelaxed}^{slab}
+\label{eq:energia_relaxacao}
+\end{equation}
+
+\subsection{Dinâmica Molecular \textit{Ab Initio}}
+Para assegurar a estabilidade das terminações selecionadas, serão 
+realizados estudos de Dinâmica Molecular ab initio (AIMD, do inglês ab initio Molecular Dynamics). Esses cálculos permitirão avaliar possíveis alterações estruturais ao longo do tempo e sob diferentes temperaturas, verificando a robustez das superfícies em condições mais próximas às experimentais.
+
+\section{SIMULAÇÕES DA REATIVIDADE PARA GERAÇÃO DE ESPÉCIES REATIVAS DE 
+OXIGÊNIO}
+
+\subsection{Determinação de sítios de adsorção}
+Uma vez definidas as terminações de maior estabilidade, serão avançadas para o estudo de suas propriedades eletrônicas e para compreender melhor a reatividade, além de identificar possíveis sítios de adsorção das terminações que serão estudadas de forma mais aprofundada. Para investigar as propriedades eletrônicas, serão realizados cálculos de estrutura de bandas. A trajetória de alta simetria no espaço recíproco, essencial para os cálculos de estrutura de bandas, será gerada com a ferramenta SeeK-Path [72,73]. A análise da estrutura de bandas e do DOS (calculada na etapa anterior) permitirá determinar o band gap e, com a DOS, será possível calcular a densidade de portadores de carga ($\rho$), com base na distribuição de Fermi-Dirac [74], possibilitando uma comparação direta entre as propriedades do material em estado bulk e suas superfícies. Além disso, será calculada a função trabalho ($\Phi$), que corresponde à energia mínima necessária para levar um elétron do nível de Fermi do material até um ponto no vácuo. Este parâmetro é fundamental para compreender a capacidade dos materiais de absorver e emitir radiação [65]. A distribuição de densidade eletrônica de cada sistema será investigada a partir da teoria topológica de Bader [75], o que permitirá avaliar a distribuição de carga entre os átomos das superfícies e identificar regiões com excesso ou deficiência eletrônica, possibilitando prever o caráter desses sítios como nucleofílicos ou eletrofílicos, aprimorando a compreensão sobre a reatividade de cada superfície.
+
+\subsection{Determinação dos sítios de adsorção de O$_2$ e H$_2$O}
+Com base nos resultados obtidos para as propriedades estruturais, morfológicas e eletrônicas, serão realizados cálculos teóricos para avaliar a interação das moléculas de O$_2$ e H$_2$O com as superfícies dos materiais estudados, visando compreender sua ativação e os mecanismos envolvidos em sua geração. Nesse estudo, será avaliada independentemente a adsorção das moléculas de O$_2$ e H$_2$O, bem como sua coadsorção, a fim de verificar a existência de mecanismos sinérgicos no processo de ativação dessas moléculas para a geração de ROS.
+
+\subsection{Determinação dos estados de transição}
+A identificação dos estados de transição e das barreiras energéticas associadas será conduzida por meio do método \textit{Nudged Elastic Band} (NEB) [76], que traça o caminho reacional por meio de imagens intermediárias interpoladas e conectadas por potenciais elásticos artificiais. Essas imagens são otimizadas simultaneamente para determinar o caminho de menor energia, sendo que, ao final das simulações, identifica-se o estado de transição, correspondente ao ponto de maior energia e que atua como barreira de potencial para a reação. A amostragem dos sítios de adsorção molecular será realizada utilizando o programa UMSL\textit{toolkit}, desenvolvido no próprio grupo e previamente aplicado a outros sistemas. Com ele, é possível alocar adsorvato na superfície do substrato e refinar a posição a fim de determinar os sítios de adsorção e configurações do adsorvato na superfície do substrato que garantem a maior estabilidade. Uma vez encontrados os estados de transição envolvidos no processo de ativação das moléculas de O$_2$ e H$_2$O, serão realizados cálculos de frequência de fônons, a fim de verificar se há apenas uma frequência imaginária nas estruturas dos estados intermediários, e com isso confirmar que o estado de transição obtido por meio do NEB seja um estado de transição real. A partir desses resultados, todas as terminações serão comparadas, permitindo identificar aquelas com maior potencial fotocatalítico para aplicação biocida.
