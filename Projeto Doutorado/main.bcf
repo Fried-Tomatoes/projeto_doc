@@ -2467,19 +2467,30 @@
     <bcf:citekey order="15" intorder="1">zeng2020cooperatively</bcf:citekey>
     <bcf:citekey order="16" intorder="1">zhu2021rapid</bcf:citekey>
     <bcf:citekey order="17" intorder="1">liu2024simultaneous</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">rogal2006</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">zhang1998comment</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">perdew2008restoring</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">hammer1999improved</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">dellien1976chromium</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">dellien1976chromium</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">hoang2018electronic</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">zhang2023effect</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">dkhilalli2018structural</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">yan2019study</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">reuter2005ab</bcf:citekey>
-    <bcf:citekey order="28" intorder="2">rogal2006</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">pereira2018znwo</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">he2025photocatalytic</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">wang2018design</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">fan2023two</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">malits2017nanometric</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">cui2022electrochemical</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">ahn2023colloidal</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">zhong2024situ</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">alfa2024recent</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">he2020multifunctional</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">zhang2023recent</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">wolpert2011managing</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">rogal2006</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">zhang1998comment</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">perdew2008restoring</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">hammer1999improved</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">dellien1976chromium</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">dellien1976chromium</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">hoang2018electronic</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">zhang2023effect</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">dkhilalli2018structural</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">yan2019study</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">reuter2005ab</bcf:citekey>
+    <bcf:citekey order="39" intorder="2">rogal2006</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">pereira2018znwo</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

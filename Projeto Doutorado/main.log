@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.20)  17 DEC 2025 15:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.20)  17 DEC 2025 15:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1615,7 +1615,7 @@ Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 41.
 Cap\'{\i }tulo 2.
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
-Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 17.
+Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 19.
 (pdftex.def)             Requested size: 182.09486pt x 182.08745pt.
 [12
 
@@ -1630,147 +1630,123 @@ Cap\'{\i }tulo 4.
 [17
 
 
-] [18]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 60.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 60.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 60.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 60.
-
-[19]) (./sections/5_resultados_discussao.tex [20]
+] [18] [19]) (./sections/5_resultados_discussao.tex [20]
 Cap\'{\i }tulo 5.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 4.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 4.
-
-<figuras/graficos/convergencia_encut_kpoints.pdf, id=403, 488.50409pt x 177.65248pt>
+<figuras/graficos/convergencia_encut_kpoints.pdf, id=425, 488.50409pt x 177.65248pt>
 File: figuras/graficos/convergencia_encut_kpoints.pdf Graphic file (type pdf)
 <use figuras/graficos/convergencia_encut_kpoints.pdf>
-Package pdftex.def Info: figuras/graficos/convergencia_encut_kpoints.pdf  used on input line 13.
+Package pdftex.def Info: figuras/graficos/convergencia_encut_kpoints.pdf  used on input line 15.
 (pdftex.def)             Requested size: 455.24411pt x 165.55664pt.
 [21
 
 
  <./figuras/graficos/convergencia_encut_kpoints.pdf>]
-<figuras/graficos/curva_fit_birch.pdf, id=581, 1096.15773pt x 484.82472pt>
+<figuras/graficos/curva_fit_birch.pdf, id=604, 1096.15773pt x 484.82472pt>
 File: figuras/graficos/curva_fit_birch.pdf Graphic file (type pdf)
 <use figuras/graficos/curva_fit_birch.pdf>
-Package pdftex.def Info: figuras/graficos/curva_fit_birch.pdf  used on input line 49.
+Package pdftex.def Info: figuras/graficos/curva_fit_birch.pdf  used on input line 52.
 (pdftex.def)             Requested size: 455.24411pt x 201.35385pt.
  [22] [23 <./figuras/graficos/curva_fit_birch.pdf>] [24]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
-Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 116.
+Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 120.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
-<figuras/graficos/energia_superficie_001.pdf, id=648, 1195.28613pt x 453.04665pt>
+<figuras/graficos/energia_superficie_001.pdf, id=669, 1195.28613pt x 453.04665pt>
 File: figuras/graficos/energia_superficie_001.pdf Graphic file (type pdf)
 <use figuras/graficos/energia_superficie_001.pdf>
-Package pdftex.def Info: figuras/graficos/energia_superficie_001.pdf  used on input line 127.
+Package pdftex.def Info: figuras/graficos/energia_superficie_001.pdf  used on input line 132.
 (pdftex.def)             Requested size: 455.24411pt x 172.54663pt.
- [25 <./figuras/graficos/energia_superficie_001.pdf>]
+ [25]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
-Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 139.
+Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 145.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
-<figuras/graficos/energia_superficie_010.pdf, id=844, 1195.28613pt x 453.04665pt>
+ [26 <./figuras/graficos/energia_superficie_001.pdf>]
+<figuras/graficos/energia_superficie_010.pdf, id=871, 1195.28613pt x 453.04665pt>
 File: figuras/graficos/energia_superficie_010.pdf Graphic file (type pdf)
 <use figuras/graficos/energia_superficie_010.pdf>
-Package pdftex.def Info: figuras/graficos/energia_superficie_010.pdf  used on input line 150.
+Package pdftex.def Info: figuras/graficos/energia_superficie_010.pdf  used on input line 157.
 (pdftex.def)             Requested size: 455.24411pt x 172.54663pt.
- [26 <./figuras/graficos/energia_superficie_010.pdf>]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
-Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 162.
+Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 170.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
+ [27 <./figuras/graficos/energia_superficie_010.pdf>]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
-Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 175.
+Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 184.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
- [27]
-<figuras/graficos/energia_superficie_100.pdf, id=1108, 1209.57144pt x 456.54317pt>
+ [28]
+<figuras/graficos/energia_superficie_100.pdf, id=1134, 1209.57144pt x 456.54317pt>
 File: figuras/graficos/energia_superficie_100.pdf Graphic file (type pdf)
 <use figuras/graficos/energia_superficie_100.pdf>
-Package pdftex.def Info: figuras/graficos/energia_superficie_100.pdf  used on input line 186.
+Package pdftex.def Info: figuras/graficos/energia_superficie_100.pdf  used on input line 196.
 (pdftex.def)             Requested size: 455.24411pt x 171.82326pt.
+ [29 <./figuras/graficos/energia_superficie_100.pdf>]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
-Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 198.
+Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 209.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
- [28 <./figuras/graficos/energia_superficie_100.pdf>]
-<figuras/graficos/energia_superficie_101.pdf, id=1285, 1195.28613pt x 453.04665pt>
+<figuras/graficos/energia_superficie_101.pdf, id=1311, 1195.28613pt x 453.04665pt>
 File: figuras/graficos/energia_superficie_101.pdf Graphic file (type pdf)
 <use figuras/graficos/energia_superficie_101.pdf>
-Package pdftex.def Info: figuras/graficos/energia_superficie_101.pdf  used on input line 209.
+Package pdftex.def Info: figuras/graficos/energia_superficie_101.pdf  used on input line 221.
 (pdftex.def)             Requested size: 455.24411pt x 172.54663pt.
- [29 <./figuras/graficos/energia_superficie_101.pdf>]
+ [30]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
-Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 221.
+Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 234.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
-<figuras/graficos/energia_superficie_110.pdf, id=1472, 1195.28613pt x 455.05414pt>
+ [31 <./figuras/graficos/energia_superficie_101.pdf>]
+<figuras/graficos/energia_superficie_110.pdf, id=1502, 1195.28613pt x 455.05414pt>
 File: figuras/graficos/energia_superficie_110.pdf Graphic file (type pdf)
 <use figuras/graficos/energia_superficie_110.pdf>
-Package pdftex.def Info: figuras/graficos/energia_superficie_110.pdf  used on input line 232.
+Package pdftex.def Info: figuras/graficos/energia_superficie_110.pdf  used on input line 246.
 (pdftex.def)             Requested size: 455.24411pt x 173.3112pt.
- [30 <./figuras/graficos/energia_superficie_110.pdf>]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
-Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 244.
+Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 259.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
-) (./sections/6_conclusao.tex [31]
+ [32 <./figuras/graficos/energia_superficie_110.pdf>]) (./sections/6_conclusao.tex [33]
 Cap\'{\i }tulo 6.
-) [32
+) [34
 
 
-] [33
+] [35
 
 
 
 
-] [34] [35]
+] [36] [37] [38]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[36] (./main.aux)
+[39] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F0EA63107A7FE43FCFAAE89127288A82;8574.
+(rerunfilecheck)             Checksum: DC6AEF84566C86803A7C727D13D3861F;8559.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61931 strings out of 474222
- 1383874 string characters out of 5748733
- 2440359 words of memory out of 5000000
- 82968 multiletter control sequences out of 15000+600000
- 574511 words of font info for 146 fonts, out of 8000000 for 9000
+ 62004 strings out of 474222
+ 1386068 string characters out of 5748733
+ 2439156 words of memory out of 5000000
+ 83023 multiletter control sequences out of 15000+600000
+ 574745 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,10n,117p,2412b,4456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (38 pages, 902782 bytes).
+Output written on main.pdf (41 pages, 910306 bytes).
 PDF statistics:
- 1780 PDF objects out of 2073 (max. 8388607)
- 1322 compressed objects within 14 object streams
- 141 named destinations out of 1000 (max. 500000)
+ 1827 PDF objects out of 2073 (max. 8388607)
+ 1366 compressed objects within 14 object streams
+ 155 named destinations out of 1000 (max. 500000)
  22861 words of extra memory for PDF output out of 24883 (max. 10000000)
 

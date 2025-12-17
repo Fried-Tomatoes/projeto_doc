@@ -51,12 +51,12 @@
     \endentry
     \entry{dong2022comprehensive}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=a9d7d8ee1c80e427d7871438edc01921}{%
+        {{un=1,uniquepart=given,hash=a9d7d8ee1c80e427d7871438edc01921}{%
            family={Dong},
            familyi={D\bibinitperiod},
            given={Chencheng},
            giveni={C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=f85b2ecafdc383c6e62c126146a7f554}{%
            family={Fang},
            familyi={F\bibinitperiod},
@@ -487,24 +487,24 @@
            given={Rashida},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=189ea6730fb1d7b978605ad89e7f8af9}{%
+        {{un=1,uniquepart=given,hash=189ea6730fb1d7b978605ad89e7f8af9}{%
            family={He},
            familyi={H\bibinitperiod},
            given={Chuanglong},
            giveni={C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=999c81f4720e8589afdeb8f94c0790bc}{%
            family={Mo},
            familyi={M\bibinitperiod},
            given={Xiumei},
            giveni={X\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=ea9c04afec9722ddba43147be1703ef8}{%
+        {{un=1,uniquepart=given,hash=ea9c04afec9722ddba43147be1703ef8}{%
            family={Zhou},
            familyi={Z\bibinitperiod},
            given={Xiaojun},
            giveni={X\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{publisher}{1}{%
         {Frontiers Media SA}%
@@ -576,12 +576,12 @@
            given={Yang},
            giveni={Y\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=defaf7db553f0acedcb4f83a980d28b4}{%
+        {{un=1,uniquepart=given,hash=defaf7db553f0acedcb4f83a980d28b4}{%
            family={Cui},
            familyi={C\bibinitperiod},
            given={Yuxiang},
            giveni={Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=c3d5e31dfd4c3628d6d75d3c561fcc72}{%
            family={Niedernhofer},
            familyi={N\bibinitperiod},
@@ -985,12 +985,12 @@
            given={Jun},
            giveni={J\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=ace0815f2295c885d1f09cd4b3e853be}{%
+        {{un=1,uniquepart=given,hash=ace0815f2295c885d1f09cd4b3e853be}{%
            family={Mao},
            familyi={M\bibinitperiod},
            given={Congyang},
            giveni={C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=6c386003271e46c3acd0c25767b591cd}{%
            family={Xiang},
            familyi={X\bibinitperiod},
@@ -1062,18 +1062,18 @@
            given={Qianhui},
            giveni={Q\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=102194407e803111143265d09a754df5}{%
+        {{un=1,uniquepart=given,hash=102194407e803111143265d09a754df5}{%
            family={Xu},
            familyi={X\bibinitperiod},
            given={Xingtao},
            giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b5ecefa5e74745f1373c15347bb0c72f}{%
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=b5ecefa5e74745f1373c15347bb0c72f}{%
            family={Gao},
            familyi={G\bibinitperiod},
            given={Xin},
            giveni={X\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=1,uniquepart=given,hash=c2a4436285d5146073c75dd646105c74}{%
            family={Zhu},
            familyi={Z\bibinitperiod},
@@ -1129,6 +1129,611 @@
       \verb 10.1038/s41467-024-53174-9
       \endverb
     \endentry
+    \entry{he2025photocatalytic}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=d3452111acee081550787965e7c4e8c8}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Dongyang},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=b1151d8cfc4e43f44336fbf5ec880f95}{%
+           family={Qu},
+           familyi={Q\bibinitperiod},
+           given={Jiao},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{cc67be4283d57ff2eb5751c51499a73f}
+      \strng{fullhash}{cc67be4283d57ff2eb5751c51499a73f}
+      \strng{bibnamehash}{cc67be4283d57ff2eb5751c51499a73f}
+      \strng{authorbibnamehash}{cc67be4283d57ff2eb5751c51499a73f}
+      \strng{authornamehash}{cc67be4283d57ff2eb5751c51499a73f}
+      \strng{authorfullhash}{cc67be4283d57ff2eb5751c51499a73f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Toxics}
+      \field{number}{2}
+      \field{title}{Photocatalytic Degradation of Emerging Contaminants}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{pages}{80}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/toxics13020080
+      \endverb
+    \endentry
+    \entry{wang2018design}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=5198e15a45ca9beadf6bfb12bea15e8b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lizhuo},
+           giveni={L\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8106dba62d11243abba3dc4bb2ba4369}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Jinhui},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=4d8033417bc7ef3f24fb8248763adb33}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Huimin},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=733256c2452217b6cec8912fa1abf4eb}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b55bdf0d8a52174e904d73f07e0e8428}
+      \strng{fullhash}{b55bdf0d8a52174e904d73f07e0e8428}
+      \strng{bibnamehash}{b55bdf0d8a52174e904d73f07e0e8428}
+      \strng{authorbibnamehash}{b55bdf0d8a52174e904d73f07e0e8428}
+      \strng{authornamehash}{b55bdf0d8a52174e904d73f07e0e8428}
+      \strng{authorfullhash}{b55bdf0d8a52174e904d73f07e0e8428}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Taiwan Institute of Chemical Engineers}
+      \field{title}{Design, modification and application of semiconductor photocatalysts}
+      \field{volume}{93}
+      \field{year}{2018}
+      \field{pages}{590\bibrangedash 602}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.jtice.2018.09.004
+      \endverb
+    \endentry
+    \entry{fan2023two}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=1c686f316a3ad2b24438e1bd3c9dee6c}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Dongxu},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=c1d7c8c57b8e28e61b7d96d56f5869fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Weisheng},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=6107070c11c772d47b2743b32530f10d}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=6f2bfefb87334c3287593215647afef8}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yifei},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=df9e90f33cf524670ae9d1508722256c}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Si},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=28dcf77c455b7bee7b41d166d220da13}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=d3ea160ac4858ec022a4447ac455f85a}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Taotao},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=fd22dc138117bdaceb0ed45e37f03265}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Futao},
+           giveni={F\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=585b32c5043876de8679d0617c6e1c0f}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Yun},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=a0b01123c8cdb1dfefb6287c789f158c}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Wenbin},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{e1c00ff3d038788869574893b5c3c1ed}
+      \strng{fullhash}{e1c00ff3d038788869574893b5c3c1ed}
+      \strng{bibnamehash}{e1c00ff3d038788869574893b5c3c1ed}
+      \strng{authorbibnamehash}{e1c00ff3d038788869574893b5c3c1ed}
+      \strng{authornamehash}{e1c00ff3d038788869574893b5c3c1ed}
+      \strng{authorfullhash}{e1c00ff3d038788869574893b5c3c1ed}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Electronics}
+      \field{number}{11}
+      \field{title}{Two-dimensional semiconductor integrated circuits operating at gigahertz frequencies}
+      \field{volume}{6}
+      \field{year}{2023}
+      \field{pages}{879\bibrangedash 887}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41928-023-01052-5
+      \endverb
+    \endentry
+    \entry{malits2017nanometric}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b0a630200c4e2a528274fd2d0ceea02e}{%
+           family={Malits},
+           familyi={M\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d13c3acf6091e823129356b315f8177}{%
+           family={Nemirovsky},
+           familyi={N\bibinitperiod},
+           given={Yael},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{1536c6953e62c0bd96a0da2e89423d9d}
+      \strng{fullhash}{1536c6953e62c0bd96a0da2e89423d9d}
+      \strng{bibnamehash}{1536c6953e62c0bd96a0da2e89423d9d}
+      \strng{authorbibnamehash}{1536c6953e62c0bd96a0da2e89423d9d}
+      \strng{authornamehash}{1536c6953e62c0bd96a0da2e89423d9d}
+      \strng{authorfullhash}{1536c6953e62c0bd96a0da2e89423d9d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{8}
+      \field{title}{Nanometric integrated temperature and thermal sensors in CMOS-SOI technology}
+      \field{volume}{17}
+      \field{year}{2017}
+      \field{pages}{1739}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s17081739
+      \endverb
+    \endentry
+    \entry{cui2022electrochemical}{article}{}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=0a41ad9b640847f3dcfeb06f42a8f097}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Zhilian},
+           giveni={Z\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=ba0709dc7feb89d27aee60403eb7a2fa}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Dujuan},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=9536c6881430f1d6572275c5e0d18239}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Weihuang},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=9d4e9eefbaccdfb64ad628c6e7eb2dcb}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=430d296e41585de81af296ed2f4a402b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hongying},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=dbbd102f1e64195fa2575ef3e3a446e9}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=6f69f696945a80e053176657028b0acd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Lili},
+           giveni={L\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=0a6d7d6036460f491e02ad24b48fc89f}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Linxi},
+           giveni={L\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=296cb3a97ff05c64b0a95f2de45b0a5a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Gaofeng},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=7bb2d83991df51fab82e334ba89d1132}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{cd77b3e6498ed6f243fc598e0786c281}
+      \strng{fullhash}{cd77b3e6498ed6f243fc598e0786c281}
+      \strng{bibnamehash}{cd77b3e6498ed6f243fc598e0786c281}
+      \strng{authorbibnamehash}{cd77b3e6498ed6f243fc598e0786c281}
+      \strng{authornamehash}{cd77b3e6498ed6f243fc598e0786c281}
+      \strng{authorfullhash}{cd77b3e6498ed6f243fc598e0786c281}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Analytical Methods}
+      \field{number}{20}
+      \field{title}{An electrochemical biosensor based on few-layer MoS 2 nanosheets for highly sensitive detection of tumor marker ctDNA}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{1956\bibrangedash 1962}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1039/D2AY00467D
+      \endverb
+    \endentry
+    \entry{ahn2023colloidal}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a3646a821a1da8627bbacf1a5314ac6b}{%
+           family={Ahn},
+           familyi={A\bibinitperiod},
+           given={Namyoung},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2a463f4ed10f362b4c358bc63537ecb}{%
+           family={Livache},
+           familyi={L\bibinitperiod},
+           given={Clément},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e981ebd030e77fd3601f2212b90cf789}{%
+           family={Pinchetti},
+           familyi={P\bibinitperiod},
+           given={Valerio},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8117d691c9300e65464aa5e842adc9a}{%
+           family={Klimov},
+           familyi={K\bibinitperiod},
+           given={Victor\bibnamedelima I},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{aca300cfb0886f404cefcf29507e4831}
+      \strng{fullhash}{aca300cfb0886f404cefcf29507e4831}
+      \strng{bibnamehash}{aca300cfb0886f404cefcf29507e4831}
+      \strng{authorbibnamehash}{aca300cfb0886f404cefcf29507e4831}
+      \strng{authornamehash}{aca300cfb0886f404cefcf29507e4831}
+      \strng{authorfullhash}{aca300cfb0886f404cefcf29507e4831}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Reviews}
+      \field{number}{13}
+      \field{title}{Colloidal semiconductor nanocrystal lasers and laser diodes}
+      \field{volume}{123}
+      \field{year}{2023}
+      \field{pages}{8251\bibrangedash 8296}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1021/acs.chemrev.2c00865
+      \endverb
+    \endentry
+    \entry{zhong2024situ}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7c0d05a48bf5dd961c62e6c32a55c741}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=e5d6fa51a69f9c96a946952d51fd92f7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=c6bb304455e203802559e27fad5b248d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=bc20e54573d2db853852f86802ab83de}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=0a7f8aa77b6fc013d586aa0beb8dbea5}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Gaoke},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{851a4ec3c397f86658bf3ecb5cb7b7d9}
+      \strng{fullhash}{851a4ec3c397f86658bf3ecb5cb7b7d9}
+      \strng{bibnamehash}{851a4ec3c397f86658bf3ecb5cb7b7d9}
+      \strng{authorbibnamehash}{851a4ec3c397f86658bf3ecb5cb7b7d9}
+      \strng{authornamehash}{851a4ec3c397f86658bf3ecb5cb7b7d9}
+      \strng{authorfullhash}{851a4ec3c397f86658bf3ecb5cb7b7d9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Surface Science}
+      \field{title}{In situ construction of Ti3+ self-doped TiO2/Ti3C2 Schottky heterojunctions for highly selective photo-Fenton-like degradation of organic pollutants: Surface/interface effect and mechanism insight}
+      \field{volume}{667}
+      \field{year}{2024}
+      \field{pages}{160376}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.apsusc.2024.160376
+      \endverb
+    \endentry
+    \entry{alfa2024recent}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=4b5e2f97400441f4b06087c2de18f575}{%
+           family={Alfa},
+           familyi={A\bibinitperiod},
+           given={Ibrahim},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb2a99cd80fb1d6ab45ae7983c19c9ac}{%
+           family={Hafeez},
+           familyi={H\bibinitperiod},
+           given={Hafeez\bibnamedelima Yusuf},
+           giveni={H\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a8b618f32140d74a3a61e556013f725}{%
+           family={Mohammed},
+           familyi={M\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18750684b0128183b4bffcbc4a4d3584}{%
+           family={Abdu},
+           familyi={A\bibinitperiod},
+           given={Salisu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18558ff1747671647741b5e65fd1daa4}{%
+           family={Suleiman},
+           familyi={S\bibinitperiod},
+           given={Abdussalam\bibnamedelima Balarabe},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bc63cfb42f65a2c1be5816caa0d065c}{%
+           family={Ndikilar},
+           familyi={N\bibinitperiod},
+           given={Chifu\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8e10d97cd466308a687b0a3be63d2e9a}
+      \strng{fullhash}{8e10d97cd466308a687b0a3be63d2e9a}
+      \strng{bibnamehash}{8e10d97cd466308a687b0a3be63d2e9a}
+      \strng{authorbibnamehash}{8e10d97cd466308a687b0a3be63d2e9a}
+      \strng{authornamehash}{8e10d97cd466308a687b0a3be63d2e9a}
+      \strng{authorfullhash}{8e10d97cd466308a687b0a3be63d2e9a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Hydrogen Energy}
+      \field{title}{A recent progress and advancement on MoS2-based photocatalysts for efficient solar fuel (hydrogen) generation via photocatalytic water splitting}
+      \field{volume}{71}
+      \field{year}{2024}
+      \field{pages}{1006\bibrangedash 1025}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.ijhydene.2024.05.203
+      \endverb
+    \endentry
+    \entry{he2020multifunctional}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=f31b883e5fc5de0b436d230b14b9b731}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Hongbo},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=aab2f6514c8c1d49cf713983af1a6deb}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Zhuangzhu},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=20736176f7b4f6390faf22c027471ea5}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Changlin},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{326c317e580bf920601c9633f3167951}
+      \strng{fullhash}{326c317e580bf920601c9633f3167951}
+      \strng{bibnamehash}{326c317e580bf920601c9633f3167951}
+      \strng{authorbibnamehash}{326c317e580bf920601c9633f3167951}
+      \strng{authornamehash}{326c317e580bf920601c9633f3167951}
+      \strng{authorfullhash}{326c317e580bf920601c9633f3167951}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Photochemistry and Photobiology A: Chemistry}
+      \field{title}{Multifunctional ZnWO4 nanoparticles for photocatalytic removal of pollutants and disinfection of bacteria}
+      \field{volume}{401}
+      \field{year}{2020}
+      \field{pages}{112735}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jphotochem.2020.112735
+      \endverb
+    \endentry
+    \entry{zhang2023recent}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=5196d58c51112aeda09645482cb704dd}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hefeng},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=be8f7c58ca2cf4a8339bf67a456d6de1}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiaqi},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=1517b5e5cf9fa1aa26b85edc31fabf3c}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=22c7f21dcd0face967ae05f935b47392}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Wenqian},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49b524b4d1ee835b7dad6c8cff2f5be6}{%
+           family={Zong},
+           familyi={Z\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{c6294f2ec95036880b2edf73c342be68}
+      \strng{fullhash}{c6294f2ec95036880b2edf73c342be68}
+      \strng{bibnamehash}{c6294f2ec95036880b2edf73c342be68}
+      \strng{authorbibnamehash}{c6294f2ec95036880b2edf73c342be68}
+      \strng{authornamehash}{c6294f2ec95036880b2edf73c342be68}
+      \strng{authorfullhash}{c6294f2ec95036880b2edf73c342be68}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Catalysts}
+      \field{number}{4}
+      \field{title}{Recent advances on small band gap semiconductor materials ($\leq$ 2.1 eV) for solar water splitting}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{pages}{728}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/catal13040728
+      \endverb
+    \endentry
+    \entry{wolpert2011managing}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=afd40fd2982c0b01a58438abe296b970}{%
+           family={Wolpert},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5345ced252331a2ab7600293004e36dc}{%
+           family={Ampadu},
+           familyi={A\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{b1e3039488c1ec119bb6bfd8de58105e}
+      \strng{fullhash}{b1e3039488c1ec119bb6bfd8de58105e}
+      \strng{bibnamehash}{b1e3039488c1ec119bb6bfd8de58105e}
+      \strng{authorbibnamehash}{b1e3039488c1ec119bb6bfd8de58105e}
+      \strng{authornamehash}{b1e3039488c1ec119bb6bfd8de58105e}
+      \strng{authorfullhash}{b1e3039488c1ec119bb6bfd8de58105e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Managing temperature effects in nanoscale adaptive systems}
+      \field{year}{2011}
+    \endentry
     \entry{rogal2006}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c4e8e1c05abf38ed92de4d87d0ce73d4}{%
@@ -1150,8 +1755,8 @@
       \strng{authorbibnamehash}{8a5072c768d08f4fd400de3d6bf43683}
       \strng{authornamehash}{8a5072c768d08f4fd400de3d6bf43683}
       \strng{authorfullhash}{8a5072c768d08f4fd400de3d6bf43683}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ab initio atomistic thermodynamics for surfaces: A primer}
@@ -1187,8 +1792,8 @@
       \strng{authorbibnamehash}{cffc73dbf278243a1ff9713a0a10630c}
       \strng{authornamehash}{cffc73dbf278243a1ff9713a0a10630c}
       \strng{authorfullhash}{cffc73dbf278243a1ff9713a0a10630c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical Review Letters}
@@ -1240,12 +1845,12 @@
            given={Lucian\bibnamedelima A},
            giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=fc92b423f9c91850b061d38c913248ad}{%
+        {{un=1,uniquepart=given,hash=fc92b423f9c91850b061d38c913248ad}{%
            family={Zhou},
            familyi={Z\bibinitperiod},
            given={Xiaolan},
            giveni={X\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=33a535778ce96cdd2d59799deeea173d}{%
            family={Burke},
            familyi={B\bibinitperiod},
@@ -1262,8 +1867,8 @@
       \strng{authorbibnamehash}{490b71e7eb34d888d36edb47b5de2f6a}
       \strng{authornamehash}{490b71e7eb34d888d36edb47b5de2f6a}
       \strng{authorfullhash}{490b71e7eb34d888d36edb47b5de2f6a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical review letters}
@@ -1307,8 +1912,8 @@
       \strng{authorbibnamehash}{6794381906c90dc24078349be6ab518e}
       \strng{authornamehash}{6794381906c90dc24078349be6ab518e}
       \strng{authorfullhash}{6794381906c90dc24078349be6ab518e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical review B}
@@ -1352,8 +1957,8 @@
       \strng{authorbibnamehash}{1d5bbea549f8259615ef35f45ae6def0}
       \strng{authornamehash}{1d5bbea549f8259615ef35f45ae6def0}
       \strng{authorfullhash}{1d5bbea549f8259615ef35f45ae6def0}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chemical Reviews}
@@ -1394,8 +1999,8 @@
       \strng{authorbibnamehash}{7928d4cd513fd6f5a65ab757ec4017e7}
       \strng{authornamehash}{7928d4cd513fd6f5a65ab757ec4017e7}
       \strng{authorfullhash}{7928d4cd513fd6f5a65ab757ec4017e7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{RSC advances}
@@ -1433,8 +2038,8 @@
       \strng{authorbibnamehash}{c80b451c8289d210560a5b6f3f94c557}
       \strng{authornamehash}{c80b451c8289d210560a5b6f3f94c557}
       \strng{authorfullhash}{c80b451c8289d210560a5b6f3f94c557}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Russian Journal of Physical Chemistry B}
@@ -1496,8 +2101,8 @@
       \strng{authorbibnamehash}{bcabeb3af230207bf356617c6d98871f}
       \strng{authornamehash}{bcabeb3af230207bf356617c6d98871f}
       \strng{authorfullhash}{bcabeb3af230207bf356617c6d98871f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Materials Science: Materials in Electronics}
@@ -1547,8 +2152,8 @@
       \strng{authorbibnamehash}{bf523d5765370c79d185e94d28c227fb}
       \strng{authornamehash}{bf523d5765370c79d185e94d28c227fb}
       \strng{authorfullhash}{bf523d5765370c79d185e94d28c227fb}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Catalysis Science \& Technology}
@@ -1592,8 +2197,8 @@
       \strng{authorbibnamehash}{ecd95bc63a961a69c86e8c06f9ea040d}
       \strng{authornamehash}{ecd95bc63a961a69c86e8c06f9ea040d}
       \strng{authorfullhash}{ecd95bc63a961a69c86e8c06f9ea040d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Handbook of Materials Modeling: Methods}
@@ -1674,8 +2279,8 @@
       \strng{authorbibnamehash}{492f46a5dde7aa81d66e72c3ac1a9934}
       \strng{authornamehash}{492f46a5dde7aa81d66e72c3ac1a9934}
       \strng{authorfullhash}{492f46a5dde7aa81d66e72c3ac1a9934}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical Chemistry Chemical Physics}
