@@ -81,8 +81,8 @@
       }
       \strng{namehash}{a3bb36d936e3ba8981a2e82c58f288a6}
       \strng{fullhash}{a3bb36d936e3ba8981a2e82c58f288a6}
-      \strng{bibnamehash}{f827632f7c7de0a8bbdc615679d61434}
-      \strng{authorbibnamehash}{f827632f7c7de0a8bbdc615679d61434}
+      \strng{bibnamehash}{a3bb36d936e3ba8981a2e82c58f288a6}
+      \strng{authorbibnamehash}{a3bb36d936e3ba8981a2e82c58f288a6}
       \strng{authornamehash}{a3bb36d936e3ba8981a2e82c58f288a6}
       \strng{authorfullhash}{a3bb36d936e3ba8981a2e82c58f288a6}
       \field{sortinit}{1}
@@ -95,6 +95,1039 @@
       \field{year}{2022}
       \field{pages}{136205}
       \range{pages}{1}
+    \endentry
+    \entry{Sachdev2023}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bb89cb637c04b13a373058ebdc9fb4b4}{%
+           family={Sachdev},
+           familyi={S\bibinitperiod},
+           given={Swati},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=40f1fa44baeec63b7cae25e6ad43c370}{%
+           family={Ansari},
+           familyi={A\bibinitperiod},
+           given={Shamim\bibnamedelima Akhtar},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=e2dfaad3854279031b6d537009cefbe8}{%
+           family={Ansari},
+           familyi={A\bibinitperiod},
+           given={Mohammad\bibnamedelima Israil},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{9fc2352df8835df736700f838749c22e}
+      \strng{fullhash}{9fc2352df8835df736700f838749c22e}
+      \strng{bibnamehash}{9fc2352df8835df736700f838749c22e}
+      \strng{authorbibnamehash}{9fc2352df8835df736700f838749c22e}
+      \strng{authornamehash}{9fc2352df8835df736700f838749c22e}
+      \strng{authorfullhash}{9fc2352df8835df736700f838749c22e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Reactive Oxygen Species in Plants}
+      \field{isbn}{9789811998836}
+      \field{title}{Reactive Oxygen Species in Plants}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1007/978-981-19-9884-3
+      \endverb
+    \endentry
+    \entry{mittler2022reactive}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=8120a656667019afe0d67b1d424a1ef6}{%
+           family={Mittler},
+           familyi={M\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=733497528b5f0804bdef2e147868ea79}{%
+           family={Zandalinas},
+           familyi={Z\bibinitperiod},
+           given={Sara\bibnamedelima I},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4270c480e8945f66b54f29298a7eccaa}{%
+           family={Fichman},
+           familyi={F\bibinitperiod},
+           given={Yosef},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a0f8a1a5d399e327c1ee97a21aa0793}{%
+           family={Van\bibnamedelima Breusegem},
+           familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{62ce6ef1361d2d761134c1015b705648}
+      \strng{fullhash}{62ce6ef1361d2d761134c1015b705648}
+      \strng{bibnamehash}{62ce6ef1361d2d761134c1015b705648}
+      \strng{authorbibnamehash}{62ce6ef1361d2d761134c1015b705648}
+      \strng{authornamehash}{62ce6ef1361d2d761134c1015b705648}
+      \strng{authorfullhash}{62ce6ef1361d2d761134c1015b705648}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature reviews Molecular cell biology}
+      \field{number}{10}
+      \field{title}{Reactive oxygen species signalling in plant stress responses}
+      \field{volume}{23}
+      \field{year}{2022}
+      \field{pages}{663\bibrangedash 679}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1038/s41580-022-00499-2
+      \endverb
+    \endentry
+    \entry{mailloux2021update}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ebc2cb0454ce7380e13a364e03e1a925}{%
+           family={Mailloux},
+           familyi={M\bibinitperiod},
+           given={Ryan\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ebc2cb0454ce7380e13a364e03e1a925}
+      \strng{fullhash}{ebc2cb0454ce7380e13a364e03e1a925}
+      \strng{bibnamehash}{ebc2cb0454ce7380e13a364e03e1a925}
+      \strng{authorbibnamehash}{ebc2cb0454ce7380e13a364e03e1a925}
+      \strng{authornamehash}{ebc2cb0454ce7380e13a364e03e1a925}
+      \strng{authorfullhash}{ebc2cb0454ce7380e13a364e03e1a925}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Redox biology}
+      \field{title}{An update on methods and approaches for interrogating mitochondrial reactive oxygen species production}
+      \field{volume}{45}
+      \field{year}{2021}
+      \field{pages}{102044}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.redox.2021.102044
+      \endverb
+    \endentry
+    \entry{haber1934catalytic}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8498f5d24c167c3173180d70035e6a69}{%
+           family={Haber},
+           familyi={H\bibinitperiod},
+           given={Fritz},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf3ba3e08b4009b1a4e924611f548c83}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society London}%
+      }
+      \strng{namehash}{05ab0dd9de898d27a66e78214753e73c}
+      \strng{fullhash}{05ab0dd9de898d27a66e78214753e73c}
+      \strng{bibnamehash}{05ab0dd9de898d27a66e78214753e73c}
+      \strng{authorbibnamehash}{05ab0dd9de898d27a66e78214753e73c}
+      \strng{authornamehash}{05ab0dd9de898d27a66e78214753e73c}
+      \strng{authorfullhash}{05ab0dd9de898d27a66e78214753e73c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society of London. Series A-Mathematical and Physical Sciences}
+      \field{number}{861}
+      \field{title}{The catalytic decomposition of hydrogen peroxide by iron salts}
+      \field{volume}{147}
+      \field{year}{1934}
+      \field{pages}{332\bibrangedash 351}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1098/rspa.1934.0221
+      \endverb
+    \endentry
+    \entry{lam2020role}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=9000edac9719a02fd21bdb4c0b8feed9}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={P-L},
+           giveni={P\bibinithyphendelim L\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=da96cc0bc5deebcab7a139b9caa980b5}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={RS-M},
+           giveni={R\bibinithyphendelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=742a8e20bc86a07532304c3895ef7229}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={K-H},
+           giveni={K\bibinithyphendelim H\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=bc6cceeebc4c3696cec3269c6dfbd2b3}{%
+           family={Hung},
+           familyi={H\bibinitperiod},
+           given={L-K},
+           giveni={L\bibinithyphendelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=ab112395a5e58c68773c272e78553470}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={M-M},
+           giveni={M\bibinithyphendelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=48173fb98bb2ac3520768a6a3de70ede}{%
+           family={Yung},
+           familyi={Y\bibinitperiod},
+           given={L-H},
+           giveni={L\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2cf1fbda588235b467a6057b8fb8b9b}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Y-W},
+           giveni={Y\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=128e366d6c47e71ba646ae62ca1fc73d}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={W-Y},
+           giveni={W\bibinithyphendelim Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=f440e15d5b3a44057343559d6885931d}{%
+           family={Hau},
+           familyi={H\bibinitperiod},
+           given={DK-P},
+           giveni={D\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7470efc6f46af8e2fa8fd545d1c5365f}{%
+           family={Gambari},
+           familyi={G\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f1af3494b25b502e0c1114969826c996}
+      \strng{fullhash}{f1af3494b25b502e0c1114969826c996}
+      \strng{bibnamehash}{f1af3494b25b502e0c1114969826c996}
+      \strng{authorbibnamehash}{f1af3494b25b502e0c1114969826c996}
+      \strng{authornamehash}{f1af3494b25b502e0c1114969826c996}
+      \strng{authorfullhash}{f1af3494b25b502e0c1114969826c996}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemico-biological interactions}
+      \field{title}{The role of reactive oxygen species in the biological activity of antimicrobial agents: An updated mini review}
+      \field{volume}{320}
+      \field{year}{2020}
+      \field{pages}{109023}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cbi.2020.109023
+      \endverb
+    \endentry
+    \entry{fenton1900vii}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e56e8e098e0f6e3cd6b17a1aea16ab87}{%
+           family={Fenton},
+           familyi={F\bibinitperiod},
+           given={Henry\bibnamedelimb J\bibnamedelima Horstman},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8cdc8fc6b7b362c5d7b11ce24920019}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={HO},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{13736b770f899d53132e269ffdf98ce7}
+      \strng{fullhash}{13736b770f899d53132e269ffdf98ce7}
+      \strng{bibnamehash}{13736b770f899d53132e269ffdf98ce7}
+      \strng{authorbibnamehash}{13736b770f899d53132e269ffdf98ce7}
+      \strng{authornamehash}{13736b770f899d53132e269ffdf98ce7}
+      \strng{authorfullhash}{13736b770f899d53132e269ffdf98ce7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Chemical Society, Transactions}
+      \field{title}{VII.—The oxidation of organic acids in presence of ferrous iron. Part I}
+      \field{volume}{77}
+      \field{year}{1900}
+      \field{pages}{69\bibrangedash 76}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1039/CT9007700069
+      \endverb
+    \endentry
+    \entry{el2023efficient}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=cb933b692b878a8646eed78370bb8709}{%
+           family={El\bibnamedelima Sharkawy},
+           familyi={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Heba\bibnamedelima M},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cc9e3a00ae23de8560ce1c5a81c5057}{%
+           family={Shawky},
+           familyi={S\bibinitperiod},
+           given={Amira\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eced51c99c1cf96f2cb4e91fef495d56}{%
+           family={Elshypany},
+           familyi={E\bibinitperiod},
+           given={Rania},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06dfc59117af7251c0fdc403d8aca917}{%
+           family={Selim},
+           familyi={S\bibinitperiod},
+           given={Hanaa},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{afa29e277e9849a45e3434af75e7e1c2}
+      \strng{fullhash}{afa29e277e9849a45e3434af75e7e1c2}
+      \strng{bibnamehash}{afa29e277e9849a45e3434af75e7e1c2}
+      \strng{authorbibnamehash}{afa29e277e9849a45e3434af75e7e1c2}
+      \strng{authornamehash}{afa29e277e9849a45e3434af75e7e1c2}
+      \strng{authorfullhash}{afa29e277e9849a45e3434af75e7e1c2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{number}{1}
+      \field{title}{Efficient photocatalytic degradation of organic pollutants over TiO2 nanoparticles modified with nitrogen and MoS2 under visible light irradiation}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{pages}{8845}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-023-35265-7.
+      \endverb
+    \endentry
+    \entry{dryden2018reactive}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8959b1f537a598f55402dbc6f5e225f5}{%
+           family={Dryden},
+           familyi={D\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8959b1f537a598f55402dbc6f5e225f5}
+      \strng{fullhash}{8959b1f537a598f55402dbc6f5e225f5}
+      \strng{bibnamehash}{8959b1f537a598f55402dbc6f5e225f5}
+      \strng{authorbibnamehash}{8959b1f537a598f55402dbc6f5e225f5}
+      \strng{authornamehash}{8959b1f537a598f55402dbc6f5e225f5}
+      \strng{authorfullhash}{8959b1f537a598f55402dbc6f5e225f5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of antimicrobial agents}
+      \field{number}{3}
+      \field{title}{Reactive oxygen species: a novel antimicrobial}
+      \field{volume}{51}
+      \field{year}{2018}
+      \field{pages}{299\bibrangedash 303}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.ijantimicag.2017.08.029
+      \endverb
+    \endentry
+    \entry{shafiq2021reactive}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=66d3a49f93b9a2fd652928081d070339}{%
+           family={Shafiq},
+           familyi={S\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4e344e875b16f9716caf3408b46c57c}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yujie},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fcb2e7de1e8abcbf55c287bbedf93c9}{%
+           family={Hashim},
+           familyi={H\bibinitperiod},
+           given={Rashida},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=189ea6730fb1d7b978605ad89e7f8af9}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Chuanglong},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=999c81f4720e8589afdeb8f94c0790bc}{%
+           family={Mo},
+           familyi={M\bibinitperiod},
+           given={Xiumei},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea9c04afec9722ddba43147be1703ef8}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiaojun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{4cc031d74989f76e14a518751ea1455e}
+      \strng{fullhash}{4cc031d74989f76e14a518751ea1455e}
+      \strng{bibnamehash}{4cc031d74989f76e14a518751ea1455e}
+      \strng{authorbibnamehash}{4cc031d74989f76e14a518751ea1455e}
+      \strng{authornamehash}{4cc031d74989f76e14a518751ea1455e}
+      \strng{authorfullhash}{4cc031d74989f76e14a518751ea1455e}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Bioengineering and Biotechnology}
+      \field{title}{Reactive oxygen species-based biomaterials for regenerative medicine and tissue engineering applications}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{pages}{821288}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fbioe.2021.821288
+      \endverb
+    \endentry
+    \entry{liang2016ros}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d9b9b279fc5525af9b92bad1c9ceef43}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=97396b63631c7b5155fe9e624a564950}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{bfacbeff2bafda8c40ae5d3df0174663}
+      \strng{fullhash}{bfacbeff2bafda8c40ae5d3df0174663}
+      \strng{bibnamehash}{bfacbeff2bafda8c40ae5d3df0174663}
+      \strng{authorbibnamehash}{bfacbeff2bafda8c40ae5d3df0174663}
+      \strng{authornamehash}{bfacbeff2bafda8c40ae5d3df0174663}
+      \strng{authorfullhash}{bfacbeff2bafda8c40ae5d3df0174663}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioengineering \& translational medicine}
+      \field{number}{3}
+      \field{title}{ROS-responsive drug delivery systems}
+      \field{volume}{1}
+      \field{year}{2016}
+      \field{pages}{239\bibrangedash 251}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1002/btm2.10014
+      \endverb
+    \endentry
+    \entry{yu2016occurrence}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=75594a36c9e87e8371563bdee878f58b}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=defaf7db553f0acedcb4f83a980d28b4}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yuxiang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3d5e31dfd4c3628d6d75d3c561fcc72}{%
+           family={Niedernhofer},
+           familyi={N\bibinitperiod},
+           given={Laura\bibnamedelima J},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=39f90f2f9a30ed70abdcf70f630a1c63}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yinsheng},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{7cdd63c13a7a5e915a067bdc0e35b4de}
+      \strng{fullhash}{7cdd63c13a7a5e915a067bdc0e35b4de}
+      \strng{bibnamehash}{7cdd63c13a7a5e915a067bdc0e35b4de}
+      \strng{authorbibnamehash}{7cdd63c13a7a5e915a067bdc0e35b4de}
+      \strng{authornamehash}{7cdd63c13a7a5e915a067bdc0e35b4de}
+      \strng{authorfullhash}{7cdd63c13a7a5e915a067bdc0e35b4de}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical research in toxicology}
+      \field{number}{12}
+      \field{title}{Occurrence, biological consequences, and human health relevance of oxidative stress-induced DNA damage}
+      \field{volume}{29}
+      \field{year}{2016}
+      \field{pages}{2008\bibrangedash 2039}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1021/acs.chemrestox.6b00265
+      \endverb
+    \endentry
+    \entry{yang2019reactive}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=a08b7fb5d1b72daf87fcad0af1b11046}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Bowen},
+           giveni={B\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33e46e901152cf3b62f56a7d422ae49b}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Jianlin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{588177f66253a6798841e60efa2183f4}
+      \strng{fullhash}{588177f66253a6798841e60efa2183f4}
+      \strng{bibnamehash}{588177f66253a6798841e60efa2183f4}
+      \strng{authorbibnamehash}{588177f66253a6798841e60efa2183f4}
+      \strng{authornamehash}{588177f66253a6798841e60efa2183f4}
+      \strng{authorfullhash}{588177f66253a6798841e60efa2183f4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical reviews}
+      \field{number}{8}
+      \field{title}{Reactive oxygen species (ROS)-based nanomedicine}
+      \field{volume}{119}
+      \field{year}{2019}
+      \field{pages}{4881\bibrangedash 4985}
+      \range{pages}{105}
+      \verb{doi}
+      \verb 10.1021/acs.chemrev.8b00626
+      \endverb
+    \endentry
+    \entry{spiering2015primer}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2c3dd478fa37c046fa4d2ce52a45d1d0}{%
+           family={Spiering},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2c3dd478fa37c046fa4d2ce52a45d1d0}
+      \strng{fullhash}{2c3dd478fa37c046fa4d2ce52a45d1d0}
+      \strng{bibnamehash}{2c3dd478fa37c046fa4d2ce52a45d1d0}
+      \strng{authorbibnamehash}{2c3dd478fa37c046fa4d2ce52a45d1d0}
+      \strng{authornamehash}{2c3dd478fa37c046fa4d2ce52a45d1d0}
+      \strng{authorfullhash}{2c3dd478fa37c046fa4d2ce52a45d1d0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Alcohol research: current reviews}
+      \field{number}{2}
+      \field{title}{Primer on the immune system}
+      \field{volume}{37}
+      \field{year}{2015}
+      \field{pages}{171}
+      \range{pages}{1}
+    \endentry
+    \entry{wang2024interaction}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=eb77e537eb87cca26dbe3987501f7ce9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ruyuan},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=0b48c5199dfab88212deab43a3454a59}{%
+           family={Lan},
+           familyi={L\bibinitperiod},
+           given={Caini},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d8052b2e6ec52c699230eb10367772d}{%
+           family={Benlagha},
+           familyi={B\bibinitperiod},
+           given={Kamel},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76ce280c7a5ac2dc96d6294bb0b408b3}{%
+           family={Camara},
+           familyi={C\bibinitperiod},
+           given={Niels\bibnamedelimb Olsen\bibnamedelima Saraiva},
+           giveni={N\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96ae9b28f8b338ad60ac4f2297960539}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Heather},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e49fa545b97d4950412f603705859c5}{%
+           family={Kubo},
+           familyi={K\bibinitperiod},
+           given={Masato},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=767ceb8191af718c46d9d37a83b208bd}{%
+           family={Heegaard},
+           familyi={H\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cca57054e5fd3e3db3fabeeaa4a0cefa}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Pamela},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=646d76d5238bdf80e3e4c146444ba1f3}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=bc4cd97ed7452397d94e0ee67f825b58}{%
+           family={Forsman},
+           familyi={F\bibinitperiod},
+           given={Huamei},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{ca2a51932a944b4c4241b660e65aa35f}
+      \strng{fullhash}{ca2a51932a944b4c4241b660e65aa35f}
+      \strng{bibnamehash}{ca2a51932a944b4c4241b660e65aa35f}
+      \strng{authorbibnamehash}{ca2a51932a944b4c4241b660e65aa35f}
+      \strng{authornamehash}{ca2a51932a944b4c4241b660e65aa35f}
+      \strng{authorfullhash}{ca2a51932a944b4c4241b660e65aa35f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MedComm}
+      \field{number}{10}
+      \field{title}{The interaction of innate immune and adaptive immune system}
+      \field{volume}{5}
+      \field{year}{2024}
+      \field{pages}{e714}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/mco2.714
+      \endverb
+    \endentry
+    \entry{bardaweel2018reactive}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=b1a1e6fc0096068f3a180348d4017fad}{%
+           family={Bardaweel},
+           familyi={B\bibinitperiod},
+           given={Sanaa\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=72d32487c6886a8d8a008057df9a00a3}{%
+           family={Gul},
+           familyi={G\bibinitperiod},
+           given={Mustafa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c648ed8d04523cd240e113ce86ab7097}{%
+           family={Alzweiri},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0119bb9c20456fe56108eda0bf474318}{%
+           family={Ishaqat},
+           familyi={I\bibinitperiod},
+           given={Aman},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f940633ac4b4d027717d8c7de6b6f599}{%
+           family={ALSalamat},
+           familyi={A\bibinitperiod},
+           given={Husam\bibnamedelima A},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d81d96c42a4aaa0186636f38bf63d9fc}{%
+           family={Bashatwah},
+           familyi={B\bibinitperiod},
+           given={Rasha\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da11512dd2ddc1e5a2400def79c29650}
+      \strng{fullhash}{da11512dd2ddc1e5a2400def79c29650}
+      \strng{bibnamehash}{da11512dd2ddc1e5a2400def79c29650}
+      \strng{authorbibnamehash}{da11512dd2ddc1e5a2400def79c29650}
+      \strng{authornamehash}{da11512dd2ddc1e5a2400def79c29650}
+      \strng{authorfullhash}{da11512dd2ddc1e5a2400def79c29650}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Eurasian journal of medicine}
+      \field{number}{3}
+      \field{title}{Reactive oxygen species: The dual role in physiological and pathological conditions of the human body}
+      \field{volume}{50}
+      \field{year}{2018}
+      \field{pages}{193}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.5152/eurasianjmed.2018.17397
+      \endverb
+    \endentry
+    \entry{gordon2016phagocytosis}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e4f51b084eca1dbae67fb6846bb35f3d}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={Siamon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{e4f51b084eca1dbae67fb6846bb35f3d}
+      \strng{fullhash}{e4f51b084eca1dbae67fb6846bb35f3d}
+      \strng{bibnamehash}{e4f51b084eca1dbae67fb6846bb35f3d}
+      \strng{authorbibnamehash}{e4f51b084eca1dbae67fb6846bb35f3d}
+      \strng{authornamehash}{e4f51b084eca1dbae67fb6846bb35f3d}
+      \strng{authorfullhash}{e4f51b084eca1dbae67fb6846bb35f3d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Immunity}
+      \field{number}{3}
+      \field{title}{Phagocytosis: an immunobiologic process}
+      \field{volume}{44}
+      \field{year}{2016}
+      \field{pages}{463\bibrangedash 475}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.immuni.2016.02.026
+      \endverb
+    \endentry
+    \entry{zeng2020cooperatively}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=cd9c5146f567e44b68e9c803ce9b8197}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Xiangkang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=4ea6157adaa214ea9a0734bb53dd8492}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=e23d78edaa7340fd475938ffba1e5896}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yun},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=6f1e3472dbf1e8b04ddf8ae566c5c3c4}{%
+           family={Uddin},
+           familyi={U\bibinitperiod},
+           given={Md\bibnamedelima Hemayet},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=28b5ce6a85683716aaafe47dccc2be1d}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Dehua},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=fe6ec190bb0a1f4581a8202ce4ad6f1b}{%
+           family={McCarthy},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima T},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6f613e541151ca9f7b45ba074ff87bd}{%
+           family={Deletic},
+           familyi={D\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=d79f53731c8a68a3bbbb1d9509a41797}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Jiaguo},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=26c35fc6aec1112e32058360437a7342}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiwang},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{371ac910472846275859e6a80b6114aa}
+      \strng{fullhash}{371ac910472846275859e6a80b6114aa}
+      \strng{bibnamehash}{371ac910472846275859e6a80b6114aa}
+      \strng{authorbibnamehash}{371ac910472846275859e6a80b6114aa}
+      \strng{authornamehash}{371ac910472846275859e6a80b6114aa}
+      \strng{authorfullhash}{371ac910472846275859e6a80b6114aa}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Catalysis B: Environmental}
+      \field{title}{Cooperatively modulating reactive oxygen species generation and bacteria-photocatalyst contact over graphitic carbon nitride by polyethylenimine for rapid water disinfection}
+      \field{volume}{274}
+      \field{year}{2020}
+      \field{pages}{119095}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.apcatb.2020.119095
+      \endverb
+    \endentry
+    \entry{zhu2021rapid}{article}{}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=ca86f41ca35d79db28d56a905b449e12}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Yizhou},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8d98e53bc035ef707eba985c6feecd86}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Wanglong},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=1ea43a674872bebc3a3457f814109aad}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiangmei},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=0865a871b8dfc6e5bc59dcd39cf3b3bf}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=aaf4818e3816b53809f264b2c1b2ecae}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=ace0815f2295c885d1f09cd4b3e853be}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Congyang},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c386003271e46c3acd0c25767b591cd}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Yiming},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=9b2ceb890d6910b6db35c812cf08dcec}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Shuilin},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=231adbc3b86a410b7f02d11c6cc90923}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={Kenneth\bibnamedelima MC},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1aea417594e1ba1f985cc37add558b79}{%
+           family={Yeung},
+           familyi={Y\bibinitperiod},
+           given={Kelvin\bibnamedelima WK},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{f790acdfe0b4fd0936ab7f0c5ee3242c}
+      \strng{fullhash}{f790acdfe0b4fd0936ab7f0c5ee3242c}
+      \strng{bibnamehash}{f790acdfe0b4fd0936ab7f0c5ee3242c}
+      \strng{authorbibnamehash}{f790acdfe0b4fd0936ab7f0c5ee3242c}
+      \strng{authornamehash}{f790acdfe0b4fd0936ab7f0c5ee3242c}
+      \strng{authorfullhash}{f790acdfe0b4fd0936ab7f0c5ee3242c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nanoscale}
+      \field{number}{37}
+      \field{title}{Rapid bacterial elimination achieved by sonodynamic Au@ Cu 2 O hybrid nanocubes}
+      \field{volume}{13}
+      \field{year}{2021}
+      \field{pages}{15699\bibrangedash 15710}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1039/D1NR04512A
+      \endverb
+    \endentry
+    \entry{liu2024simultaneous}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=bc6c6f66f139beef784a50d9f1485019}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=e50f0d335d445a1196c7bda2df2c98f9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lihao},
+           giveni={L\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=400ecf1ed50f2e5b18061f0255e262d1}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Qianhui},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=102194407e803111143265d09a754df5}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Xingtao},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5ecefa5e74745f1373c15347bb0c72f}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=c2a4436285d5146073c75dd646105c74}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Haiguang},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=fc40f063cb69a9791bbb723ae8f0fb05}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9bb9da8c406ce66df4b09e6c398404e}{%
+           family={Dou},
+           familyi={D\bibinitperiod},
+           given={Xinyue},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=afbc9dfbf0d151d2f4b5e8577b410ab0}{%
+           family={Eguchi},
+           familyi={E\bibinitperiod},
+           given={Miharu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8486ec3c24048320cd8ce25e5014d7dd}{%
+           family={Yamauchi},
+           familyi={Y\bibinitperiod},
+           given={Yusuke},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{cd5373ed7d1576fa9b5235396354aafd}
+      \strng{fullhash}{cd5373ed7d1576fa9b5235396354aafd}
+      \strng{bibnamehash}{cd5373ed7d1576fa9b5235396354aafd}
+      \strng{authorbibnamehash}{cd5373ed7d1576fa9b5235396354aafd}
+      \strng{authornamehash}{cd5373ed7d1576fa9b5235396354aafd}
+      \strng{authorfullhash}{cd5373ed7d1576fa9b5235396354aafd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature communications}
+      \field{number}{1}
+      \field{title}{Simultaneous generation of residue-free reactive oxygen species and bacteria capture for efficient electrochemical water disinfection}
+      \field{volume}{15}
+      \field{year}{2024}
+      \field{pages}{10175}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-024-53174-9
+      \endverb
     \endentry
     \entry{rogal2006}{article}{}
       \name{author}{2}{}{%
@@ -117,12 +1150,18 @@
       \strng{authorbibnamehash}{8a5072c768d08f4fd400de3d6bf43683}
       \strng{authornamehash}{8a5072c768d08f4fd400de3d6bf43683}
       \strng{authorfullhash}{8a5072c768d08f4fd400de3d6bf43683}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ab initio atomistic thermodynamics for surfaces: A primer}
       \field{year}{2006}
+      \verb{urlraw}
+      \verb https://apps.dtic.mil/sti/html/tr/ADA476575/
+      \endverb
+      \verb{url}
+      \verb https://apps.dtic.mil/sti/html/tr/ADA476575/
+      \endverb
     \endentry
     \entry{zhang1998comment}{article}{}
       \name{author}{2}{}{%
@@ -132,12 +1171,12 @@
            given={Yingkai},
            giveni={Y\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=78e31d3d482cf462f797d4187a52d247}{%
+        {{un=1,uniquepart=given,hash=78e31d3d482cf462f797d4187a52d247}{%
            family={Yang},
            familyi={Y\bibinitperiod},
            given={Weitao},
            giveni={W\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{publisher}{1}{%
         {APS}%
@@ -148,8 +1187,8 @@
       \strng{authorbibnamehash}{cffc73dbf278243a1ff9713a0a10630c}
       \strng{authornamehash}{cffc73dbf278243a1ff9713a0a10630c}
       \strng{authorfullhash}{cffc73dbf278243a1ff9713a0a10630c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical Review Letters}
@@ -219,12 +1258,12 @@
       }
       \strng{namehash}{490b71e7eb34d888d36edb47b5de2f6a}
       \strng{fullhash}{490b71e7eb34d888d36edb47b5de2f6a}
-      \strng{bibnamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
-      \strng{authorbibnamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
+      \strng{bibnamehash}{490b71e7eb34d888d36edb47b5de2f6a}
+      \strng{authorbibnamehash}{490b71e7eb34d888d36edb47b5de2f6a}
       \strng{authornamehash}{490b71e7eb34d888d36edb47b5de2f6a}
       \strng{authorfullhash}{490b71e7eb34d888d36edb47b5de2f6a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical review letters}
@@ -268,8 +1307,8 @@
       \strng{authorbibnamehash}{6794381906c90dc24078349be6ab518e}
       \strng{authornamehash}{6794381906c90dc24078349be6ab518e}
       \strng{authorfullhash}{6794381906c90dc24078349be6ab518e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical review B}
@@ -313,8 +1352,8 @@
       \strng{authorbibnamehash}{1d5bbea549f8259615ef35f45ae6def0}
       \strng{authornamehash}{1d5bbea549f8259615ef35f45ae6def0}
       \strng{authorfullhash}{1d5bbea549f8259615ef35f45ae6def0}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chemical Reviews}
@@ -355,8 +1394,8 @@
       \strng{authorbibnamehash}{7928d4cd513fd6f5a65ab757ec4017e7}
       \strng{authornamehash}{7928d4cd513fd6f5a65ab757ec4017e7}
       \strng{authorfullhash}{7928d4cd513fd6f5a65ab757ec4017e7}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{RSC advances}
@@ -394,8 +1433,8 @@
       \strng{authorbibnamehash}{c80b451c8289d210560a5b6f3f94c557}
       \strng{authornamehash}{c80b451c8289d210560a5b6f3f94c557}
       \strng{authorfullhash}{c80b451c8289d210560a5b6f3f94c557}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Russian Journal of Physical Chemistry B}
@@ -453,12 +1492,12 @@
       }
       \strng{namehash}{bcabeb3af230207bf356617c6d98871f}
       \strng{fullhash}{bcabeb3af230207bf356617c6d98871f}
-      \strng{bibnamehash}{d56bc7356d00e28dbc58db80831d6d1b}
-      \strng{authorbibnamehash}{d56bc7356d00e28dbc58db80831d6d1b}
+      \strng{bibnamehash}{bcabeb3af230207bf356617c6d98871f}
+      \strng{authorbibnamehash}{bcabeb3af230207bf356617c6d98871f}
       \strng{authornamehash}{bcabeb3af230207bf356617c6d98871f}
       \strng{authorfullhash}{bcabeb3af230207bf356617c6d98871f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Materials Science: Materials in Electronics}
@@ -480,36 +1519,36 @@
            given={Wen},
            giveni={W\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=d69bf30adf97d6d91c8a65cc3b7bbf16}{%
+        {{un=1,uniquepart=given,hash=d69bf30adf97d6d91c8a65cc3b7bbf16}{%
            family={Liu},
            familyi={L\bibinitperiod},
            given={Xiangchun},
            giveni={X\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=075898eb3f46f7baf70df7d46653218e}{%
            family={Hou},
            familyi={H\bibinitperiod},
            given={Shan},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=bd7d15d79ca36b953d99a1a0aaccb94a}{%
+        {{un=1,uniquepart=given,hash=bd7d15d79ca36b953d99a1a0aaccb94a}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Xiao},
            giveni={X\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{publisher}{1}{%
         {Royal Society of Chemistry}%
       }
       \strng{namehash}{bf523d5765370c79d185e94d28c227fb}
       \strng{fullhash}{bf523d5765370c79d185e94d28c227fb}
-      \strng{bibnamehash}{8c7adec9242bf910b9de9270a113dbae}
-      \strng{authorbibnamehash}{8c7adec9242bf910b9de9270a113dbae}
+      \strng{bibnamehash}{bf523d5765370c79d185e94d28c227fb}
+      \strng{authorbibnamehash}{bf523d5765370c79d185e94d28c227fb}
       \strng{authornamehash}{bf523d5765370c79d185e94d28c227fb}
       \strng{authorfullhash}{bf523d5765370c79d185e94d28c227fb}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Catalysis Science \& Technology}
@@ -553,8 +1592,8 @@
       \strng{authorbibnamehash}{ecd95bc63a961a69c86e8c06f9ea040d}
       \strng{authornamehash}{ecd95bc63a961a69c86e8c06f9ea040d}
       \strng{authorfullhash}{ecd95bc63a961a69c86e8c06f9ea040d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Handbook of Materials Modeling: Methods}
@@ -631,12 +1670,12 @@
       }
       \strng{namehash}{492f46a5dde7aa81d66e72c3ac1a9934}
       \strng{fullhash}{492f46a5dde7aa81d66e72c3ac1a9934}
-      \strng{bibnamehash}{0c9bfd100513956fa952b424408e434c}
-      \strng{authorbibnamehash}{0c9bfd100513956fa952b424408e434c}
+      \strng{bibnamehash}{492f46a5dde7aa81d66e72c3ac1a9934}
+      \strng{authorbibnamehash}{492f46a5dde7aa81d66e72c3ac1a9934}
       \strng{authornamehash}{492f46a5dde7aa81d66e72c3ac1a9934}
       \strng{authorfullhash}{492f46a5dde7aa81d66e72c3ac1a9934}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical Chemistry Chemical Physics}

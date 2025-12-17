@@ -32,6 +32,15 @@
 \usepackage{subcaption}
 \usepackage{enumitem}
 
+% Configurar caption das figuras para ficar no topo
+\captionsetup[figure]{position=top}
+
+% Definir comando para fonte da figura (aparece abaixo)
+\newcommand{\fonte}[1]{%
+  \vspace{0.5\baselineskip}%
+  \par\noindent Fonte: #1\par
+}
+
 % Configurar espaçamento entre texto e figuras/tabelas
 \setlength{\intextsep}{\baselineskip}        % Espaço acima e abaixo de floats no meio do texto
 \setlength{\textfloatsep}{\baselineskip}     % Espaço entre floats no topo/fundo da página e texto
@@ -207,7 +216,7 @@
 
 % Bibliografia: usar biblatex-abnt com estilo numérico para formatação ABNT NBR 6023
 % Isso segue as regras ABNT mas usa rótulos numéricos [1], [2], ... em vez de autor-ano
-\usepackage[backend=biber,style=abnt-numeric,sorting=none,ittitles,uniquename=init,giveninits,justify,indent,repeattitles,sortcites=true]{biblatex}
+\usepackage[backend=biber,style=abnt-numeric,sorting=none,ittitles,uniquename=init,giveninits,justify,indent,repeattitles,sortcites=true,maxbibnames=10,minbibnames=6]{biblatex}
 \addbibresource{references.bib}
 
 % Configurar DOI e URL para usar a mesma fonte do texto (não monoespaçada)
@@ -221,6 +230,15 @@
   \ifhyperref
     {\href{#1}{#1}}
     {#1}}
+
+% Permitir quebra de linha em URLs e DOIs
+\setcounter{biburlnumpenalty}{100}
+\setcounter{biburlucpenalty}{100}
+\setcounter{biburllcpenalty}{100}
+
+% Configurar quebra de linha para todos os campos bibliográficos
+\emergencystretch=1em
+\appto{\bibsetup}{\sloppy}
 
 % Adicionar colchetes ao redor dos números de referência na bibliografia
 \DeclareFieldFormat{labelnumberwidth}{[#1]}

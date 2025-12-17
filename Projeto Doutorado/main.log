@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.20)  16 DEC 2025 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.20)  17 DEC 2025 15:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -848,11 +848,11 @@ Package: glossary-tree 2023/09/29 v4.53 (NLCT)
 \glo@main@file=\write5
 \openout5 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 81.
+Package glossaries Info: Writing glossary file main.glo on input line 90.
 \glo@acronym@file=\write6
 \openout6 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 81.
+Package glossaries Info: Writing glossary file main.acn on input line 90.
  (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box93
@@ -999,7 +999,7 @@ Package cleveref Info: always capitalise cross-reference names on input line 782
 Package cleveref Info: always capitalise cross-reference names on input line 7852.
 Package cleveref Info: no abbreviation of names on input line 7852.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 101.
+Package hyperref Info: Option `colorlinks' set `true' on input line 110.
  (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -1284,7 +1284,7 @@ Package biblatex Info: ... and expl3
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
-Package biblatex Info: Redefining '\cite' on input line 234.
+Package biblatex Info: Redefining '\cite' on input line 252.
  (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
 \@float@every@algorithm=\toks68
@@ -1336,37 +1336,37 @@ Package csquotes Info: Redefining alias 'default' -> 'brazil'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 337.
-LaTeX Font Info:    ... okay on input line 337.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 337.
-LaTeX Font Info:    ... okay on input line 337.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 337.
-LaTeX Font Info:    ... okay on input line 337.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 337.
-LaTeX Font Info:    ... okay on input line 337.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 337.
-LaTeX Font Info:    ... okay on input line 337.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 337.
-LaTeX Font Info:    ... okay on input line 337.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 337.
-LaTeX Font Info:    ... okay on input line 337.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 337.
-LaTeX Font Info:    ... okay on input line 337.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 337.
-LaTeX Font Info:    ... okay on input line 337.
-LaTeX Info: Redefining \microtypecontext on input line 337.
-Package microtype Info: Applying patch `item' on input line 337.
-Package microtype Info: Applying patch `toc' on input line 337.
-Package microtype Info: Applying patch `eqnum' on input line 337.
-Package microtype Info: Applying patch `footnote' on input line 337.
-Package microtype Info: Applying patch `verbatim' on input line 337.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 355.
+LaTeX Font Info:    ... okay on input line 355.
+LaTeX Info: Redefining \microtypecontext on input line 355.
+Package microtype Info: Applying patch `item' on input line 355.
+Package microtype Info: Applying patch `toc' on input line 355.
+Package microtype Info: Applying patch `eqnum' on input line 355.
+Package microtype Info: Applying patch `footnote' on input line 355.
+Package microtype Info: Applying patch `verbatim' on input line 355.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 337.
+LaTeX Info: Redefining \showhyphens on input line 355.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1404,19 +1404,19 @@ Package caption Info: End \AtBeginDocument code.
  (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-brazil.trsl
 File: translations-basic-dictionary-brazil.trsl (brazil translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `brazil'. on input line 337.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `brazil'. on input line 355.
  (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 337.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 355.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.17).
 
 (./main.glsdefs)
 
-Package chemgreek Info: Activating mapping `default' on line 337.
+Package chemgreek Info: Activating mapping `default' on line 355.
 
-Package hyperref Info: Link coloring ON on input line 337.
+Package hyperref Info: Link coloring ON on input line 355.
  (./main.out) (./main.out)
 \@outlinefile=\write8
 \openout8 = `main.out'.
@@ -1549,8 +1549,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 337.
-Package biblatex Info: Reference segment=0 on input line 337.
+Package biblatex Info: Reference section=0 on input line 355.
+Package biblatex Info: Reference segment=0 on input line 355.
 \c@lstlisting=\count558
  (./sections/glossario.tex
 \@gls@deffile=\write9
@@ -1597,10 +1597,10 @@ l.152 \clearpage
 \c@preTextualPages=\count559
  (./sections/1_introducao.tex
 Cap\'{\i }tulo 1.
-<figuras/imagens/exemplo.jpg, id=221, 632.3625pt x 632.3625pt>
+<figuras/imagens/exemplo.jpg, id=222, 632.3625pt x 632.3625pt>
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
-Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 8.
+Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 10.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
 [5
 
@@ -1609,32 +1609,28 @@ Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 8.
  <./figuras/imagens/exemplo.jpg>] [6] [7]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
-Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 38.
+Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 41.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
- [8] [9]) (./sections/2_fundamentacao_teorica.tex [10{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+ [8] [9]) (./sections/2_fundamentacao_teorica.tex [10{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [11]
 Cap\'{\i }tulo 2.
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
 Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 17.
 (pdftex.def)             Requested size: 182.09486pt x 182.08745pt.
-[11
+[12
 
 
-] [12] [13]) (./sections/3_objetivos.tex [14]
+] [13] [14]) (./sections/3_objetivos.tex [15]
 Cap\'{\i }tulo 3.
-) (./sections/4_metodologia.tex [15
+) (./sections/4_metodologia.tex [16
 
 
 ]
 Cap\'{\i }tulo 4.
-[16
+[17
 
 
-] [17]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 60.
-
+] [18]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 60.
@@ -1647,7 +1643,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 60.
 
-[18]) (./sections/5_resultados_discussao.tex [19]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 60.
+
+[19]) (./sections/5_resultados_discussao.tex [20]
 Cap\'{\i }tulo 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1657,41 +1657,41 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 4.
 
-<figuras/graficos/convergencia_encut_kpoints.pdf, id=357, 488.50409pt x 177.65248pt>
+<figuras/graficos/convergencia_encut_kpoints.pdf, id=403, 488.50409pt x 177.65248pt>
 File: figuras/graficos/convergencia_encut_kpoints.pdf Graphic file (type pdf)
 <use figuras/graficos/convergencia_encut_kpoints.pdf>
 Package pdftex.def Info: figuras/graficos/convergencia_encut_kpoints.pdf  used on input line 13.
 (pdftex.def)             Requested size: 455.24411pt x 165.55664pt.
-[20
+[21
 
 
  <./figuras/graficos/convergencia_encut_kpoints.pdf>]
-<figuras/graficos/curva_fit_birch.pdf, id=535, 1096.15773pt x 484.82472pt>
+<figuras/graficos/curva_fit_birch.pdf, id=581, 1096.15773pt x 484.82472pt>
 File: figuras/graficos/curva_fit_birch.pdf Graphic file (type pdf)
 <use figuras/graficos/curva_fit_birch.pdf>
 Package pdftex.def Info: figuras/graficos/curva_fit_birch.pdf  used on input line 49.
 (pdftex.def)             Requested size: 455.24411pt x 201.35385pt.
- [21] [22 <./figuras/graficos/curva_fit_birch.pdf>] [23]
+ [22] [23 <./figuras/graficos/curva_fit_birch.pdf>] [24]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
 Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 116.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
-<figuras/graficos/energia_superficie_001.pdf, id=602, 1195.28613pt x 453.04665pt>
+<figuras/graficos/energia_superficie_001.pdf, id=648, 1195.28613pt x 453.04665pt>
 File: figuras/graficos/energia_superficie_001.pdf Graphic file (type pdf)
 <use figuras/graficos/energia_superficie_001.pdf>
 Package pdftex.def Info: figuras/graficos/energia_superficie_001.pdf  used on input line 127.
 (pdftex.def)             Requested size: 455.24411pt x 172.54663pt.
- [24 <./figuras/graficos/energia_superficie_001.pdf>]
+ [25 <./figuras/graficos/energia_superficie_001.pdf>]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
 Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 139.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
-<figuras/graficos/energia_superficie_010.pdf, id=798, 1195.28613pt x 453.04665pt>
+<figuras/graficos/energia_superficie_010.pdf, id=844, 1195.28613pt x 453.04665pt>
 File: figuras/graficos/energia_superficie_010.pdf Graphic file (type pdf)
 <use figuras/graficos/energia_superficie_010.pdf>
 Package pdftex.def Info: figuras/graficos/energia_superficie_010.pdf  used on input line 150.
 (pdftex.def)             Requested size: 455.24411pt x 172.54663pt.
- [25 <./figuras/graficos/energia_superficie_010.pdf>]
+ [26 <./figuras/graficos/energia_superficie_010.pdf>]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
 Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 162.
@@ -1700,8 +1700,8 @@ File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
 Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 175.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
- [26]
-<figuras/graficos/energia_superficie_100.pdf, id=1062, 1209.57144pt x 456.54317pt>
+ [27]
+<figuras/graficos/energia_superficie_100.pdf, id=1108, 1209.57144pt x 456.54317pt>
 File: figuras/graficos/energia_superficie_100.pdf Graphic file (type pdf)
 <use figuras/graficos/energia_superficie_100.pdf>
 Package pdftex.def Info: figuras/graficos/energia_superficie_100.pdf  used on input line 186.
@@ -1710,44 +1710,44 @@ File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
 Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 198.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
- [27 <./figuras/graficos/energia_superficie_100.pdf>]
-<figuras/graficos/energia_superficie_101.pdf, id=1239, 1195.28613pt x 453.04665pt>
+ [28 <./figuras/graficos/energia_superficie_100.pdf>]
+<figuras/graficos/energia_superficie_101.pdf, id=1285, 1195.28613pt x 453.04665pt>
 File: figuras/graficos/energia_superficie_101.pdf Graphic file (type pdf)
 <use figuras/graficos/energia_superficie_101.pdf>
 Package pdftex.def Info: figuras/graficos/energia_superficie_101.pdf  used on input line 209.
 (pdftex.def)             Requested size: 455.24411pt x 172.54663pt.
- [28 <./figuras/graficos/energia_superficie_101.pdf>]
+ [29 <./figuras/graficos/energia_superficie_101.pdf>]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
 Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 221.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
-<figuras/graficos/energia_superficie_110.pdf, id=1424, 1195.28613pt x 455.05414pt>
+<figuras/graficos/energia_superficie_110.pdf, id=1472, 1195.28613pt x 455.05414pt>
 File: figuras/graficos/energia_superficie_110.pdf Graphic file (type pdf)
 <use figuras/graficos/energia_superficie_110.pdf>
 Package pdftex.def Info: figuras/graficos/energia_superficie_110.pdf  used on input line 232.
 (pdftex.def)             Requested size: 455.24411pt x 173.3112pt.
- [29 <./figuras/graficos/energia_superficie_110.pdf>]
+ [30 <./figuras/graficos/energia_superficie_110.pdf>]
 File: figuras/imagens/exemplo.jpg Graphic file (type jpg)
 <use figuras/imagens/exemplo.jpg>
 Package pdftex.def Info: figuras/imagens/exemplo.jpg  used on input line 244.
 (pdftex.def)             Requested size: 227.62206pt x 227.62138pt.
-) (./sections/6_conclusao.tex [30]
+) (./sections/6_conclusao.tex [31]
 Cap\'{\i }tulo 6.
-) [31
+) [32
 
 
-] [32
+] [33
 
 
 
 
-]
+] [34] [35]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[33] (./main.aux)
+[36] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1759,18 +1759,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61798 strings out of 474222
- 1379950 string characters out of 5748733
- 2438824 words of memory out of 5000000
- 82863 multiletter control sequences out of 15000+600000
- 574160 words of font info for 143 fonts, out of 8000000 for 9000
+ 61931 strings out of 474222
+ 1383874 string characters out of 5748733
+ 2440359 words of memory out of 5000000
+ 82968 multiletter control sequences out of 15000+600000
+ 574511 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,10n,117p,2412b,4456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (35 pages, 892903 bytes).
+Output written on main.pdf (38 pages, 902782 bytes).
 PDF statistics:
- 1698 PDF objects out of 1728 (max. 8388607)
- 1244 compressed objects within 13 object streams
- 119 named destinations out of 1000 (max. 500000)
+ 1780 PDF objects out of 2073 (max. 8388607)
+ 1322 compressed objects within 14 object streams
+ 141 named destinations out of 1000 (max. 500000)
  22861 words of extra memory for PDF output out of 24883 (max. 10000000)
 

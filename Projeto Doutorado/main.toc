@@ -1,36 +1,36 @@
 \babel@toc {brazil}{}\relax 
 \contentsline {chapter}{\numberline {1}INTRODUÇÃO}{5}{chapter.1}%
-\contentsline {chapter}{\numberline {2}FUNDAMENTAÇÃO TEÓRICA}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}TEORIA DO FUNCIONAL DA DENSIDADE}{11}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Equação de Kohn-Sham}{11}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}TERMODINÂMICA ATOMÍSTICA DE PRIMEIROS PRINCÍPIOS}{11}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Energia livre de Gibss de superfície}{11}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}DINÂMICA MOLECULAR QUÂNTICA}{14}{section.2.3}%
-\contentsline {section}{\numberline {2.4}MÉTODO \textit {NUDGED ELASTIC BAND}}{14}{section.2.4}%
-\contentsline {chapter}{\numberline {3}OBJETIVOS}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}OBJETIVO GERAL}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}OBJETIVOS ESPECÍFICOS}{15}{section.3.2}%
-\contentsline {chapter}{\numberline {4}METODOLOGIA}{16}{chapter.4}%
-\contentsline {section}{\numberline {4.1}PROCEDIMENTO COMPUTACIONAL}{16}{section.4.1}%
-\contentsline {section}{\numberline {4.2}SIMULAÇÕES DAS PROPRIEDADES ESTRUTURASI E MORFOLÓGICAS}{16}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Otimização das estruturas internas (\textit {bulk})}{16}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Construção das superfícies e estudo de estabilidade }{16}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Cálculo de energia de relaxação e clivagem das superfícies}{17}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Dinâmica Molecular \textit {Ab Initio}}{18}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}SIMULAÇÕES DA REATIVIDADE PARA GERAÇÃO DE ESPÉCIES REATIVAS DE OXIGÊNIO}{18}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Determinação de sítios de adsorção}{18}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Determinação dos sítios de adsorção de O$_2$ e H$_2$O}{18}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Determinação dos estados de transição}{19}{subsection.4.3.3}%
-\contentsline {chapter}{\numberline {5}RESULTADOS E DISCUSSÃO}{20}{chapter.5}%
-\contentsline {section}{\numberline {5.1}SIMULAÇÕES DAS PROPRIEDADES ESTRUTURAIS E MORFLÓGICAS DO ZnWO$_4$}{20}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Otimização da estrutura interna}{20}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Construção das superfícies e estudo de estabilidade}{23}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}Estudo de estabilidade superfície (001)}{23}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}Estudo de estabilidade superfície (010)}{25}{subsubsection.5.1.2.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.3}Estudo de estabilidade superfície (011)}{26}{subsubsection.5.1.2.3}%
-\contentsline {subsubsection}{\numberline {5.1.2.4}Estudo de estabilidade superfície (100)}{26}{subsubsection.5.1.2.4}%
-\contentsline {subsubsection}{\numberline {5.1.2.5}Estudo de estabilidade superfície (101)}{27}{subsubsection.5.1.2.5}%
-\contentsline {subsubsection}{\numberline {5.1.2.6}Estudo de estabilidade superfície (110)}{28}{subsubsection.5.1.2.6}%
-\contentsline {subsubsection}{\numberline {5.1.2.7}Estudo de estabilidade superfície (111)}{30}{subsubsection.5.1.2.7}%
-\contentsline {chapter}{\numberline {6}CONCLUSÃO}{31}{chapter.6}%
-\contentsline {chapter}{REFERÊNCIAS}{32}{chapter*.23}%
+\contentsline {chapter}{\numberline {2}FUNDAMENTAÇÃO TEÓRICA}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}TEORIA DO FUNCIONAL DA DENSIDADE}{12}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Equação de Kohn-Sham}{12}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}TERMODINÂMICA ATOMÍSTICA DE PRIMEIROS PRINCÍPIOS}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Energia livre de Gibss de superfície}{12}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}DINÂMICA MOLECULAR QUÂNTICA}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}MÉTODO \textit {NUDGED ELASTIC BAND}}{15}{section.2.4}%
+\contentsline {chapter}{\numberline {3}OBJETIVOS}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}OBJETIVO GERAL}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}OBJETIVOS ESPECÍFICOS}{16}{section.3.2}%
+\contentsline {chapter}{\numberline {4}METODOLOGIA}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}PROCEDIMENTO COMPUTACIONAL}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}SIMULAÇÕES DAS PROPRIEDADES ESTRUTURASI E MORFOLÓGICAS}{17}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Otimização das estruturas internas (\textit {bulk})}{17}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Construção das superfícies e estudo de estabilidade }{17}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Cálculo de energia de relaxação e clivagem das superfícies}{18}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Dinâmica Molecular \textit {Ab Initio}}{19}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}SIMULAÇÕES DA REATIVIDADE PARA GERAÇÃO DE ESPÉCIES REATIVAS DE OXIGÊNIO}{19}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Determinação de sítios de adsorção}{19}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Determinação dos sítios de adsorção de O$_2$ e H$_2$O}{19}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Determinação dos estados de transição}{20}{subsection.4.3.3}%
+\contentsline {chapter}{\numberline {5}RESULTADOS E DISCUSSÃO}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}SIMULAÇÕES DAS PROPRIEDADES ESTRUTURAIS E MORFLÓGICAS DO ZnWO$_4$}{21}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Otimização da estrutura interna}{21}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Construção das superfícies e estudo de estabilidade}{24}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Estudo de estabilidade superfície (001)}{24}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}Estudo de estabilidade superfície (010)}{26}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}Estudo de estabilidade superfície (011)}{27}{subsubsection.5.1.2.3}%
+\contentsline {subsubsection}{\numberline {5.1.2.4}Estudo de estabilidade superfície (100)}{27}{subsubsection.5.1.2.4}%
+\contentsline {subsubsection}{\numberline {5.1.2.5}Estudo de estabilidade superfície (101)}{28}{subsubsection.5.1.2.5}%
+\contentsline {subsubsection}{\numberline {5.1.2.6}Estudo de estabilidade superfície (110)}{29}{subsubsection.5.1.2.6}%
+\contentsline {subsubsection}{\numberline {5.1.2.7}Estudo de estabilidade superfície (111)}{31}{subsubsection.5.1.2.7}%
+\contentsline {chapter}{\numberline {6}CONCLUSÃO}{32}{chapter.6}%
+\contentsline {chapter}{REFERÊNCIAS}{33}{chapter*.23}%

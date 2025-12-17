@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 1765910753.12878 "main.bcf" "main.bbl" "main" 1765910754.37653 0
-  "main.bcf" 1765910602.96226 112262 2fb0fa3bf2dfa7c77dcc04d01cc1d209 "pdflatex"
-  "references.bib" 1765910752.61475 22870 ee03657c0fbc74dd8fe9c6917b6f3a7d ""
+["biber main"] 1765994445.26756 "main.bcf" "main.bbl" "main" 1765994462.17255 0
+  "main.bcf" 1765994461.96984 113932 0ed721c8212c484d607082023fa89b45 "pdflatex"
+  "references.bib" 1765993865.8055 35290 62301a6d317e087841e743974f9315e5 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1765910598.60595 "/home/umsl/Documentos/Scrips_Copilot/projeto_doc/Projeto Doutorado/main.tex" "main.pdf" "main" 1765910754.37679 0
+["pdflatex"] 1765994456.98897 "/home/umsl/Documentos/Scrips_Copilot/projeto_doc/Projeto Doutorado/main.tex" "main.pdf" "main" 1765994462.1729 0
   "/etc/texmf/web2c/texmf.cnf" 1747755290.54176 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/umsl/Documentos/Scrips_Copilot/projeto_doc/Projeto Doutorado/main.tex" 1765908694.07116 14196 7e38850e2ecc4698183a98a83ce314d9 ""
+  "/home/umsl/Documentos/Scrips_Copilot/projeto_doc/Projeto Doutorado/main.tex" 1765994003.12907 14719 095e83e16d068925e5348fd8aedfcd13 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1136768653 3584 13049b61b922a28b158a38aeff75ee9b ""
@@ -337,15 +337,15 @@
   "figuras/graficos/energia_superficie_101.pdf" 1765919216 90802 8cfae5d0f3a23fd28c4231f47c3a35d0 ""
   "figuras/graficos/energia_superficie_110.pdf" 1765919216 98323 324d67a5eea226819fb298dded8f2396 ""
   "figuras/imagens/exemplo.jpg" 1765919216 27488 1bbd4a9cc0536d51f2efd8be99fa8a7b ""
-  "main.aux" 1765910602.95226 24995 64f97bef46c7042f07431f93eed8e216 "pdflatex"
-  "main.bbl" 1765910754.34072 25553 7601fec76ad75514fab075e9a3e6a509 "biber main"
-  "main.glsdefs" 1765910602.95026 1084 71d86a078ff354e1bbc0d9cc36492588 "pdflatex"
-  "main.out" 1765910602.95726 8574 f0ea63107a7fe43fcfaae89127288a82 "pdflatex"
-  "main.run.xml" 1765910602.96426 2546 e7831ba235f83538c4e783a1b73a7051 "pdflatex"
-  "main.tex" 1765908694.07116 14196 7e38850e2ecc4698183a98a83ce314d9 ""
-  "main.toc" 1765910602.96426 3659 6f2c680a14a2561473a82e52de2b183c "pdflatex"
+  "main.aux" 1765994461.95584 29040 8413f2f40ba48a67823b7bdb013c01d8 "pdflatex"
+  "main.bbl" 1765994446.68812 66540 b7f9f74eae1bd8da652da45446087b2a "biber main"
+  "main.glsdefs" 1765994461.95284 1084 71d86a078ff354e1bbc0d9cc36492588 "pdflatex"
+  "main.out" 1765994461.96384 8574 f0ea63107a7fe43fcfaae89127288a82 "pdflatex"
+  "main.run.xml" 1765994461.97084 2546 e7831ba235f83538c4e783a1b73a7051 "pdflatex"
+  "main.tex" 1765994003.12907 14719 095e83e16d068925e5348fd8aedfcd13 ""
+  "main.toc" 1765994461.97084 3659 55318b42817644dd97faad82c141fa40 "pdflatex"
   "sections/0_pre_textuais.tex" 1765919216 8316 2a8cd360e355a810d3200ee5d51d0ebd ""
-  "sections/1_introducao.tex" 1765919216 18040 a7a78c7cecba9fcf9bca9bf0717f1c2e ""
+  "sections/1_introducao.tex" 1765994424.78952 18558 0b7782bd1a9c2947c66f79f654778660 ""
   "sections/2_fundamentacao_teorica.tex" 1765919216 10427 4298b27b54befd1834a3ac7ad2bf6068 ""
   "sections/3_objetivos.tex" 1765919216 1514 278a54d20dab03fa8eeedb27b0f7d2d0 ""
   "sections/4_metodologia.tex" 1765919216 10693 0de023ea6701c58c0693886b933e038e ""

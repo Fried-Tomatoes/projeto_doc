@@ -1,15 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[92] biber:340> INFO - === ter dez 16, 2025, 15:45:53
-[109] Biber.pm:419> INFO - Reading 'main.bcf'
-[184] Biber.pm:979> INFO - Found 13 citekeys in bib section 0
-[199] Biber.pm:4419> INFO - Processing section 0
-[210] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[213] bibtex.pm:1713> INFO - LaTeX decoding ...
-[286] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[453] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[453] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[453] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pt-BR'
-[453] Biber.pm:4245> INFO - No sort tailoring available for locale 'pt-BR'
-[464] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[473] bbl.pm:763> INFO - Output to main.bbl
+[84] biber:340> INFO - === qua dez 17, 2025, 15:00:46
+[101] Biber.pm:419> INFO - Reading 'main.bcf'
+[167] Biber.pm:979> INFO - Found 32 citekeys in bib section 0
+[179] Biber.pm:4419> INFO - Processing section 0
+[190] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[194] bibtex.pm:1713> INFO - LaTeX decoding ...
+[291] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[675] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[675] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[675] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pt-BR'
+[675] Biber.pm:4245> INFO - No sort tailoring available for locale 'pt-BR'
+[704] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[728] bbl.pm:763> INFO - Output to main.bbl
+[728] Biber.pm:131> WARN - Duplicate entry key: 'gouveia2024s' in file 'references.bib', skipping ...
+[728] Biber.pm:133> INFO - WARNINGS: 1

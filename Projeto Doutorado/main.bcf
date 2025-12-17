@@ -96,7 +96,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -104,7 +104,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -116,7 +116,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>6</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
@@ -124,7 +124,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minsortnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>6</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -331,7 +331,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -339,7 +339,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>10</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -351,7 +351,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>6</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
@@ -359,7 +359,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minsortnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>6</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -2444,19 +2444,42 @@
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">bayr2005reactive</bcf:citekey>
     <bcf:citekey order="1" intorder="2">dong2022comprehensive</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">rogal2006</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">zhang1998comment</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">perdew2008restoring</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">hammer1999improved</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">dellien1976chromium</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">dellien1976chromium</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">hoang2018electronic</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">zhang2023effect</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">dkhilalli2018structural</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">yan2019study</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">reuter2005ab</bcf:citekey>
-    <bcf:citekey order="12" intorder="2">rogal2006</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">pereira2018znwo</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Sachdev2023</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">mittler2022reactive</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">bayr2005reactive</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">dong2022comprehensive</bcf:citekey>
+    <bcf:citekey order="4" intorder="3">mailloux2021update</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">haber1934catalytic</bcf:citekey>
+    <bcf:citekey order="5" intorder="2">lam2020role</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">mailloux2021update</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">lam2020role</bcf:citekey>
+    <bcf:citekey order="6" intorder="3">fenton1900vii</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">el2023efficient</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">dryden2018reactive</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">shafiq2021reactive</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">liang2016ros</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">yu2016occurrence</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">yang2019reactive</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">spiering2015primer</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">wang2024interaction</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">bardaweel2018reactive</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">gordon2016phagocytosis</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">zeng2020cooperatively</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">zhu2021rapid</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">liu2024simultaneous</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">rogal2006</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">zhang1998comment</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">perdew2008restoring</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">hammer1999improved</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">dellien1976chromium</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">dellien1976chromium</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">hoang2018electronic</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">zhang2023effect</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">dkhilalli2018structural</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">yan2019study</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">reuter2005ab</bcf:citekey>
+    <bcf:citekey order="28" intorder="2">rogal2006</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">pereira2018znwo</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
