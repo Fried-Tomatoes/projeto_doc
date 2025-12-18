@@ -216,8 +216,11 @@
 
 % Bibliografia: usar biblatex-abnt com estilo numérico para formatação ABNT NBR 6023
 % Isso segue as regras ABNT mas usa rótulos numéricos [1], [2], ... em vez de autor-ano
-\usepackage[backend=biber,style=abnt-numeric,sorting=none,ittitles,uniquename=init,giveninits,justify,indent,repeattitles,sortcites=true,maxbibnames=10,minbibnames=6]{biblatex}
+\usepackage[backend=biber,style=abnt-numeric,sorting=none,ittitles,uniquename=init,giveninits,justify,indent,sortcites=true,maxbibnames=10,minbibnames=6]{biblatex}
 \addbibresource{references.bib}
+
+% Desabilitar substituição de autores repetidos por traços
+\renewcommand*{\bibnamedash}{\printnames{author}}
 
 % Configurar DOI e URL para usar a mesma fonte do texto (não monoespaçada)
 \renewcommand*{\mkbibacro}[1]{#1}

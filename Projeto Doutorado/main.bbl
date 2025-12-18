@@ -475,12 +475,12 @@
            given={Muhammad},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=b4e344e875b16f9716caf3408b46c57c}{%
+        {{un=1,uniquepart=given,hash=b4e344e875b16f9716caf3408b46c57c}{%
            family={Chen},
            familyi={C\bibinitperiod},
            given={Yujie},
            giveni={Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=3fcb2e7de1e8abcbf55c287bbedf93c9}{%
            family={Hashim},
            familyi={H\bibinitperiod},
@@ -627,12 +627,12 @@
            given={Bowen},
            giveni={B\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+        {{un=1,uniquepart=given,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
            family={Chen},
            familyi={C\bibinitperiod},
            given={Yu},
            giveni={Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=33e46e901152cf3b62f56a7d422ae49b}{%
            family={Shi},
            familyi={S\bibinitperiod},
@@ -1176,12 +1176,12 @@
            given={Lizhuo},
            giveni={L\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=8106dba62d11243abba3dc4bb2ba4369}{%
+        {{un=1,uniquepart=given,hash=8106dba62d11243abba3dc4bb2ba4369}{%
            family={Zhao},
            familyi={Z\bibinitperiod},
            given={Jinhui},
            giveni={J\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=1,uniquepart=given,hash=4d8033417bc7ef3f24fb8248763adb33}{%
            family={Liu},
            familyi={L\bibinitperiod},
@@ -1378,12 +1378,12 @@
            given={Hongying},
            giveni={H\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=dbbd102f1e64195fa2575ef3e3a446e9}{%
+        {{un=1,uniquepart=given,hash=dbbd102f1e64195fa2575ef3e3a446e9}{%
            family={Wen},
            familyi={W\bibinitperiod},
            given={Fei},
            giveni={F\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=1,uniquepart=given,hash=6f69f696945a80e053176657028b0acd}{%
            family={Li},
            familyi={L\bibinitperiod},
@@ -1734,6 +1734,2420 @@
       \field{title}{Managing temperature effects in nanoscale adaptive systems}
       \field{year}{2011}
     \endentry
+    \entry{lu2024systematic}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=1ef50857e114f08907fb07cb579b5e7e}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{1ef50857e114f08907fb07cb579b5e7e}
+      \strng{fullhash}{1ef50857e114f08907fb07cb579b5e7e}
+      \strng{bibnamehash}{1ef50857e114f08907fb07cb579b5e7e}
+      \strng{authorbibnamehash}{1ef50857e114f08907fb07cb579b5e7e}
+      \strng{authornamehash}{1ef50857e114f08907fb07cb579b5e7e}
+      \strng{authorfullhash}{1ef50857e114f08907fb07cb579b5e7e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied and Computational Engineering}
+      \field{number}{1}
+      \field{title}{A systematic analysis of wide band gap semiconductor used in power electronics}
+      \field{volume}{65}
+      \field{year}{2024}
+      \field{pages}{161\bibrangedash 166}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.54254/2755-2721/65/20240487
+      \endverb
+    \endentry
+    \entry{nguyen2021wide}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=50318c97fa6b65acb6800f9675bdb5c7}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Nhat-Khuong},
+           giveni={N\bibinithyphendelim K\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=7dd79125974437d123ed7d7fbfda3a15}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Thanh},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=677bd0dc8ae7931d68111696d7901359}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Tuan-Khoa},
+           giveni={T\bibinithyphendelim K\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=b57803ea7b17ce415f8d064132dc71c7}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={Sharda},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a332c6f8b2731020e38ab1a632d5ec33}{%
+           family={Dinh},
+           familyi={D\bibinitperiod},
+           given={Toan},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18659905964e711e6c84d92b5467ebc4}{%
+           family={Masud},
+           familyi={M\bibinitperiod},
+           given={Mostafa\bibnamedelima Kamal},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af034728a6716c2647431abcc66886fb}{%
+           family={Singha},
+           familyi={S\bibinitperiod},
+           given={Pradip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca8ff96cdadbfc2465146947ddf538bf}{%
+           family={Do},
+           familyi={D\bibinitperiod},
+           given={Thanh\bibnamedelima Nho},
+           giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8b3680b4a2a7e11e795f325711b05a3}{%
+           family={Barton},
+           familyi={B\bibinitperiod},
+           given={Matthew\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee6a3dd3e484ff3bf1551bd6a3f7466f}{%
+           family={Ta},
+           familyi={T\bibinitperiod},
+           given={Hang\bibnamedelima Thu},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{8cc71bd0a9f7dc52199f6fa642272026}
+      \strng{fullhash}{8cc71bd0a9f7dc52199f6fa642272026}
+      \strng{bibnamehash}{8cc71bd0a9f7dc52199f6fa642272026}
+      \strng{authorbibnamehash}{8cc71bd0a9f7dc52199f6fa642272026}
+      \strng{authornamehash}{8cc71bd0a9f7dc52199f6fa642272026}
+      \strng{authorfullhash}{8cc71bd0a9f7dc52199f6fa642272026}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACS Applied Electronic Materials}
+      \field{number}{5}
+      \field{title}{Wide-band-gap semiconductors for biointegrated electronics: Recent advances and future directions}
+      \field{volume}{3}
+      \field{year}{2021}
+      \field{pages}{1959\bibrangedash 1981}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1021/acsaelm.0c01122
+      \endverb
+    \endentry
+    \entry{shan2010immobilisation}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=abdeeb571f55cbe491a74f948d4a1b85}{%
+           family={Shan},
+           familyi={S\bibinitperiod},
+           given={Ang\bibnamedelima Ying},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80f82318cfd93f48149f017dd823ee71}{%
+           family={Ghazi},
+           familyi={G\bibinitperiod},
+           given={Tinia\bibnamedelimb Idaty\bibnamedelima Mohd},
+           giveni={T\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1fc3285a19ef1d9d23b1bd9001bb8a4}{%
+           family={Rashid},
+           familyi={R\bibinitperiod},
+           given={Suraya\bibnamedelima Abdul},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b0c9e3745d8d28940b167b2f1c658e0c}
+      \strng{fullhash}{b0c9e3745d8d28940b167b2f1c658e0c}
+      \strng{bibnamehash}{b0c9e3745d8d28940b167b2f1c658e0c}
+      \strng{authorbibnamehash}{b0c9e3745d8d28940b167b2f1c658e0c}
+      \strng{authornamehash}{b0c9e3745d8d28940b167b2f1c658e0c}
+      \strng{authorfullhash}{b0c9e3745d8d28940b167b2f1c658e0c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Catalysis A: General}
+      \field{number}{1-2}
+      \field{title}{Immobilisation of titanium dioxide onto supporting materials in heterogeneous photocatalysis: A review}
+      \field{volume}{389}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.apcata.2010.08.053
+      \endverb
+    \endentry
+    \entry{nascimento2022influence}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=180c83513585c9c670eac3d20d4d8d0e}{%
+           family={Nascimento},
+           familyi={N\bibinitperiod},
+           given={Jéssica\bibnamedelimb Luisa\bibnamedelima Alves},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1,
+           prefix={do},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=dd833aeb8e0028ad65c5cf5defd83251}{%
+           family={Chantelle},
+           familyi={C\bibinitperiod},
+           given={Lais},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=5268acd0d2381d636b8daa5971768a15}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Iêda\bibnamedelimb Maria\bibnamedelima Garcia},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=1,
+           prefix={dos},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=82a2632cbb1c6b8edd1df88edf848f19}{%
+           family={Menezes\bibnamedelimb de\bibnamedelima Oliveira},
+           familyi={M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={André\bibnamedelima Luiz},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=e42c6d429cea8223d58f726826e50763}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={Mary\bibnamedelimb Cristina\bibnamedelima Ferreira},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{95c50608e313af6a4e9d350c00837018}
+      \strng{fullhash}{95c50608e313af6a4e9d350c00837018}
+      \strng{bibnamehash}{95c50608e313af6a4e9d350c00837018}
+      \strng{authorbibnamehash}{95c50608e313af6a4e9d350c00837018}
+      \strng{authornamehash}{95c50608e313af6a4e9d350c00837018}
+      \strng{authorfullhash}{95c50608e313af6a4e9d350c00837018}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2073-4344}
+      \field{journaltitle}{Catalysts}
+      \field{number}{4}
+      \field{title}{The Influence of Synthesis Methods and Experimental Conditions on the Photocatalytic Properties of SnO2: A Review}
+      \field{volume}{12}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.3390/catal12040428
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4344/12/4/428
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4344/12/4/428
+      \endverb
+    \endentry
+    \entry{macedo2022zinc}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=6f16c3422b2cdba7f97f40a539e5769f}{%
+           family={Macedo},
+           familyi={M\bibinitperiod},
+           given={OB\bibnamedelima de},
+           giveni={O\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=87d31a9543257367260eecf1f76fd89d}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={ALM\bibnamedelima de},
+           giveni={A\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=8755725cc51217557a61346071f8eed7}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={IMG\bibnamedelima dos},
+           giveni={I\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {SciELO Brasil}%
+      }
+      \strng{namehash}{da1b157f324121c0f4234782c9c5253a}
+      \strng{fullhash}{da1b157f324121c0f4234782c9c5253a}
+      \strng{bibnamehash}{da1b157f324121c0f4234782c9c5253a}
+      \strng{authorbibnamehash}{da1b157f324121c0f4234782c9c5253a}
+      \strng{authornamehash}{da1b157f324121c0f4234782c9c5253a}
+      \strng{authorfullhash}{da1b157f324121c0f4234782c9c5253a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ceramica}
+      \field{number}{387}
+      \field{title}{Zinc tungstate: a review on its application as heterogeneous photocatalyst}
+      \field{volume}{68}
+      \field{year}{2022}
+      \field{pages}{294\bibrangedash 315}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1590/0366-69132022683873265
+      \endverb
+    \endentry
+    \entry{abubakar2022review}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=dda5b9d2516244b34b3bbe2410d47a2a}{%
+           family={Abubakar},
+           familyi={A\bibinitperiod},
+           given={Hassana\bibnamedelima Ladio},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=206c7da68a375fd4a90c60cf39df353b}{%
+           family={Tijani},
+           familyi={T\bibinitperiod},
+           given={Jimoh\bibnamedelima Oladejo},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=496a74273c0c61111a62d30667566e76}{%
+           family={Abdulkareem},
+           familyi={A\bibinitperiod},
+           given={Saka\bibnamedelima Ambali},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa89fbb4846b8850c5cb46df675851cb}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={Abdullahi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5914ff6038fe442519196c0273a5c564}{%
+           family={Mustapha},
+           familyi={M\bibinitperiod},
+           given={Saheed},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5e224f85bfce5ad5b29d9707b7044e0d}
+      \strng{fullhash}{5e224f85bfce5ad5b29d9707b7044e0d}
+      \strng{bibnamehash}{5e224f85bfce5ad5b29d9707b7044e0d}
+      \strng{authorbibnamehash}{5e224f85bfce5ad5b29d9707b7044e0d}
+      \strng{authornamehash}{5e224f85bfce5ad5b29d9707b7044e0d}
+      \strng{authorfullhash}{5e224f85bfce5ad5b29d9707b7044e0d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Heliyon}
+      \field{number}{7}
+      \field{title}{A review on the applications of zinc tungstate (ZnWO4) photocatalyst for wastewater treatment}
+      \field{volume}{8}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1016/j.heliyon.2022.e09964
+      \endverb
+    \endentry
+    \entry{singh2023review}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3a8ae3c64f652500702c665e250214c4}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Gurpinder},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6db6bdb207962c2813594ca10593be11}{%
+           family={Ubhi},
+           familyi={U\bibinitperiod},
+           given={Manpreet\bibnamedelima Kaur},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87d8eefe9ee4daf92c66a55b70933c98}{%
+           family={Jeet},
+           familyi={J\bibinitperiod},
+           given={Kiran},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3eb8e5e1248172534841159646d1ef79}{%
+           family={Singla},
+           familyi={S\bibinitperiod},
+           given={Chetan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9a3b08b8b19af55bc58b5f96c40587c}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Manpreet},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{b4517fd704b76b47b8768c4902cd8bfb}
+      \strng{fullhash}{b4517fd704b76b47b8768c4902cd8bfb}
+      \strng{bibnamehash}{b4517fd704b76b47b8768c4902cd8bfb}
+      \strng{authorbibnamehash}{b4517fd704b76b47b8768c4902cd8bfb}
+      \strng{authornamehash}{b4517fd704b76b47b8768c4902cd8bfb}
+      \strng{authorfullhash}{b4517fd704b76b47b8768c4902cd8bfb}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Processes}
+      \field{number}{6}
+      \field{title}{A review on impacting parameters for photocatalytic degradation of organic effluents by ferrites and their nanocomposites}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{1727}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/pr11061727
+      \endverb
+    \endentry
+    \entry{costa2023transition}{article}{}
+      \name{author}{8}{}{%
+        {{un=1,uniquepart=given,hash=549040cb7260f2c971f7fea0b6e3c4bb}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Maria\bibnamedelimb Joseita\bibnamedelimb dos\bibnamedelima Santos},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a453305f6f8f0a9b7dcd5dccc107c554}{%
+           family={Lima},
+           familyi={L\bibinitperiod},
+           given={Aline\bibnamedelimb Estefany\bibnamedelima Brandão},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=2370c807387034ed267f2946a134803e}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Ester\bibnamedelima Pamponet},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=f5f2e92c8dad518708067ce11c0a0fde}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Gilson\bibnamedelimb dos\bibnamedelima Santos},
+           giveni={G\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41790ed6d894cd10875eee93959b80bb}{%
+           family={Luz\bibnamedelima Jr},
+           familyi={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Geraldo\bibnamedelima Eduardo},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=315d4d1079565952786ee55f22b63c48}{%
+           family={Cavalcante},
+           familyi={C\bibinitperiod},
+           given={Laecio\bibnamedelima Santos},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=728131af0c6d6e0070b45dedfd0c73eb}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Reginaldo\bibnamedelimb da\bibnamedelima Silva},
+           giveni={R\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{78ccbaabcad2d92071fbeaa9800b574a}
+      \strng{fullhash}{78ccbaabcad2d92071fbeaa9800b574a}
+      \strng{bibnamehash}{78ccbaabcad2d92071fbeaa9800b574a}
+      \strng{authorbibnamehash}{78ccbaabcad2d92071fbeaa9800b574a}
+      \strng{authornamehash}{78ccbaabcad2d92071fbeaa9800b574a}
+      \strng{authorfullhash}{78ccbaabcad2d92071fbeaa9800b574a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Electrochemistry}
+      \field{number}{7}
+      \field{title}{Transition metal tungstates A WO4 (A 2+= Fe, Co, Ni, and Cu) thin films and their photoelectrochemical behavior as photoanode for photocatalytic applications}
+      \field{volume}{53}
+      \field{year}{2023}
+      \field{pages}{1349\bibrangedash 1367}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/s10800-023-01851-w
+      \endverb
+    \endentry
+    \entry{sivaganesh2020sm3+}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=72ce70252422633672e8a7cf217ce925}{%
+           family={Sivaganesh},
+           familyi={S\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a627bdbcf120c32c2f0793bb4cbcaa8}{%
+           family={Saravanakumar},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78228fd39b67cb296920757c6e2acfe4}{%
+           family={Sivakumar},
+           familyi={S\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b509e5a47c63beb970f28680112d127}{%
+           family={Sasikumar},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99f1d1e8a2615964b835d808eb05a788}{%
+           family={Nandha\bibnamedelima Gopal},
+           familyi={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e26ba7acaf9c0627f1cddef638f63102}{%
+           family={Kalpana},
+           familyi={K\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fbd6ede02bc0092d2d9f2eeae771eb6}{%
+           family={Rajajeyaganthan},
+           familyi={R\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{5c092e327a9c72c3ae4e1a2dc741ccd3}
+      \strng{fullhash}{5c092e327a9c72c3ae4e1a2dc741ccd3}
+      \strng{bibnamehash}{5c092e327a9c72c3ae4e1a2dc741ccd3}
+      \strng{authorbibnamehash}{5c092e327a9c72c3ae4e1a2dc741ccd3}
+      \strng{authornamehash}{5c092e327a9c72c3ae4e1a2dc741ccd3}
+      \strng{authorfullhash}{5c092e327a9c72c3ae4e1a2dc741ccd3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Materials Science: Materials in Electronics}
+      \field{number}{11}
+      \field{title}{Sm3+ induced-SrWO4 phosphor: analysis of photoluminescence and photocatalytic properties with electron density distribution studies}
+      \field{volume}{31}
+      \field{year}{2020}
+      \field{pages}{8865\bibrangedash 8883}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/s10854-020-03421-8
+      \endverb
+    \endentry
+    \entry{gao2024synthesis}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=1ad6518b007b36cf5c66fc92460f6d66}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Chunyan},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=e16c2dbc9de83b1e4abe905d2b6d3045}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Di},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=18038db55d6ed6af60f8c88ef8a4c0ae}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=f430745160d55ab8ff7a4f628ee11857}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Fang},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=21b6969d672728cb4ea4381d1d8706b5}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b037331b9f2980c7798793a563d4e7cc}
+      \strng{fullhash}{b037331b9f2980c7798793a563d4e7cc}
+      \strng{bibnamehash}{b037331b9f2980c7798793a563d4e7cc}
+      \strng{authorbibnamehash}{b037331b9f2980c7798793a563d4e7cc}
+      \strng{authornamehash}{b037331b9f2980c7798793a563d4e7cc}
+      \strng{authorfullhash}{b037331b9f2980c7798793a563d4e7cc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Surface Science}
+      \field{title}{Synthesis of dual pn heterojunction of NiWO4/CdS/ZIF-67 photocatalyst as a highly efficient photo-assisted fenton-like catalyst for removal of doxycycline hydrochloride}
+      \field{volume}{645}
+      \field{year}{2024}
+      \field{pages}{158872}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.apsusc.2023.158872
+      \endverb
+    \endentry
+    \entry{anm2017anuario}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2f9813456dfc6e6567b8758c81ee3fc2}{%
+           family={{ANM}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f9813456dfc6e6567b8758c81ee3fc2}
+      \strng{fullhash}{2f9813456dfc6e6567b8758c81ee3fc2}
+      \strng{bibnamehash}{2f9813456dfc6e6567b8758c81ee3fc2}
+      \strng{authorbibnamehash}{2f9813456dfc6e6567b8758c81ee3fc2}
+      \strng{authornamehash}{2f9813456dfc6e6567b8758c81ee3fc2}
+      \strng{authorfullhash}{2f9813456dfc6e6567b8758c81ee3fc2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{month}{6}
+      \field{title}{Anuário Mineral Estadual -- Rio Grande do Norte anos base 2010 -- 2013}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gov.br/anm/pt-br/assuntos/economiamineral/publicacoes/anuario-mineral/anuario-mineral-estadual/anuario-mineralestadual/rio-grande-do-norte
+      \endverb
+      \verb{url}
+      \verb https://www.gov.br/anm/pt-br/assuntos/economiamineral/publicacoes/anuario-mineral/anuario-mineral-estadual/anuario-mineralestadual/rio-grande-do-norte
+      \endverb
+    \endentry
+    \entry{van2008computational}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5959fd21ac4a9fbb1f4fc418a090fc1f}{%
+           family={Van\bibnamedelimb de\bibnamedelima Walle},
+           familyi={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={CG},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{5959fd21ac4a9fbb1f4fc418a090fc1f}
+      \strng{fullhash}{5959fd21ac4a9fbb1f4fc418a090fc1f}
+      \strng{bibnamehash}{5959fd21ac4a9fbb1f4fc418a090fc1f}
+      \strng{authorbibnamehash}{5959fd21ac4a9fbb1f4fc418a090fc1f}
+      \strng{authornamehash}{5959fd21ac4a9fbb1f4fc418a090fc1f}
+      \strng{authorfullhash}{5959fd21ac4a9fbb1f4fc418a090fc1f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Condensed Matter}
+      \field{number}{6}
+      \field{title}{Computational studies of conductivity in wide-band-gap semiconductors andoxides}
+      \field{volume}{20}
+      \field{year}{2008}
+      \field{pages}{064230}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0953-8984/20/6/064230
+      \endverb
+    \endentry
+    \entry{liu2023performance}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=f49bc783f26c2cb483f2f54c32d84ff0}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiangyue},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=9226c68da93ab63e3068646fa881f4da}{%
+           family={McKemmish},
+           familyi={M\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=476a22782e7ba3dafe46c9c5791f203d}{%
+           family={Pérez-Ríos},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{025f8ba8702c914051503513a09fa540}
+      \strng{fullhash}{025f8ba8702c914051503513a09fa540}
+      \strng{bibnamehash}{025f8ba8702c914051503513a09fa540}
+      \strng{authorbibnamehash}{025f8ba8702c914051503513a09fa540}
+      \strng{authornamehash}{025f8ba8702c914051503513a09fa540}
+      \strng{authorfullhash}{025f8ba8702c914051503513a09fa540}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Chemistry Chemical Physics}
+      \field{number}{5}
+      \field{title}{The performance of CCSD (T) for the calculation of dipole moments in diatomics}
+      \field{volume}{25}
+      \field{year}{2023}
+      \field{pages}{4093\bibrangedash 4104}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1039/D2CP05060A
+      \endverb
+    \endentry
+    \entry{wang2025photophysical}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=58bd8780f83626188ffe1ad029557801}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuqi},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=293a5a5a3da8e0bb0d772a101814c2bb}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Ziqi},
+           giveni={Z\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8883138c0dde25b184e3ed184916790a}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Xingzhu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=94963b957eca2ca2a014f0f7b5f5b4e5}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Dapeng},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=69413a6cee9ce8abe6b3b79702f433c3}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Chaofan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0ed74ed0d83de6419e7ca0c36571e9f2}
+      \strng{fullhash}{0ed74ed0d83de6419e7ca0c36571e9f2}
+      \strng{bibnamehash}{0ed74ed0d83de6419e7ca0c36571e9f2}
+      \strng{authorbibnamehash}{0ed74ed0d83de6419e7ca0c36571e9f2}
+      \strng{authornamehash}{0ed74ed0d83de6419e7ca0c36571e9f2}
+      \strng{authorfullhash}{0ed74ed0d83de6419e7ca0c36571e9f2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Physics Letters}
+      \field{title}{Photophysical properties of the fluorescent probe NHI for the detection of phosgene based on ESIPT process: A DFT/TD-DFT study}
+      \field{year}{2025}
+      \field{pages}{142349}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cplett.2025.142349
+      \endverb
+    \endentry
+    \entry{rodrigues2025electron}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=84ad37b0ac209087f93c37c616d4dd1d}{%
+           family={Rodrigues-Pinheiro},
+           familyi={R\bibinithyphendelim P\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aafae9a8809e8ce105918dacdf098bb3}{%
+           family={Andres},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=a02c199a1e735b466051faa443ea6474}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{de80d3c07db8a2aaa39219249ccd6b56}
+      \strng{fullhash}{de80d3c07db8a2aaa39219249ccd6b56}
+      \strng{bibnamehash}{de80d3c07db8a2aaa39219249ccd6b56}
+      \strng{authorbibnamehash}{de80d3c07db8a2aaa39219249ccd6b56}
+      \strng{authornamehash}{de80d3c07db8a2aaa39219249ccd6b56}
+      \strng{authorfullhash}{de80d3c07db8a2aaa39219249ccd6b56}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physical Chemistry C}
+      \field{number}{15}
+      \field{title}{Electron Irradiation-Induced Structural and Electronic Transformations in $\beta$-Ag2MoO4: Atomistic Insights into the Formation of Ag Nanoparticles}
+      \field{volume}{129}
+      \field{year}{2025}
+      \field{pages}{7402\bibrangedash 7412}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1021/acs.jpcc.4c08139
+      \endverb
+    \endentry
+    \entry{butler2016computational}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f2640b3bca54fe7f93f2796f33b41c36}{%
+           family={Butler},
+           familyi={B\bibinitperiod},
+           given={Keith\bibnamedelima T},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2f37596135c70cac23d5da2f951c6db}{%
+           family={Frost},
+           familyi={F\bibinitperiod},
+           given={Jarvist\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a589d072a8b9695390e610f1c4efb587}{%
+           family={Skelton},
+           familyi={S\bibinitperiod},
+           given={Jonathan\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bf204aa7cc2749416964011d5102450}{%
+           family={Svane},
+           familyi={S\bibinitperiod},
+           given={Katrine\bibnamedelima L},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2bb4f5439ec052187086f8dc26065ced}{%
+           family={Walsh},
+           familyi={W\bibinitperiod},
+           given={Aron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{864fed30c703dc62658ff14995fbd977}
+      \strng{fullhash}{864fed30c703dc62658ff14995fbd977}
+      \strng{bibnamehash}{864fed30c703dc62658ff14995fbd977}
+      \strng{authorbibnamehash}{864fed30c703dc62658ff14995fbd977}
+      \strng{authornamehash}{864fed30c703dc62658ff14995fbd977}
+      \strng{authorfullhash}{864fed30c703dc62658ff14995fbd977}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Society Reviews}
+      \field{number}{22}
+      \field{title}{Computational materials design of crystalline solids}
+      \field{volume}{45}
+      \field{year}{2016}
+      \field{pages}{6138\bibrangedash 6146}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1039/C5CS00841G
+      \endverb
+    \endentry
+    \entry{fedorov2021towards}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=11c1da38b3de165901b928587fb3becc}{%
+           family={Fedorov},
+           familyi={F\bibinitperiod},
+           given={Aleksey\bibnamedelima K},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0697ffa48e2e81ddbe19a7ed23082b41}{%
+           family={Gelfand},
+           familyi={G\bibinitperiod},
+           given={Mikhail\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group US New York}%
+      }
+      \strng{namehash}{57b80f10b93b00bbca22d52b29808b10}
+      \strng{fullhash}{57b80f10b93b00bbca22d52b29808b10}
+      \strng{bibnamehash}{57b80f10b93b00bbca22d52b29808b10}
+      \strng{authorbibnamehash}{57b80f10b93b00bbca22d52b29808b10}
+      \strng{authornamehash}{57b80f10b93b00bbca22d52b29808b10}
+      \strng{authorfullhash}{57b80f10b93b00bbca22d52b29808b10}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Computational Science}
+      \field{number}{2}
+      \field{title}{Towards practical applications in quantum computational biology}
+      \field{volume}{1}
+      \field{year}{2021}
+      \field{pages}{114\bibrangedash 119}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/s43588-021-00024-z
+      \endverb
+    \endentry
+    \entry{cabral2025lighting}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=6698ffecb3133ead2ea6511e46b267cf}{%
+           family={Cabral},
+           familyi={C\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=a02c199a1e735b466051faa443ea6474}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8401d3a36b32bb10f4df5589ffc429b0}{%
+           family={Leite},
+           familyi={L\bibinitperiod},
+           given={Edson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=59e0bb9000c674096a04b5104dca0de6}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={EZ},
+           giveni={E\bibinitperiod},
+           givenun=1,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=101ad30535bd3a04357d179f16af86f1}{%
+           family={Andrés},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{1184c4cfbc68376d1f6d91b4f2acc7f5}
+      \strng{fullhash}{1184c4cfbc68376d1f6d91b4f2acc7f5}
+      \strng{bibnamehash}{1184c4cfbc68376d1f6d91b4f2acc7f5}
+      \strng{authorbibnamehash}{1184c4cfbc68376d1f6d91b4f2acc7f5}
+      \strng{authornamehash}{1184c4cfbc68376d1f6d91b4f2acc7f5}
+      \strng{authorfullhash}{1184c4cfbc68376d1f6d91b4f2acc7f5}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Chemistry Chemical Physics}
+      \field{number}{14}
+      \field{title}{Lighting up the structure and electronic properties of $\alpha$-, $\beta$-, $\gamma$-Ag 2 WO 4 polymorphs under laser irradiation: a DFT investigation}
+      \field{volume}{27}
+      \field{year}{2025}
+      \field{pages}{6836\bibrangedash 6844}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1039/D4CP04349A
+      \endverb
+    \endentry
+    \entry{gouveia2018reading}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=b10bff8579f305a68a398b8f9911c586}{%
+           family={Gouveia},
+           familyi={G\bibinitperiod},
+           given={Amanda\bibnamedelima F},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=271d5a662109bcdd6aa9958f76e91e56}{%
+           family={Assis},
+           familyi={A\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=83f2a6b1f630e10422aa372f9b365036}{%
+           family={Cavalcante},
+           familyi={C\bibinitperiod},
+           given={Laécio\bibnamedelima S},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fc7cc3ce30c77c92139f3b99d22b8b0}{%
+           family={Gracia},
+           familyi={G\bibinitperiod},
+           given={Lourdes},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=101ad30535bd3a04357d179f16af86f1}{%
+           family={Andrés},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4048f7f1ac1f7d3afe7b24050b5ec772}
+      \strng{fullhash}{4048f7f1ac1f7d3afe7b24050b5ec772}
+      \strng{bibnamehash}{4048f7f1ac1f7d3afe7b24050b5ec772}
+      \strng{authorbibnamehash}{4048f7f1ac1f7d3afe7b24050b5ec772}
+      \strng{authornamehash}{4048f7f1ac1f7d3afe7b24050b5ec772}
+      \strng{authorfullhash}{4048f7f1ac1f7d3afe7b24050b5ec772}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontier Research Today}
+      \field{title}{Reading at exposed surfaces: theoretical insights into photocatalytic activity of ZnWO4}
+      \field{volume}{1}
+      \field{year}{2018}
+      \field{pages}{1005}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.31716/frt.201801005
+      \endverb
+    \endentry
+    \entry{da2022diagnosis}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=33d955f7499472dfd8ebc0566c256c9b}{%
+           family={Silveira\bibnamedelima Lacerda},
+           familyi={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Luis\bibnamedelima Henrique},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aafae9a8809e8ce105918dacdf098bb3}{%
+           family={Andres},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=ad67d7fefd09a38b60546fe68ef1cca2}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima Angel},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{70b31f18b4d0d54e04657780ae4559e9}
+      \strng{fullhash}{70b31f18b4d0d54e04657780ae4559e9}
+      \strng{bibnamehash}{70b31f18b4d0d54e04657780ae4559e9}
+      \strng{authorbibnamehash}{70b31f18b4d0d54e04657780ae4559e9}
+      \strng{authornamehash}{70b31f18b4d0d54e04657780ae4559e9}
+      \strng{authorfullhash}{70b31f18b4d0d54e04657780ae4559e9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Solid State Chemistry}
+      \field{title}{A diagnosis approach for semiconductor properties evaluation from ab initio calculations: Ag-based materials investigation}
+      \field{volume}{305}
+      \field{year}{2022}
+      \field{pages}{122670}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jssc.2021.122670
+      \endverb
+    \endentry
+    \entry{gouveia2024whats}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b10bff8579f305a68a398b8f9911c586}{%
+           family={Gouveia},
+           familyi={G\bibinitperiod},
+           given={Amanda\bibnamedelima F},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab0fb88d45248d5d51eddbedcdd2c55f}{%
+           family={Lipsky},
+           familyi={L\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=a02c199a1e735b466051faa443ea6474}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=101ad30535bd3a04357d179f16af86f1}{%
+           family={Andrés},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{6888e0845103b0d88156cd20ea326585}
+      \strng{fullhash}{6888e0845103b0d88156cd20ea326585}
+      \strng{bibnamehash}{6888e0845103b0d88156cd20ea326585}
+      \strng{authorbibnamehash}{6888e0845103b0d88156cd20ea326585}
+      \strng{authornamehash}{6888e0845103b0d88156cd20ea326585}
+      \strng{authorfullhash}{6888e0845103b0d88156cd20ea326585}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Materials Today}
+      \field{title}{What's behind their various activities? Discerning the importance of surface terminations in Ag3PO4 semiconductor from DFT calculations}
+      \field{volume}{1}
+      \field{year}{2024}
+      \field{pages}{100001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1021/acsomega.1c01214
+      \endverb
+    \endentry
+    \entry{wu2021thermodynamic}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=fd455c7c3049e78b17252a52cb6931d6}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yonggang},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=af1e0e919b17a3231ed9e029fe016390}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jihua},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=663e1adb2e2419bc3b8b61ad69330d98}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Bingwei},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=5c197210ea3c3cd10b35ad3c6922e157}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{cc3a488d1ca4b13189f856696bd6b517}
+      \strng{fullhash}{cc3a488d1ca4b13189f856696bd6b517}
+      \strng{bibnamehash}{cc3a488d1ca4b13189f856696bd6b517}
+      \strng{authorbibnamehash}{cc3a488d1ca4b13189f856696bd6b517}
+      \strng{authornamehash}{cc3a488d1ca4b13189f856696bd6b517}
+      \strng{authorfullhash}{cc3a488d1ca4b13189f856696bd6b517}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACS Omega}
+      \field{number}{23}
+      \field{title}{The Thermodynamic Stability, Electronic and Photocatalytic Properties of the ZnWO4(100) Surface as Predicted by Screened Hybrid Density Functional Theory}
+      \field{volume}{6}
+      \field{year}{2021}
+      \field{pages}{15057\bibrangedash 15067}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1021/acsomega.1c01214
+      \endverb
+    \endentry
+    \entry{da2021dft}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=33d955f7499472dfd8ebc0566c256c9b}{%
+           family={Silveira\bibnamedelima Lacerda},
+           familyi={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Luis\bibnamedelima Henrique},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=1,uniquepart=given,hash=a02c199a1e735b466051faa443ea6474}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{198a683631b2a544666d317fd50fccf9}
+      \strng{fullhash}{198a683631b2a544666d317fd50fccf9}
+      \strng{bibnamehash}{198a683631b2a544666d317fd50fccf9}
+      \strng{authorbibnamehash}{198a683631b2a544666d317fd50fccf9}
+      \strng{authornamehash}{198a683631b2a544666d317fd50fccf9}
+      \strng{authorfullhash}{198a683631b2a544666d317fd50fccf9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Surface Science}
+      \field{title}{DFT approaches unraveling the surface and morphological properties of MnMoO4}
+      \field{volume}{567}
+      \field{year}{2021}
+      \field{pages}{150882}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.apsusc.2021.150882
+      \endverb
+    \endentry
+    \entry{teodoro2022connecting}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=65665ebf0f1e1be17329d5fdd64f6062}{%
+           family={Teodoro},
+           familyi={T\bibinitperiod},
+           given={Vinícius},
+           giveni={V\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=cb5b50187a2a2468b0eb239f27f13f3c}{%
+           family={Gouveia},
+           familyi={G\bibinitperiod},
+           given={Amanda\bibnamedelima Fernandes},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a0ded3a8c143ce67c8c8b60dc9bad29}{%
+           family={Machado},
+           familyi={M\bibinitperiod},
+           given={Thales\bibnamedelima Rafael},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67b8beb3acf50b8e4ec0a09ae7ba0068}{%
+           family={Trench},
+           familyi={T\bibinitperiod},
+           given={Aline\bibnamedelima Barrios},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3376a64a9cbbafa90994c9a8f1908c0b}{%
+           family={Jacomaci},
+           familyi={J\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=271d5a662109bcdd6aa9958f76e91e56}{%
+           family={Assis},
+           familyi={A\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8910381de6507de2a235fae3fe4713b3}{%
+           family={Marques},
+           familyi={M\bibinitperiod},
+           given={Gilmar\bibnamedelima Eugenio},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=67a4190f151f3b18195914efa2e8fd26}{%
+           family={Teodoro},
+           familyi={T\bibinitperiod},
+           given={Marcio\bibnamedelima Daldin},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=ad67d7fefd09a38b60546fe68ef1cca2}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima Angel},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=101ad30535bd3a04357d179f16af86f1}{%
+           family={Andrés},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2df2bef68cd24394408645344c4afd9a}
+      \strng{fullhash}{2df2bef68cd24394408645344c4afd9a}
+      \strng{bibnamehash}{2df2bef68cd24394408645344c4afd9a}
+      \strng{authorbibnamehash}{2df2bef68cd24394408645344c4afd9a}
+      \strng{authornamehash}{2df2bef68cd24394408645344c4afd9a}
+      \strng{authorfullhash}{2df2bef68cd24394408645344c4afd9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ceramics International}
+      \field{number}{3}
+      \field{title}{Connecting morphology and photoluminescence emissions in $\beta$-Ag2MoO4 microcrystals}
+      \field{volume}{48}
+      \field{year}{2022}
+      \field{pages}{3740\bibrangedash 3750}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.ceramint.2021.10.156
+      \endverb
+    \endentry
+    \entry{barrionuevo2022theoretical}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=268d2f1dd113668844c6e0ffdc832a34}{%
+           family={Barrionuevo},
+           familyi={B\bibinitperiod},
+           given={Manoel\bibnamedelimb Victor\bibnamedelima Frutuoso},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aafae9a8809e8ce105918dacdf098bb3}{%
+           family={Andres},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=ad67d7fefd09a38b60546fe68ef1cca2}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima Angel},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media SA}%
+      }
+      \strng{namehash}{67423ef0f015701cad5c9ca271772924}
+      \strng{fullhash}{67423ef0f015701cad5c9ca271772924}
+      \strng{bibnamehash}{67423ef0f015701cad5c9ca271772924}
+      \strng{authorbibnamehash}{67423ef0f015701cad5c9ca271772924}
+      \strng{authornamehash}{67423ef0f015701cad5c9ca271772924}
+      \strng{authorfullhash}{67423ef0f015701cad5c9ca271772924}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in chemistry}
+      \field{title}{A Theoretical Study on the Structural, Electronic, and Magnetic Properties of Bimetallic Pt13- nNin (N= 0, 3, 6, 9, 13) Nanoclusters to Unveil the Catalytic Mechanisms for the Water-Gas Shift Reaction}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{pages}{852196}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fchem.2022.852196
+      \endverb
+    \endentry
+    \entry{bhati2020density}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c54b54c88fa63804ae8110880effcfbd}{%
+           family={Bhati},
+           familyi={B\bibinitperiod},
+           given={Manav},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=9aaa36f41e400f319eea89e962d0c4f6}{%
+           family={Senftle},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima P},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{b820bb27a353e04ec5ed3e9b7390935a}
+      \strng{fullhash}{b820bb27a353e04ec5ed3e9b7390935a}
+      \strng{bibnamehash}{b820bb27a353e04ec5ed3e9b7390935a}
+      \strng{authorbibnamehash}{b820bb27a353e04ec5ed3e9b7390935a}
+      \strng{authornamehash}{b820bb27a353e04ec5ed3e9b7390935a}
+      \strng{authorfullhash}{b820bb27a353e04ec5ed3e9b7390935a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physical Chemistry C}
+      \field{number}{49}
+      \field{title}{Density functional theory modeling of photo-electrochemical reactions on semiconductors: H2 evolution on 3C-SiC}
+      \field{volume}{124}
+      \field{year}{2020}
+      \field{pages}{26625\bibrangedash 26639}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1021/acs.jpcc.0c07583
+      \endverb
+    \endentry
+    \entry{ren2020activating}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=5c62a7fbc3e412e9703d37a3be1291f2}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Bowen},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6287df50b0f6a6d712c9617ce31336c}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Qiuyan},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=502879815e8c2c95eee2e0f02fb43ad0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yinwei},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=92e14a8c19eb5a0c7c199c85db74f106}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=8b13e6b70538fb01adcd9fa23b3f41cd}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=cff77a258bf84ce14055be35dab16366}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chengxin},
+           giveni={C\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{5c04fd5aea6c2f86f9ed0f68726e09eb}
+      \strng{fullhash}{5c04fd5aea6c2f86f9ed0f68726e09eb}
+      \strng{bibnamehash}{5c04fd5aea6c2f86f9ed0f68726e09eb}
+      \strng{authorbibnamehash}{5c04fd5aea6c2f86f9ed0f68726e09eb}
+      \strng{authornamehash}{5c04fd5aea6c2f86f9ed0f68726e09eb}
+      \strng{authorfullhash}{5c04fd5aea6c2f86f9ed0f68726e09eb}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACS Applied Materials \& Interfaces}
+      \field{number}{10}
+      \field{title}{Activating titanium dioxide as a new efficient electrocatalyst: from theory to experiment}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{11607\bibrangedash 11615}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1021/acsami.9b21575
+      \endverb
+    \endentry
+    \entry{andrade2023enhanced}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=28140affe77401cba816d309bf5b6664}{%
+           family={Andrade},
+           familyi={A\bibinitperiod},
+           given={Alana\bibnamedelima OC},
+           giveni={A\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88ac30bff5dff6b053dc66c55ca985b1}{%
+           family={Silveira\bibnamedelima Lacerda},
+           familyi={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Luís\bibnamedelima Henrique},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=5882bb7b0a4c8c1f79dfae2075fc88cb}{%
+           family={Júnior},
+           familyi={J\bibinitperiod},
+           given={MM\bibnamedelima Lage},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=726dd0d99ed921978770dc518f6a6954}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Surender\bibnamedelima K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=68552bdfc810dfa0e3c3eef49abeae0b}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={MEH\bibnamedelima Maia},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=1,uniquepart=given,hash=2f024e80cb883d9a1f96c03737a9263b}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={Odivaldo\bibnamedelima C},
+           giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=926bf6e8b04c028ed060087275363fe8}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Evelyn\bibnamedelima CS},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=bfb604e1b9b3c53700ff08d192822524}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={CC},
+           giveni={C\bibinitperiod},
+           givenun=1,
+           prefix={dos},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=e7873390a251f4646c997c4714826214}{%
+           family={Menezes},
+           familyi={M\bibinitperiod},
+           given={AS},
+           giveni={A\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=1,uniquepart=given,hash=ad67d7fefd09a38b60546fe68ef1cca2}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima Angel},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{772b4792dc2a763c575c592856eeac14}
+      \strng{fullhash}{772b4792dc2a763c575c592856eeac14}
+      \strng{bibnamehash}{772b4792dc2a763c575c592856eeac14}
+      \strng{authorbibnamehash}{772b4792dc2a763c575c592856eeac14}
+      \strng{authornamehash}{772b4792dc2a763c575c592856eeac14}
+      \strng{authorfullhash}{772b4792dc2a763c575c592856eeac14}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optical Materials}
+      \field{title}{Enhanced photocatalytic activity of BiOBr/ZnWO4 heterojunction: A combined experimental and DFT-based theoretical approach}
+      \field{volume}{138}
+      \field{year}{2023}
+      \field{pages}{113701}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.optmat.2023.113701
+      \endverb
+    \endentry
+    \entry{gouveia2022surfactant}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=cb5b50187a2a2468b0eb239f27f13f3c}{%
+           family={Gouveia},
+           familyi={G\bibinitperiod},
+           given={Amanda\bibnamedelima Fernandes},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90193ba6e3de80164c5f5b6e740ac2a9}{%
+           family={Bellucci},
+           familyi={B\bibinitperiod},
+           given={Gustavo\bibnamedelima Venancio},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=5afbd0203c880ff28680c4e1c83ce090}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Lara\bibnamedelima Kelly},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=271d5a662109bcdd6aa9958f76e91e56}{%
+           family={Assis},
+           familyi={A\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=d567a20b3a646329b6a4289edd6d74fe}{%
+           family={Rosa},
+           familyi={R\bibinitperiod},
+           given={Ieda\bibnamedelimb Lúcia\bibnamedelima Viana},
+           giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=101ad30535bd3a04357d179f16af86f1}{%
+           family={Andrés},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=ad67d7fefd09a38b60546fe68ef1cca2}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima Angel},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Universidade Estadual Paulista Júlio de Mesquita Filho}%
+      }
+      \strng{namehash}{573d884bf0a03307ceb5fd4974dc3403}
+      \strng{fullhash}{573d884bf0a03307ceb5fd4974dc3403}
+      \strng{bibnamehash}{573d884bf0a03307ceb5fd4974dc3403}
+      \strng{authorbibnamehash}{573d884bf0a03307ceb5fd4974dc3403}
+      \strng{authornamehash}{573d884bf0a03307ceb5fd4974dc3403}
+      \strng{authorfullhash}{573d884bf0a03307ceb5fd4974dc3403}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eclética Química}
+      \field{number}{1}
+      \field{title}{Surfactant effects in the morphology and the photocatalytic activity of the BaMoO4 crystals}
+      \field{volume}{47}
+      \field{year}{2022}
+      \field{pages}{80\bibrangedash 89}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.26850/1678-4618eqj.v47.1SI.2022.p80-89
+      \endverb
+    \endentry
+    \entry{han2023combination}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=8fadde45c13d7fbd24c14577a44737b6}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Ruoting},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=d7a49cb3169a3894f4e174519f422e34}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xingyu},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=b6510dd225990a437097a936227d3a8b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Mengyu},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=d38eb8dd36e9fd6f2d69c5d2554f0230}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Xinglong},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=3c3141bf85b508814ea6d456839f8355}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Sihong},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=02ae1b04b0955efe55cb1d5700bd3eb6}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Qifang},
+           giveni={Q\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=d7f54ef6d696eaf97d6c4341d7359e48}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Enyan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dea17b67c28fc96457e0028d72ffc278}{%
+           family={Si},
+           familyi={S\bibinitperiod},
+           given={Conghui},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=08b759ca9e2a843a9ae7dd04485a9308}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shunwei},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=6ae0ef3cb20c81ff27f810e3b88f9b65}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Mingzhi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{48ad52065a84b388f5bd833cb3e0ede3}
+      \strng{fullhash}{48ad52065a84b388f5bd833cb3e0ede3}
+      \strng{bibnamehash}{48ad52065a84b388f5bd833cb3e0ede3}
+      \strng{authorbibnamehash}{48ad52065a84b388f5bd833cb3e0ede3}
+      \strng{authornamehash}{48ad52065a84b388f5bd833cb3e0ede3}
+      \strng{authorfullhash}{48ad52065a84b388f5bd833cb3e0ede3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Separation and Purification Technology}
+      \field{title}{Combination of theory and experiment achieving one-dimensional MWO4 (M= Zn, Ni, and Cu) photocatalysts with broad-spectrum degradation}
+      \field{volume}{324}
+      \field{year}{2023}
+      \field{pages}{124604}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.seppur.2023.124604
+      \endverb
+    \endentry
+    \entry{li2019enhanced}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=bc20e54573d2db853852f86802ab83de}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=2d93f5958096ef5c47f0ed4104fdb369}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Chun},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=b7567123ad8063ff975519a285490851}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=e5d6fa51a69f9c96a946952d51fd92f7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=0a7f8aa77b6fc013d586aa0beb8dbea5}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Gaoke},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{501ea3c74fe67a11b2bb008683ede0e3}
+      \strng{fullhash}{501ea3c74fe67a11b2bb008683ede0e3}
+      \strng{bibnamehash}{501ea3c74fe67a11b2bb008683ede0e3}
+      \strng{authorbibnamehash}{501ea3c74fe67a11b2bb008683ede0e3}
+      \strng{authornamehash}{501ea3c74fe67a11b2bb008683ede0e3}
+      \strng{authorfullhash}{501ea3c74fe67a11b2bb008683ede0e3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Science \& Technology}
+      \field{number}{18}
+      \field{title}{Enhanced generation of reactive oxygen species under visible light irradiation by adjusting the exposed facet of FeWO4 nanosheets to activate oxalic acid for organic pollutant removal and Cr (VI) reduction}
+      \field{volume}{53}
+      \field{year}{2019}
+      \field{pages}{11023\bibrangedash 11030}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/acs.est.9b00641
+      \endverb
+    \endentry
+    \entry{xu2023new}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=4423fa93d6eca6b31813d8919247328a}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Huan-Yan},
+           giveni={H\bibinithyphendelim Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=8667f5675a1a2a14466036f0dee76fc9}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Si-Qun},
+           giveni={S\bibinithyphendelim Q\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=46913cca1bcd67ad47e4dcb58e640add}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yun-Fei},
+           giveni={Y\bibinithyphendelim F\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=86acdbbb888fb1622ad5366d9d67dc8f}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=fd4d5352aee3fc9b01a80f4be31f2f15}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Li-Min},
+           giveni={L\bibinithyphendelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=6a4c905f9825f18e3376f445b092e59e}{%
+           family={Komarneni},
+           familyi={K\bibinitperiod},
+           given={Sridhar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{58e42a6594895d0278da6c20e5ca80d7}
+      \strng{fullhash}{58e42a6594895d0278da6c20e5ca80d7}
+      \strng{bibnamehash}{58e42a6594895d0278da6c20e5ca80d7}
+      \strng{authorbibnamehash}{58e42a6594895d0278da6c20e5ca80d7}
+      \strng{authornamehash}{58e42a6594895d0278da6c20e5ca80d7}
+      \strng{authorfullhash}{58e42a6594895d0278da6c20e5ca80d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Surface Science}
+      \field{title}{New insights into the photocatalytic mechanism of pristine ZnO nanocrystals: From experiments to DFT calculations}
+      \field{volume}{614}
+      \field{year}{2023}
+      \field{pages}{156225}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.apsusc.2022.156225
+      \endverb
+    \endentry
+    \entry{de2025first}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=4c52f242a1c0f42498d19d04001fa42c}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Marisa\bibnamedelima Carvalho},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=862f898fb26365b9b01a3543f4630f89}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Renan\bibnamedelima AP},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=e3dd29ce7b0213dee2d348d9396a0350}{%
+           family={Lemos},
+           familyi={L\bibinitperiod},
+           given={Samantha\bibnamedelima CS},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=aafae9a8809e8ce105918dacdf098bb3}{%
+           family={Andres},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fc7cc3ce30c77c92139f3b99d22b8b0}{%
+           family={Gracia},
+           familyi={G\bibinitperiod},
+           given={Lourdes},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{119cff1d9ee29ce929bd51867c30939f}
+      \strng{fullhash}{119cff1d9ee29ce929bd51867c30939f}
+      \strng{bibnamehash}{119cff1d9ee29ce929bd51867c30939f}
+      \strng{authorbibnamehash}{119cff1d9ee29ce929bd51867c30939f}
+      \strng{authornamehash}{119cff1d9ee29ce929bd51867c30939f}
+      \strng{authorfullhash}{119cff1d9ee29ce929bd51867c30939f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Materials Science}
+      \field{title}{First-principles study on the stability, electronic structure, and band alignment of AgNbO3 surfaces: Understanding the adsorption process of H2O and O2}
+      \field{volume}{246}
+      \field{year}{2025}
+      \field{pages}{113398}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.commatsci.2024.113398
+      \endverb
+    \endentry
+    \entry{neto2023effect}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=ca57193b1dba7c4e59f6b6daa5bb13a4}{%
+           family={Andrade\bibnamedelima Neto},
+           familyi={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Nivaldo\bibnamedelima F.},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0129b71e7418b0c7f143983579cef63a}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Marisa\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=4e5ae7669b5950f5132000d847c3b8b6}{%
+           family={Nascimento},
+           familyi={N\bibinitperiod},
+           given={José\bibnamedelimb Heriberto\bibnamedelima O.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=862f898fb26365b9b01a3543f4630f89}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Renan\bibnamedelimb A.\bibnamedelimi P.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=2da7a09e88c9d74aeb01ec02ea4474ea}{%
+           family={Bomio},
+           familyi={B\bibinitperiod},
+           given={Mauricio\bibnamedelimb R.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9881a4df3f4cb928934f28410388cde5}{%
+           family={Motta},
+           familyi={M\bibinitperiod},
+           given={Fabiana\bibnamedelima V.},
+           giveni={F\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e85b5613952d8abe95a3cb3b981eca37}
+      \strng{fullhash}{e85b5613952d8abe95a3cb3b981eca37}
+      \strng{bibnamehash}{e85b5613952d8abe95a3cb3b981eca37}
+      \strng{authorbibnamehash}{e85b5613952d8abe95a3cb3b981eca37}
+      \strng{authornamehash}{e85b5613952d8abe95a3cb3b981eca37}
+      \strng{authorfullhash}{e85b5613952d8abe95a3cb3b981eca37}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Nano}
+      \field{number}{3}
+      \field{title}{Effect of the Cross-Section Morphology in the Antimicrobial Properties of $\alpha$-Ag2WO4 Rods: An Experimental and Theoretical Study}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{pages}{213\bibrangedash 225}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.3390/applnano4030012
+      \endverb
+    \endentry
+    \entry{lipsky2023tale}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=ab0fb88d45248d5d51eddbedcdd2c55f}{%
+           family={Lipsky},
+           familyi={L\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf8ee810cac02e0a67201a073c5ea135}{%
+           family={Lacerda},
+           familyi={L\bibinitperiod},
+           given={Luis\bibnamedelimb Henrique\bibnamedelimb da\bibnamedelima Silveira},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fc7cc3ce30c77c92139f3b99d22b8b0}{%
+           family={Gracia},
+           familyi={G\bibinitperiod},
+           given={Lourdes},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49529362cd73781fef66195b4c11f055}{%
+           family={Foschiani},
+           familyi={F\bibinitperiod},
+           given={Beatriz\bibnamedelima G},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=271d5a662109bcdd6aa9958f76e91e56}{%
+           family={Assis},
+           familyi={A\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=f283765af394fe04b0215bf1131ad082}{%
+           family={Oliva},
+           familyi={O\bibinitperiod},
+           given={Mónica},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=101ad30535bd3a04357d179f16af86f1}{%
+           family={Andrés},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=a02c199a1e735b466051faa443ea6474}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{e2ba5162117754e106c05b21e0a4c992}
+      \strng{fullhash}{e2ba5162117754e106c05b21e0a4c992}
+      \strng{bibnamehash}{e2ba5162117754e106c05b21e0a4c992}
+      \strng{authorbibnamehash}{e2ba5162117754e106c05b21e0a4c992}
+      \strng{authornamehash}{e2ba5162117754e106c05b21e0a4c992}
+      \strng{authorfullhash}{e2ba5162117754e106c05b21e0a4c992}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physical Chemistry C}
+      \field{number}{48}
+      \field{title}{A Tale of Reactive Oxygen Species on the Ag3PO4(110) Surface}
+      \field{volume}{127}
+      \field{year}{2023}
+      \field{pages}{23235\bibrangedash 23245}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1021/acs.jpcc.3c06321
+      \endverb
+    \endentry
+    \entry{assis2021surface}{article}{}
+      \name{author}{14}{}{%
+        {{un=1,uniquepart=given,hash=271d5a662109bcdd6aa9958f76e91e56}{%
+           family={Assis},
+           familyi={A\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=7093ece281cf2d9a1a3615cd3d9466b2}{%
+           family={{de Foggi}},
+           familyi={d\bibinitperiod},
+           given={Camila\bibnamedelima Cristina},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=9ba7f48bf297bd3856f740b8856e853e}{%
+           family={Teodoro},
+           familyi={T\bibinitperiod},
+           given={Vinicius},
+           giveni={V\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=fd05afe42485f4a4f858d90f16de1503}{%
+           family={{de Campos da Costa}},
+           familyi={d\bibinitperiod},
+           given={João\bibnamedelima Paulo},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=956f58743886157025e5ae52b0a70f2f}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Carlos\bibnamedelima Eduardo},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=59f0da4ef5cb34f012de66a230e2e62b}{%
+           family={Robeldo},
+           familyi={R\bibinitperiod},
+           given={Thaiane},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=296bed838ee56139065c694221215c4d}{%
+           family={Caperucci},
+           familyi={C\bibinitperiod},
+           given={Priscila\bibnamedelima Fernanda},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7001a8752b5269f86600e12daa1f15bb}{%
+           family={Vergani},
+           familyi={V\bibinitperiod},
+           given={Carlos\bibnamedelima Eduardo},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb6a74bdfd2aab05f3d630a9f33e5108}{%
+           family={Borra},
+           familyi={B\bibinitperiod},
+           given={Ricardo\bibnamedelima Carneiro},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6448f21457ce2a4641022055df0e49a3}{%
+           family={Sorribes},
+           familyi={S\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb5b50187a2a2468b0eb239f27f13f3c}{%
+           family={Gouveia},
+           familyi={G\bibinitperiod},
+           given={Amanda\bibnamedelima Fernandes},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=ad67d7fefd09a38b60546fe68ef1cca2}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima Angel},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=101ad30535bd3a04357d179f16af86f1}{%
+           family={Andrés},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4672b77591779fd8b780580c4b82abab}
+      \strng{fullhash}{4672b77591779fd8b780580c4b82abab}
+      \strng{bibnamehash}{6ffc858aa1ae855c77bac1112a90c91b}
+      \strng{authorbibnamehash}{6ffc858aa1ae855c77bac1112a90c91b}
+      \strng{authornamehash}{4672b77591779fd8b780580c4b82abab}
+      \strng{authorfullhash}{4672b77591779fd8b780580c4b82abab}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Surface Science}
+      \field{title}{Surface-dependent photocatalytic and biological activities of Ag2CrO4: Integration of experiment and simulation}
+      \field{volume}{545}
+      \field{year}{2021}
+      \field{pages}{148964}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.apsusc.2021.148964
+      \endverb
+    \endentry
+    \entry{roca2021selective}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=5c9dab214557b9e51a63c3a935da6364}{%
+           family={Alvarez-Roca},
+           familyi={A\bibinithyphendelim R\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb5b50187a2a2468b0eb239f27f13f3c}{%
+           family={Gouveia},
+           familyi={G\bibinitperiod},
+           given={Amanda\bibnamedelima Fernandes},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d566e2d944b55ae5873bb8ff595b3762}{%
+           family={Foggi},
+           familyi={F\bibinitperiod},
+           given={Camila\bibnamedelima Cristina},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=1,uniquepart=given,hash=5c74e42c467a9a56992c71e823bc18f2}{%
+           family={Lemos},
+           familyi={L\bibinitperiod},
+           given={Pablo\bibnamedelima Santana},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=0fc7cc3ce30c77c92139f3b99d22b8b0}{%
+           family={Gracia},
+           familyi={G\bibinitperiod},
+           given={Lourdes},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=fdca32d5539af5631f372590f7e919dd}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Luís\bibnamedelima Fernando},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=1,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=7001a8752b5269f86600e12daa1f15bb}{%
+           family={Vergani},
+           familyi={V\bibinitperiod},
+           given={Carlos\bibnamedelima Eduardo},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=1ee827d1467eb87ce3b0fe13023ae51f}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=101ad30535bd3a04357d179f16af86f1}{%
+           family={Andrés},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1822765aecffa8a0c61377d52cfffa12}
+      \strng{fullhash}{1822765aecffa8a0c61377d52cfffa12}
+      \strng{bibnamehash}{1822765aecffa8a0c61377d52cfffa12}
+      \strng{authorbibnamehash}{1822765aecffa8a0c61377d52cfffa12}
+      \strng{authornamehash}{1822765aecffa8a0c61377d52cfffa12}
+      \strng{authorfullhash}{1822765aecffa8a0c61377d52cfffa12}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inorganic Chemistry}
+      \field{number}{2}
+      \field{title}{Selective Synthesis of $\alpha$-, $\beta$-, and $\gamma$-Ag2WO4 Polymorphs: Promising Platforms for Photocatalytic and Antibacterial Materials}
+      \field{volume}{60}
+      \field{year}{2021}
+      \field{pages}{1062\bibrangedash 1079}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1021/acs.inorgchem.0c03186
+      \endverb
+    \endentry
+    \entry{macedo2019tailoring}{article}{}
+      \name{author}{13}{}{%
+        {{un=1,uniquepart=given,hash=84290999a24cea7324277cb387ad3193}{%
+           family={Macedo},
+           familyi={M\bibinitperiod},
+           given={Nadia\bibnamedelima G},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=04e4a229f17db76b85a1aa596f149182}{%
+           family={Machado},
+           familyi={M\bibinitperiod},
+           given={Thales\bibnamedelima R},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80261bfae04d25f08aab22464eca817f}{%
+           family={Roca},
+           familyi={R\bibinitperiod},
+           given={Roman\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=271d5a662109bcdd6aa9958f76e91e56}{%
+           family={Assis},
+           familyi={A\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=557b37802c5d15d62f7c9f80903f64df}{%
+           family={Foggi},
+           familyi={F\bibinitperiod},
+           given={Camila\bibnamedelima Cristina},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1159b811ae9b00b32fbac3021ec9aacd}{%
+           family={Puerto-Belda},
+           familyi={P\bibinithyphendelim B\bibinitperiod},
+           given={Verónica},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=460954a2e2428d9ad7e296eb2be5c9d7}{%
+           family={Mínguez-Vega},
+           familyi={M\bibinithyphendelim V\bibinitperiod},
+           given={Gladys},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29247f3e9e36a0a5a2f52ddc501f1d6c}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=a02c199a1e735b466051faa443ea6474}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Miguel\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8e8709e38d5619ad9b64e18361afa70b}{%
+           family={Cordoncillo},
+           familyi={C\bibinitperiod},
+           given={Eloisa},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a28b38e17db6f0cdf7898431131809fe}{%
+           family={Beltrán-Mir},
+           familyi={B\bibinithyphendelim M\bibinitperiod},
+           given={Héctor},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=101ad30535bd3a04357d179f16af86f1}{%
+           family={Andrés},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{67125a46443ed8eb03cf3f7dac3a479c}
+      \strng{fullhash}{67125a46443ed8eb03cf3f7dac3a479c}
+      \strng{bibnamehash}{e7fff43a4d025fb612afc57ebe72cea7}
+      \strng{authorbibnamehash}{e7fff43a4d025fb612afc57ebe72cea7}
+      \strng{authornamehash}{67125a46443ed8eb03cf3f7dac3a479c}
+      \strng{authorfullhash}{67125a46443ed8eb03cf3f7dac3a479c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACS Applied Bio Materials}
+      \field{number}{2}
+      \field{title}{Tailoring the Bactericidal Activity of Ag Nanoparticles/$\alpha$-Ag2WO4 Composite Induced by Electron Beam and Femtosecond Laser Irradiation: Integration of Experiment and Computational Modeling}
+      \field{volume}{2}
+      \field{year}{2019}
+      \field{pages}{824\bibrangedash 837}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1021/acsabm.8b00673
+      \endverb
+    \endentry
+    \entry{dorini2025mapping}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=7641ec68757efc9f56fc22cf7b278e86}{%
+           family={Dorini},
+           familyi={D\bibinitperiod},
+           given={T\bibnamedelima T},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=d6b07a2cac580d9ee1f8a265d4a5f721}{%
+           family={Lipsky},
+           familyi={L\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c7e4faad15d7bc412321ad648e5508e}{%
+           family={Rodrigues-Pinheiro},
+           familyi={R\bibinithyphendelim P\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cda9ff6a0e722d8c41b5bafa12bbb3f9}{%
+           family={Andrés},
+           familyi={A\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68ed9cb30b36853240b88656f06e7be7}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=8fef5289c6066bca1bd1dc907e9ff099}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={M\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{c8f326aff787b7c3a4fe2760d790f1f7}
+      \strng{fullhash}{c8f326aff787b7c3a4fe2760d790f1f7}
+      \strng{bibnamehash}{c8f326aff787b7c3a4fe2760d790f1f7}
+      \strng{authorbibnamehash}{c8f326aff787b7c3a4fe2760d790f1f7}
+      \strng{authornamehash}{c8f326aff787b7c3a4fe2760d790f1f7}
+      \strng{authorfullhash}{c8f326aff787b7c3a4fe2760d790f1f7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Surfaces and Interfaces}
+      \field{title}{Mapping and characterization of the surface structure and electronic properties of $\beta$-Ag2MoO4 from DFT thermodynamic calculations}
+      \field{volume}{56}
+      \field{year}{2025}
+      \field{pages}{105530}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.surfin.2024.105530
+      \endverb
+    \endentry
     \entry{rogal2006}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c4e8e1c05abf38ed92de4d87d0ce73d4}{%
@@ -1755,8 +4169,8 @@
       \strng{authorbibnamehash}{8a5072c768d08f4fd400de3d6bf43683}
       \strng{authornamehash}{8a5072c768d08f4fd400de3d6bf43683}
       \strng{authorfullhash}{8a5072c768d08f4fd400de3d6bf43683}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ab initio atomistic thermodynamics for surfaces: A primer}
@@ -1766,6 +4180,372 @@
       \endverb
       \verb{url}
       \verb https://apps.dtic.mil/sti/html/tr/ADA476575/
+      \endverb
+    \endentry
+    \entry{kresse1996efficient}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=40daea6217342757546b996c2086b7b4}{%
+           family={Kresse},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57a647c73d7595ee4e6070042493941a}{%
+           family={Furthmüller},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{fullhash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{bibnamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{authorbibnamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{authornamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{authorfullhash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{16}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{title}{Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set}
+      \field{volume}{54}
+      \field{year}{1996}
+      \field{pages}{11169\bibrangedash 11186}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.54.11169
+      \endverb
+    \endentry
+    \entry{kresse1996efficiency}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=40daea6217342757546b996c2086b7b4}{%
+           family={Kresse},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57a647c73d7595ee4e6070042493941a}{%
+           family={Furthmüller},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{fullhash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{bibnamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{authorbibnamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{authornamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{authorfullhash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0927-0256}
+      \field{journaltitle}{Computational Materials Science}
+      \field{number}{1}
+      \field{title}{Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set}
+      \field{volume}{6}
+      \field{year}{1996}
+      \field{pages}{15\bibrangedash 50}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1016/0927-0256(96)00008-0
+      \endverb
+    \endentry
+    \entry{perdew1996generalized}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=49bd2640f858f16dfcddcc404b026f30}{%
+           family={Perdew},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33a535778ce96cdd2d59799deeea173d}{%
+           family={Burke},
+           familyi={B\bibinitperiod},
+           given={Kieron},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccb694b80578a814211265eb307fdcde}{%
+           family={Ernzerhof},
+           familyi={E\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{29da3039da81061b60722fb2fe692310}
+      \strng{fullhash}{29da3039da81061b60722fb2fe692310}
+      \strng{bibnamehash}{29da3039da81061b60722fb2fe692310}
+      \strng{authorbibnamehash}{29da3039da81061b60722fb2fe692310}
+      \strng{authornamehash}{29da3039da81061b60722fb2fe692310}
+      \strng{authorfullhash}{29da3039da81061b60722fb2fe692310}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{18}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{Generalized Gradient Approximation Made Simple}
+      \field{volume}{77}
+      \field{year}{1996}
+      \field{pages}{3865\bibrangedash 3868}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.77.3865
+      \endverb
+    \endentry
+    \entry{dorini2025accelerating}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=7641ec68757efc9f56fc22cf7b278e86}{%
+           family={Dorini},
+           familyi={D\bibinitperiod},
+           given={TT},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=8fef5289c6066bca1bd1dc907e9ff099}{%
+           family={San-Miguel},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={MA},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{bfdfb7ac01cae97e0d0f7e99873675f6}
+      \strng{fullhash}{bfdfb7ac01cae97e0d0f7e99873675f6}
+      \strng{bibnamehash}{bfdfb7ac01cae97e0d0f7e99873675f6}
+      \strng{authorbibnamehash}{bfdfb7ac01cae97e0d0f7e99873675f6}
+      \strng{authornamehash}{bfdfb7ac01cae97e0d0f7e99873675f6}
+      \strng{authorfullhash}{bfdfb7ac01cae97e0d0f7e99873675f6}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Surface Science}
+      \field{title}{Accelerating rational design of oxide surfaces: The PS-TEROS workflow for automated surface stability analysis}
+      \field{year}{2025}
+      \field{pages}{164350}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.apsusc.2025.164350
+      \endverb
+    \endentry
+    \entry{hinuma2017band}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0c13ceea5eb7b67aea21af91bf08d116}{%
+           family={Hinuma},
+           familyi={H\bibinitperiod},
+           given={Yoyo},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47973b2c6c1e2725285ea460cd714d35}{%
+           family={Pizzi},
+           familyi={P\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=878e960be048fd629e137ccf619dae4e}{%
+           family={Kumagai},
+           familyi={K\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=717cc2a0135e6019e78ff372d6321ace}{%
+           family={Oba},
+           familyi={O\bibinitperiod},
+           given={Fumiyasu},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb806e7782d1ba5f04886cafaeea7a9c}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Isao},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a87ad7f6a9e2f50d126905cc92134d5}
+      \strng{fullhash}{6a87ad7f6a9e2f50d126905cc92134d5}
+      \strng{bibnamehash}{6a87ad7f6a9e2f50d126905cc92134d5}
+      \strng{authorbibnamehash}{6a87ad7f6a9e2f50d126905cc92134d5}
+      \strng{authornamehash}{6a87ad7f6a9e2f50d126905cc92134d5}
+      \strng{authorfullhash}{6a87ad7f6a9e2f50d126905cc92134d5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Band structure diagram paths based on crystallography}
+      \field{volume}{128}
+      \field{year}{2017}
+      \field{pages}{140\bibrangedash 184}
+      \range{pages}{45}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.commatsci.2016.10.015
+      \endverb
+    \endentry
+    \entry{togo2024spglib}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2c3c07b023c2f1c157de12c722245b4d}{%
+           family={Togo},
+           familyi={T\bibinitperiod},
+           given={Atsushi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fce15f62ad01b65191676dcfe2b06902}{%
+           family={Shinohara},
+           familyi={S\bibinitperiod},
+           given={Kohei},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb806e7782d1ba5f04886cafaeea7a9c}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Isao},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{d67de0f0ffcc94741074514a0f84efd1}
+      \strng{fullhash}{d67de0f0ffcc94741074514a0f84efd1}
+      \strng{bibnamehash}{d67de0f0ffcc94741074514a0f84efd1}
+      \strng{authorbibnamehash}{d67de0f0ffcc94741074514a0f84efd1}
+      \strng{authornamehash}{d67de0f0ffcc94741074514a0f84efd1}
+      \strng{authorfullhash}{d67de0f0ffcc94741074514a0f84efd1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science and Technology of Advanced Materials: Methods}
+      \field{number}{1}
+      \field{title}{Spglib: a software library for crystal symmetry search}
+      \field{volume}{4}
+      \field{year}{2024}
+      \field{pages}{2384822}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1080/27660400.2024.2384822
+      \endverb
+    \endentry
+    \entry{haus2016fundamentals}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=117d897dfe5f760b2febb5456d8139eb}{%
+           family={Haus},
+           familyi={H\bibinitperiod},
+           given={J\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Woodhead Publishing}%
+      }
+      \strng{namehash}{117d897dfe5f760b2febb5456d8139eb}
+      \strng{fullhash}{117d897dfe5f760b2febb5456d8139eb}
+      \strng{bibnamehash}{117d897dfe5f760b2febb5456d8139eb}
+      \strng{authorbibnamehash}{117d897dfe5f760b2febb5456d8139eb}
+      \strng{authornamehash}{117d897dfe5f760b2febb5456d8139eb}
+      \strng{authorfullhash}{117d897dfe5f760b2febb5456d8139eb}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Fundamentals and Applications of Nanophotonics}
+      \field{title}{11 - Nanophotonic devices}
+      \field{year}{2016}
+      \field{pages}{341\bibrangedash 395}
+      \range{pages}{55}
+      \verb{doi}
+      \verb 10.1016/B978-1-78242-464-2.00011-7
+      \endverb
+    \endentry
+    \entry{bader1981quantum}{incollection}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=52fd20d2eb46f4d2a59c2abf7ab5155a}{%
+           family={Bader},
+           familyi={B\bibinitperiod},
+           given={R\bibnamedelima F\bibnamedelima W},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0948aa3fcd8b91759695df30c25621f}{%
+           family={Nguyen-Dang},
+           familyi={N\bibinithyphendelim D\bibinitperiod},
+           given={T\bibnamedelima T},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{2c8edb4fd06e946bef428d55e4b3cf6d}
+      \strng{fullhash}{2c8edb4fd06e946bef428d55e4b3cf6d}
+      \strng{bibnamehash}{2c8edb4fd06e946bef428d55e4b3cf6d}
+      \strng{authorbibnamehash}{2c8edb4fd06e946bef428d55e4b3cf6d}
+      \strng{authornamehash}{2c8edb4fd06e946bef428d55e4b3cf6d}
+      \strng{authorfullhash}{2c8edb4fd06e946bef428d55e4b3cf6d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Advances in Quantum Chemistry}
+      \field{title}{Quantum Theory of Atoms in Molecules–Dalton Revisited}
+      \field{volume}{14}
+      \field{year}{1981}
+      \field{pages}{63\bibrangedash 124}
+      \range{pages}{62}
+      \verb{doi}
+      \verb 10.1016/S0065-3276(08)60326-3
+      \endverb
+    \endentry
+    \entry{jonsson1998nudged}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b65172af58edadd234f6e377eed47b5b}{%
+           family={JÓNSSON},
+           familyi={J\bibinitperiod},
+           given={HANNES},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ecd7617d18f8198e066016ea53b7486}{%
+           family={MILLS},
+           familyi={M\bibinitperiod},
+           given={GREG},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fb9fb7e0249c513dad59d0a95ea6c35}{%
+           family={JACOBSEN},
+           familyi={J\bibinitperiod},
+           given={KARSTEN\bibnamedelima W},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cf26c1ea8f9fcd45651598c13742a478}
+      \strng{fullhash}{cf26c1ea8f9fcd45651598c13742a478}
+      \strng{bibnamehash}{cf26c1ea8f9fcd45651598c13742a478}
+      \strng{authorbibnamehash}{cf26c1ea8f9fcd45651598c13742a478}
+      \strng{authornamehash}{cf26c1ea8f9fcd45651598c13742a478}
+      \strng{authorfullhash}{cf26c1ea8f9fcd45651598c13742a478}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Classical and Quantum Dynamics in Condensed Phase Simulations}
+      \field{title}{Nudged elastic band method for finding minimum energy paths of transitions}
+      \field{year}{1998}
+      \field{pages}{385\bibrangedash 404}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1142/9789812839664_0016
       \endverb
     \endentry
     \entry{zhang1998comment}{article}{}
@@ -1792,8 +4572,8 @@
       \strng{authorbibnamehash}{cffc73dbf278243a1ff9713a0a10630c}
       \strng{authornamehash}{cffc73dbf278243a1ff9713a0a10630c}
       \strng{authorfullhash}{cffc73dbf278243a1ff9713a0a10630c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical Review Letters}
@@ -1867,8 +4647,8 @@
       \strng{authorbibnamehash}{490b71e7eb34d888d36edb47b5de2f6a}
       \strng{authornamehash}{490b71e7eb34d888d36edb47b5de2f6a}
       \strng{authorfullhash}{490b71e7eb34d888d36edb47b5de2f6a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical review letters}
@@ -1912,8 +4692,8 @@
       \strng{authorbibnamehash}{6794381906c90dc24078349be6ab518e}
       \strng{authornamehash}{6794381906c90dc24078349be6ab518e}
       \strng{authorfullhash}{6794381906c90dc24078349be6ab518e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical review B}
@@ -1957,8 +4737,8 @@
       \strng{authorbibnamehash}{1d5bbea549f8259615ef35f45ae6def0}
       \strng{authornamehash}{1d5bbea549f8259615ef35f45ae6def0}
       \strng{authorfullhash}{1d5bbea549f8259615ef35f45ae6def0}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chemical Reviews}
@@ -1999,8 +4779,8 @@
       \strng{authorbibnamehash}{7928d4cd513fd6f5a65ab757ec4017e7}
       \strng{authornamehash}{7928d4cd513fd6f5a65ab757ec4017e7}
       \strng{authorfullhash}{7928d4cd513fd6f5a65ab757ec4017e7}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{RSC advances}
@@ -2038,8 +4818,8 @@
       \strng{authorbibnamehash}{c80b451c8289d210560a5b6f3f94c557}
       \strng{authornamehash}{c80b451c8289d210560a5b6f3f94c557}
       \strng{authorfullhash}{c80b451c8289d210560a5b6f3f94c557}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Russian Journal of Physical Chemistry B}
@@ -2101,8 +4881,8 @@
       \strng{authorbibnamehash}{bcabeb3af230207bf356617c6d98871f}
       \strng{authornamehash}{bcabeb3af230207bf356617c6d98871f}
       \strng{authorfullhash}{bcabeb3af230207bf356617c6d98871f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Materials Science: Materials in Electronics}
@@ -2152,8 +4932,8 @@
       \strng{authorbibnamehash}{bf523d5765370c79d185e94d28c227fb}
       \strng{authornamehash}{bf523d5765370c79d185e94d28c227fb}
       \strng{authorfullhash}{bf523d5765370c79d185e94d28c227fb}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Catalysis Science \& Technology}
@@ -2197,8 +4977,8 @@
       \strng{authorbibnamehash}{ecd95bc63a961a69c86e8c06f9ea040d}
       \strng{authornamehash}{ecd95bc63a961a69c86e8c06f9ea040d}
       \strng{authorfullhash}{ecd95bc63a961a69c86e8c06f9ea040d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Handbook of Materials Modeling: Methods}
@@ -2221,12 +5001,12 @@
            given={A\bibnamedelima Fernandes},
            giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=9ce9768367648fa3e8b43c6dbf5193d0}{%
+        {{un=1,uniquepart=given,hash=9ce9768367648fa3e8b43c6dbf5193d0}{%
            family={Assis},
            familyi={A\bibinitperiod},
            given={Marcelo\bibnamedelima de},
            giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=bee4407f6603736af4b3017a7fb576d6}{%
            family={De\bibnamedelima Oliveira},
            familyi={D\bibinitperiod\bibinitdelim O\bibinitperiod},
@@ -2279,8 +5059,8 @@
       \strng{authorbibnamehash}{492f46a5dde7aa81d66e72c3ac1a9934}
       \strng{authornamehash}{492f46a5dde7aa81d66e72c3ac1a9934}
       \strng{authorfullhash}{492f46a5dde7aa81d66e72c3ac1a9934}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical Chemistry Chemical Physics}
