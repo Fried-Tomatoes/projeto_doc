@@ -1,0 +1,347 @@
+================================================================================
+SURFACE THERMODYNAMICS RESULTS - ZnWO4 (011)
+================================================================================
+
+SYSTEM INFORMATION
+--------------------------------------------------------------------------------
+Material: ZnWO4
+Surface facet: (011)
+Formulation: B-based
+WorkGraph PK: 12062
+
+ELEMENT MAPPING
+--------------------------------------------------------------------------------
+A (Network Former):    W (typically transition metal)
+B (Network Modifier): Zn (typically main group metal)
+
+In B-based formulation:
+  Independent element: Zn
+  Reference element:   W
+Formula: Zn1W1O4
+
+REFERENCE ENERGIES
+--------------------------------------------------------------------------------
+Source: TEROS WorkGraph formation_enthalpy Dict
+E_Zn (A): -1.58685970 eV/atom
+E_W (B): -13.80571087 eV/atom
+E_O:     -5.13520391 eV/atom
+
+FORMATION ENTHALPY
+--------------------------------------------------------------------------------
+ΔH_f = -12.02081881 eV (for bulk cell)
+ΔH_f = -6.01040940 eV/FU
+Number of formula units in bulk cell: 2.0
+
+CHEMICAL POTENTIAL RANGES
+--------------------------------------------------------------------------------
+Δμ_Zn (independent): [-12.020819, 0.000000] eV
+Δμ_O:                [-3.005205, 0.000000] eV
+
+SURFACE TERMINATIONS
+================================================================================
+
+Zn-ST-C1
+--------------------------------------------------------------------------------
+Composition: Zn=8, W=10, O=38
+Surface area: 35.227658 Å²
+Slab total energy: -455.11806208 eV
+
+Reference surface energy (φ before division by 2A):
+  φ = 10.979861 eV
+  φ/(2A) = 0.155841 eV/Å²
+  φ/(2A) = 2.4969 J/m²
+
+Surface excesses (absolute, not divided by 2A):
+  Γ_Zn = -2.000000
+  Γ_O  = -2.000000
+
+Surface free energy equation:
+  γ(Δμ_Zn, Δμ_O) = (φ - Γ_Zn·Δμ_Zn - Γ_O·Δμ_O) / (2A)
+  γ(Δμ_Zn, Δμ_O) = (10.979861 - -2.000000·Δμ_Zn - -2.000000·Δμ_O) / (2×35.227658) [eV/Å²]
+
+Surface energy range:
+  γ_min = -0.270699 eV/Å² = -4.3371 J/m²
+  γ_max = 0.155841 eV/Å² = 2.4969 J/m²
+
+
+Zn-ST-C2
+--------------------------------------------------------------------------------
+Composition: Zn=8, W=10, O=36
+Surface area: 35.227658 Å²
+Slab total energy: -435.69505743 eV
+
+Reference surface energy (φ before division by 2A):
+  φ = 20.132458 eV
+  φ/(2A) = 0.285748 eV/Å²
+  φ/(2A) = 4.5782 J/m²
+
+Surface excesses (absolute, not divided by 2A):
+  Γ_Zn = -2.000000
+  Γ_O  = -4.000000
+
+Surface free energy equation:
+  γ(Δμ_Zn, Δμ_O) = (φ - Γ_Zn·Δμ_Zn - Γ_O·Δμ_O) / (2A)
+  γ(Δμ_Zn, Δμ_O) = (20.132458 - -2.000000·Δμ_Zn - -4.000000·Δμ_O) / (2×35.227658) [eV/Å²]
+
+Surface energy range:
+  γ_min = -0.226101 eV/Å² = -3.6225 J/m²
+  γ_max = 0.285748 eV/Å² = 4.5782 J/m²
+
+
+Zn-ST-C3
+--------------------------------------------------------------------------------
+Composition: Zn=8, W=10, O=34
+Surface area: 35.227658 Å²
+Slab total energy: -416.82876247 eV
+
+Reference surface energy (φ before division by 2A):
+  φ = 28.728345 eV
+  φ/(2A) = 0.407753 eV/Å²
+  φ/(2A) = 6.5329 J/m²
+
+Surface excesses (absolute, not divided by 2A):
+  Γ_Zn = -2.000000
+  Γ_O  = -6.000000
+
+Surface free energy equation:
+  γ(Δμ_Zn, Δμ_O) = (φ - Γ_Zn·Δμ_Zn - Γ_O·Δμ_O) / (2A)
+  γ(Δμ_Zn, Δμ_O) = (28.728345 - -2.000000·Δμ_Zn - -6.000000·Δμ_O) / (2×35.227658) [eV/Å²]
+
+Surface energy range:
+  γ_min = -0.189404 eV/Å² = -3.0346 J/m²
+  γ_max = 0.407753 eV/Å² = 6.5329 J/m²
+
+
+Zn-ST-C4
+--------------------------------------------------------------------------------
+Composition: Zn=8, W=8, O=34
+Surface area: 35.227658 Å²
+Slab total energy: -382.51277926 eV
+
+Reference surface energy (φ before division by 2A):
+  φ = 11.391269 eV
+  φ/(2A) = 0.161681 eV/Å²
+  φ/(2A) = 2.5904 J/m²
+
+Surface excesses (absolute, not divided by 2A):
+  Γ_Zn = 0.000000
+  Γ_O  = 2.000000
+
+Surface free energy equation:
+  γ(Δμ_Zn, Δμ_O) = (φ - Γ_Zn·Δμ_Zn - Γ_O·Δμ_O) / (2A)
+  γ(Δμ_Zn, Δμ_O) = (11.391269 - 0.000000·Δμ_Zn - 2.000000·Δμ_O) / (2×35.227658) [eV/Å²]
+
+Surface energy range:
+  γ_min = 0.161681 eV/Å² = 2.5904 J/m²
+  γ_max = 0.246989 eV/Å² = 3.9572 J/m²
+
+
+Zn-ST-C5
+--------------------------------------------------------------------------------
+Composition: Zn=8, W=8, O=34
+Surface area: 35.227658 Å²
+Slab total energy: -386.66177751 eV
+
+Reference surface energy (φ before division by 2A):
+  φ = 7.242271 eV
+  φ/(2A) = 0.102792 eV/Å²
+  φ/(2A) = 1.6469 J/m²
+
+Surface excesses (absolute, not divided by 2A):
+  Γ_Zn = 0.000000
+  Γ_O  = 2.000000
+
+Surface free energy equation:
+  γ(Δμ_Zn, Δμ_O) = (φ - Γ_Zn·Δμ_Zn - Γ_O·Δμ_O) / (2A)
+  γ(Δμ_Zn, Δμ_O) = (7.242271 - 0.000000·Δμ_Zn - 2.000000·Δμ_O) / (2×35.227658) [eV/Å²]
+
+Surface energy range:
+  γ_min = 0.102792 eV/Å² = 1.6469 J/m²
+  γ_max = 0.188100 eV/Å² = 3.0137 J/m²
+
+
+Zn-ST-C6
+--------------------------------------------------------------------------------
+Composition: Zn=10, W=10, O=40
+Surface area: 35.227658 Å²
+Slab total energy: -470.93840469 eV
+
+Reference surface energy (φ before division by 2A):
+  φ = 8.603646 eV
+  φ/(2A) = 0.122115 eV/Å²
+  φ/(2A) = 1.9565 J/m²
+
+Surface excesses (absolute, not divided by 2A):
+  Γ_Zn = 0.000000
+  Γ_O  = 0.000000
+
+Surface free energy equation:
+  γ(Δμ_Zn, Δμ_O) = (φ - Γ_Zn·Δμ_Zn - Γ_O·Δμ_O) / (2A)
+  γ(Δμ_Zn, Δμ_O) = (8.603646 - 0.000000·Δμ_Zn - 0.000000·Δμ_O) / (2×35.227658) [eV/Å²]
+
+Surface energy range:
+  γ_min = 0.122115 eV/Å² = 1.9565 J/m²
+  γ_max = 0.122115 eV/Å² = 1.9565 J/m²
+
+
+Zn-ST-C7
+--------------------------------------------------------------------------------
+Composition: Zn=10, W=10, O=40
+Surface area: 35.227658 Å²
+Slab total energy: -476.08961262 eV
+
+Reference surface energy (φ before division by 2A):
+  φ = 3.452438 eV
+  φ/(2A) = 0.049002 eV/Å²
+  φ/(2A) = 0.7851 J/m²
+
+Surface excesses (absolute, not divided by 2A):
+  Γ_Zn = 0.000000
+  Γ_O  = 0.000000
+
+Surface free energy equation:
+  γ(Δμ_Zn, Δμ_O) = (φ - Γ_Zn·Δμ_Zn - Γ_O·Δμ_O) / (2A)
+  γ(Δμ_Zn, Δμ_O) = (3.452438 - 0.000000·Δμ_Zn - 0.000000·Δμ_O) / (2×35.227658) [eV/Å²]
+
+Surface energy range:
+  γ_min = 0.049002 eV/Å² = 0.7851 J/m²
+  γ_max = 0.049002 eV/Å² = 0.7851 J/m²
+
+
+Zn-ST-C8
+--------------------------------------------------------------------------------
+Composition: Zn=10, W=10, O=38
+Surface area: 35.227658 Å²
+Slab total energy: -453.42613280 eV
+
+Reference surface energy (φ before division by 2A):
+  φ = 15.845510 eV
+  φ/(2A) = 0.224902 eV/Å²
+  φ/(2A) = 3.6033 J/m²
+
+Surface excesses (absolute, not divided by 2A):
+  Γ_Zn = 0.000000
+  Γ_O  = -2.000000
+
+Surface free energy equation:
+  γ(Δμ_Zn, Δμ_O) = (φ - Γ_Zn·Δμ_Zn - Γ_O·Δμ_O) / (2A)
+  γ(Δμ_Zn, Δμ_O) = (15.845510 - 0.000000·Δμ_Zn - -2.000000·Δμ_O) / (2×35.227658) [eV/Å²]
+
+Surface energy range:
+  γ_min = 0.139593 eV/Å² = 2.2365 J/m²
+  γ_max = 0.224902 eV/Å² = 3.6033 J/m²
+
+
+Zn-ST-C9
+--------------------------------------------------------------------------------
+Composition: Zn=10, W=10, O=38
+Surface area: 35.227658 Å²
+Slab total energy: -456.84498509 eV
+
+Reference surface energy (φ before division by 2A):
+  φ = 12.426657 eV
+  φ/(2A) = 0.176376 eV/Å²
+  φ/(2A) = 2.8259 J/m²
+
+Surface excesses (absolute, not divided by 2A):
+  Γ_Zn = 0.000000
+  Γ_O  = -2.000000
+
+Surface free energy equation:
+  γ(Δμ_Zn, Δμ_O) = (φ - Γ_Zn·Δμ_Zn - Γ_O·Δμ_O) / (2A)
+  γ(Δμ_Zn, Δμ_O) = (12.426657 - 0.000000·Δμ_Zn - -2.000000·Δμ_O) / (2×35.227658) [eV/Å²]
+
+Surface energy range:
+  γ_min = 0.091068 eV/Å² = 1.4591 J/m²
+  γ_max = 0.176376 eV/Å² = 2.8259 J/m²
+
+
+Zn-ST-C10
+--------------------------------------------------------------------------------
+Composition: Zn=10, W=8, O=38
+Surface area: 35.227658 Å²
+Slab total energy: -411.72659147 eV
+
+Reference surface energy (φ before division by 2A):
+  φ = 5.891992 eV
+  φ/(2A) = 0.083627 eV/Å²
+  φ/(2A) = 1.3399 J/m²
+
+Surface excesses (absolute, not divided by 2A):
+  Γ_Zn = 2.000000
+  Γ_O  = 6.000000
+
+Surface free energy equation:
+  γ(Δμ_Zn, Δμ_O) = (φ - Γ_Zn·Δμ_Zn - Γ_O·Δμ_O) / (2A)
+  γ(Δμ_Zn, Δμ_O) = (5.891992 - 2.000000·Δμ_Zn - 6.000000·Δμ_O) / (2×35.227658) [eV/Å²]
+
+Surface energy range:
+  γ_min = 0.083627 eV/Å² = 1.3399 J/m²
+  γ_max = 0.680784 eV/Å² = 10.9074 J/m²
+
+
+Zn-ST-C11
+--------------------------------------------------------------------------------
+Composition: Zn=10, W=8, O=36
+Surface area: 35.227658 Å²
+Slab total energy: -405.80501466 eV
+
+Reference surface energy (φ before division by 2A):
+  φ = 1.543161 eV
+  φ/(2A) = 0.021903 eV/Å²
+  φ/(2A) = 0.3509 J/m²
+
+Surface excesses (absolute, not divided by 2A):
+  Γ_Zn = 2.000000
+  Γ_O  = 4.000000
+
+Surface free energy equation:
+  γ(Δμ_Zn, Δμ_O) = (φ - Γ_Zn·Δμ_Zn - Γ_O·Δμ_O) / (2A)
+  γ(Δμ_Zn, Δμ_O) = (1.543161 - 2.000000·Δμ_Zn - 4.000000·Δμ_O) / (2×35.227658) [eV/Å²]
+
+Surface energy range:
+  γ_min = 0.021903 eV/Å² = 0.3509 J/m²
+  γ_max = 0.533751 eV/Å² = 8.5516 J/m²
+
+
+Zn-ST-C12
+--------------------------------------------------------------------------------
+Composition: Zn=10, W=8, O=34
+Surface area: 35.227658 Å²
+Slab total energy: -398.67525645 eV
+
+Reference surface energy (φ before division by 2A):
+  φ = -1.597489 eV
+  φ/(2A) = -0.022674 eV/Å²
+  φ/(2A) = -0.3633 J/m²
+
+Surface excesses (absolute, not divided by 2A):
+  Γ_Zn = 2.000000
+  Γ_O  = 2.000000
+
+Surface free energy equation:
+  γ(Δμ_Zn, Δμ_O) = (φ - Γ_Zn·Δμ_Zn - Γ_O·Δμ_O) / (2A)
+  γ(Δμ_Zn, Δμ_O) = (-1.597489 - 2.000000·Δμ_Zn - 2.000000·Δμ_O) / (2×35.227658) [eV/Å²]
+
+Surface energy range:
+  γ_min = -0.022674 eV/Å² = -0.3633 J/m²
+  γ_max = 0.403867 eV/Å² = 6.4707 J/m²
+
+
+PHASE DIAGRAM SUMMARY
+================================================================================
+
+Stable phases and their approximate centroid positions:
+
+Zn-ST-C1:
+  Centroid: Δμ_A=-7.1124 eV, Δμ_O=-1.5801 eV
+
+Zn-ST-C7:
+  Centroid: Δμ_A=-1.6970 eV, Δμ_O=-1.4626 eV
+
+Zn-ST-C12:
+  Centroid: Δμ_A=-0.8309 eV, Δμ_O=-0.8459 eV
+
+================================================================================
+Results saved: /home/umsl/Documentos/Scrips_Copilot/simulacoes/1_ZnWO4/10_test_termodinamica/results/011_ZnWO4/thermodynamics_results_ZnWO4_011.txt
+================================================================================
