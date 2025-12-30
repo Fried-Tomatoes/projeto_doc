@@ -1,0 +1,134 @@
+Resumo
+•
+Espécies reativas de oxigênio (ROS), como superóxidos (• O−
+2 ) e radicais hidroxila ( OH),
+desempenham papel central na eliminação de patógenos e células cancerígenas no meio
+biológico, despertando crescente interesse na sua geração controlada para aplicações
+em saúde. Semicondutores destacam-se como materiais promissores para esse fim, pois
+permitem a formação fotocatalítica de ROS a partir de moléculas de H2 O e O2 adsorvidas
+em suas superfícies. Assim, o desenvolvimento de novos semicondutores, com propriedades
+estruturais e eletrônicas otimizadas, é essencial para aprimorar sua eficiência fotocatalítica.
+Entre esses materiais, os tungstatos metálicos (Mx WO4 ) apresentam desempenho promissor
+e relevância estratégica no Brasil, que possui reservas minerais significativas no estado
+do Rio Grande do Norte. Contudo, abordagens exclusivamente experimentais podem ser
+limitadas para o estudo aprofundado de suas propriedades eletrônicas. Nesse contexto,
+métodos teóricos baseados em química computacional oferecem uma abordagem eficazes
+para investigar, em nível atômico, suas características estruturais, eletrônicas e morfológicas
+dos materiais. Este projeto propõe o uso da Teoria do Funcional da Densidade (DFT)
+e de Dinâmica Molecular Quântica para estudar tungstatos metálicos (ZnWO4 , NiWO4
+e CoWO4 ), avaliando o efeito do cátion modificador da rede sobre suas propriedades e
+sua capacidade de adsorver H2 O e O2 , visando compreender os mecanismos de geração de
+ROS e sua potencial atividade bactericida.
+
+Palavras-chave: Tungstatos; ROS; Química computacional; Fotocatálise.
+
+i
+
+ABSTRACT
+•
+Reactive oxygen species (ROS), such as superoxide (• O−
+2 ) and hydroxyl radicals ( OH), play
+a central role in eliminating pathogens and cancer cells in biological systems, generating
+increasing interest in their controlled production for healthcare applications. Semiconductors stand out as promising materials for this purpose, as they enable the photocatalytic
+formation of ROS from H2 O and O2 molecules adsorbed on their surfaces. Therefore, the
+development of novel semiconductors with optimized structural and electronic properties
+is essential to enhance their photocatalytic efficiency. Among these materials, metal
+tungstates (Mx WO4 ) exhibit promising performance and strategic relevance in Brazil,
+which holds significant mineral reserves in the state of Rio Grande do Norte. However,
+purely experimental approaches may be limited in providing an in-depth understanding of
+their electronic properties. In this context, theoretical methods based on computational
+chemistry provide an effective approach to investigate, at the atomic level, their structural,
+electronic, and morphological properties of materials.tungstates (ZnWO4 , NiWO4 , and
+CoWO4 ), evaluating the effect of the network-modifying cation on their properties and
+their ability to adsorb H2 O and O2 , with the goal of elucidating the mechanisms of ROS
+generation and their potential bactericidal activity.
+
+Keywords: Tungstates; ROS; Computational chemistry; Photocatalysis.
+
+ii
+
+Sumário
+
+1 INTRODUÇÃO
+
+5
+
+2 FUNDAMENTAÇÃO TEÓRICA
+2.1 TEORIA DO FUNCIONAL DA DENSIDADE . . . . . . . . . . . . . . . .
+2.1.1 Equação de Kohn-Sham . . . . . . . . . . . . . . . . . . . . . . . .
+2.2 TERMODINÂMICA ATOMÍSTICA DE PRIMEIROS PRINCÍPIOS . . .
+2.2.1 Energia livre de Gibss de superfície . . . . . . . . . . . . . . . . . .
+2.3 DINÂMICA MOLECULAR QUÂNTICA . . . . . . . . . . . . . . . . . . .
+2.4 MÉTODO NUDGED ELASTIC BAND . . . . . . . . . . . . . . . . . . .
+
+12
+12
+12
+12
+12
+15
+15
+
+3 OBJETIVOS
+16
+3.1 OBJETIVO GERAL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+3.2 OBJETIVOS ESPECÍFICOS . . . . . . . . . . . . . . . . . . . . . . . . . 16
+4 METODOLOGIA
+4.1 PROCEDIMENTO COMPUTACIONAL . . . . . . . . . . . . . . . . . . .
+4.2 SIMULAÇÕES DAS PROPRIEDADES ESTRUTURASI E MORFOLÓGICAS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.2.1 Otimização das estruturas internas (bulk ) . . . . . . . . . . . . . . .
+4.2.2 Construção das superfícies e estudo de estabilidade . . . . . . . . .
+4.2.3 Cálculo de energia de relaxação e clivagem das superfícies . . . . . .
+4.2.4 Dinâmica Molecular Ab Initio . . . . . . . . . . . . . . . . . . . . .
+4.3 SIMULAÇÕES DA REATIVIDADE PARA GERAÇÃO DE ESPÉCIES
+REATIVAS DE OXIGÊNIO . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.3.1 Determinação de sítios de adsorção . . . . . . . . . . . . . . . . . .
+4.3.2 Determinação dos sítios de adsorção de O2 e H2O . . . . . . . . . .
+4.3.3 Determinação dos estados de transição . . . . . . . . . . . . . . . .
+
+17
+17
+
+5 RESULTADOS E DISCUSSÃO
+5.1 SIMULAÇÕES DAS PROPRIEDADES ESTRUTURAIS E MORFLÓGICAS DO ZnWO4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5.1.1 Otimização da estrutura interna . . . . . . . . . . . . . . . . . . . .
+5.1.2 Construção das superfícies e estudo de estabilidade . . . . . . . . .
+5.1.2.1 Estudo de estabilidade superfície (001) . . . . . . . . . . .
+5.1.2.2 Estudo de estabilidade superfície (010) . . . . . . . . . . .
+5.1.2.3 Estudo de estabilidade superfície (011) . . . . . . . . . . .
+5.1.2.4 Estudo de estabilidade superfície (100) . . . . . . . . . . .
+
+21
+
+iii
+
+17
+17
+17
+18
+19
+19
+19
+19
+20
+
+21
+21
+24
+25
+26
+27
+28
+
+5.1.2.5
+5.1.2.6
+5.1.2.7
+
+Estudo de estabilidade superfície (101) . . . . . . . . . . . 30
+Estudo de estabilidade superfície (110) . . . . . . . . . . . 31
+Estudo de estabilidade superfície (111) . . . . . . . . . . . 32
+
+6 CONCLUSÃO
+
+34
+

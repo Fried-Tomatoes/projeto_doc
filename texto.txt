@@ -1,0 +1,1685 @@
+Resumo
+•
+Espécies reativas de oxigênio (ROS), como superóxidos (• O−
+2 ) e radicais hidroxila ( OH),
+desempenham papel central na eliminação de patógenos e células cancerígenas no meio
+biológico, despertando crescente interesse na sua geração controlada para aplicações
+em saúde. Semicondutores destacam-se como materiais promissores para esse fim, pois
+permitem a formação fotocatalítica de ROS a partir de moléculas de H2 O e O2 adsorvidas
+em suas superfícies. Assim, o desenvolvimento de novos semicondutores, com propriedades
+estruturais e eletrônicas otimizadas, é essencial para aprimorar sua eficiência fotocatalítica.
+Entre esses materiais, os tungstatos metálicos (Mx WO4 ) apresentam desempenho promissor
+e relevância estratégica no Brasil, que possui reservas minerais significativas no estado
+do Rio Grande do Norte. Contudo, abordagens exclusivamente experimentais podem ser
+limitadas para o estudo aprofundado de suas propriedades eletrônicas. Nesse contexto,
+métodos teóricos baseados em química computacional oferecem uma abordagem eficazes
+para investigar, em nível atômico, suas características estruturais, eletrônicas e morfológicas
+dos materiais. Este projeto propõe o uso da Teoria do Funcional da Densidade (DFT)
+e de Dinâmica Molecular Quântica para estudar tungstatos metálicos (ZnWO4 , NiWO4
+e CoWO4 ), avaliando o efeito do cátion modificador da rede sobre suas propriedades e
+sua capacidade de adsorver H2 O e O2 , visando compreender os mecanismos de geração de
+ROS e sua potencial atividade bactericida.
+
+Palavras-chave: Tungstatos; ROS; Química computacional; Fotocatálise.
+
+i
+
+ABSTRACT
+•
+Reactive oxygen species (ROS), such as superoxide (• O−
+2 ) and hydroxyl radicals ( OH), play
+a central role in eliminating pathogens and cancer cells in biological systems, generating
+increasing interest in their controlled production for healthcare applications. Semiconductors stand out as promising materials for this purpose, as they enable the photocatalytic
+formation of ROS from H2 O and O2 molecules adsorbed on their surfaces. Therefore, the
+development of novel semiconductors with optimized structural and electronic properties
+is essential to enhance their photocatalytic efficiency. Among these materials, metal
+tungstates (Mx WO4 ) exhibit promising performance and strategic relevance in Brazil,
+which holds significant mineral reserves in the state of Rio Grande do Norte. However,
+purely experimental approaches may be limited in providing an in-depth understanding of
+their electronic properties. In this context, theoretical methods based on computational
+chemistry provide an effective approach to investigate, at the atomic level, their structural,
+electronic, and morphological properties of materials.tungstates (ZnWO4 , NiWO4 , and
+CoWO4 ), evaluating the effect of the network-modifying cation on their properties and
+their ability to adsorb H2 O and O2 , with the goal of elucidating the mechanisms of ROS
+generation and their potential bactericidal activity.
+
+Keywords: Tungstates; ROS; Computational chemistry; Photocatalysis.
+
+ii
+
+Sumário
+
+1 INTRODUÇÃO
+
+5
+
+2 FUNDAMENTAÇÃO TEÓRICA
+2.1 TEORIA DO FUNCIONAL DA DENSIDADE . . . . . . . . . . . . . . . .
+2.1.1 Equação de Kohn-Sham . . . . . . . . . . . . . . . . . . . . . . . .
+2.2 TERMODINÂMICA ATOMÍSTICA DE PRIMEIROS PRINCÍPIOS . . .
+2.2.1 Energia livre de Gibss de superfície . . . . . . . . . . . . . . . . . .
+2.3 DINÂMICA MOLECULAR QUÂNTICA . . . . . . . . . . . . . . . . . . .
+2.4 MÉTODO NUDGED ELASTIC BAND . . . . . . . . . . . . . . . . . . .
+
+12
+12
+12
+12
+12
+15
+15
+
+3 OBJETIVOS
+16
+3.1 OBJETIVO GERAL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+3.2 OBJETIVOS ESPECÍFICOS . . . . . . . . . . . . . . . . . . . . . . . . . 16
+4 METODOLOGIA
+4.1 PROCEDIMENTO COMPUTACIONAL . . . . . . . . . . . . . . . . . . .
+4.2 SIMULAÇÕES DAS PROPRIEDADES ESTRUTURASI E MORFOLÓGICAS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.2.1 Otimização das estruturas internas (bulk ) . . . . . . . . . . . . . . .
+4.2.2 Construção das superfícies e estudo de estabilidade . . . . . . . . .
+4.2.3 Cálculo de energia de relaxação e clivagem das superfícies . . . . . .
+4.2.4 Dinâmica Molecular Ab Initio . . . . . . . . . . . . . . . . . . . . .
+4.3 SIMULAÇÕES DA REATIVIDADE PARA GERAÇÃO DE ESPÉCIES
+REATIVAS DE OXIGÊNIO . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.3.1 Determinação de sítios de adsorção . . . . . . . . . . . . . . . . . .
+4.3.2 Determinação dos sítios de adsorção de O2 e H2O . . . . . . . . . .
+4.3.3 Determinação dos estados de transição . . . . . . . . . . . . . . . .
+
+17
+17
+
+5 RESULTADOS E DISCUSSÃO
+5.1 SIMULAÇÕES DAS PROPRIEDADES ESTRUTURAIS E MORFLÓGICAS DO ZnWO4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5.1.1 Otimização da estrutura interna . . . . . . . . . . . . . . . . . . . .
+5.1.2 Construção das superfícies e estudo de estabilidade . . . . . . . . .
+5.1.2.1 Estudo de estabilidade superfície (001) . . . . . . . . . . .
+5.1.2.2 Estudo de estabilidade superfície (010) . . . . . . . . . . .
+5.1.2.3 Estudo de estabilidade superfície (011) . . . . . . . . . . .
+5.1.2.4 Estudo de estabilidade superfície (100) . . . . . . . . . . .
+
+21
+
+iii
+
+17
+17
+17
+18
+19
+19
+19
+19
+20
+
+21
+21
+24
+25
+26
+27
+28
+
+5.1.2.5
+5.1.2.6
+5.1.2.7
+
+Estudo de estabilidade superfície (101) . . . . . . . . . . . 30
+Estudo de estabilidade superfície (110) . . . . . . . . . . . 31
+Estudo de estabilidade superfície (111) . . . . . . . . . . . 32
+
+6 CONCLUSÃO
+
+34
+
+REFERÊNCIAS
+
+35
+
+iv
+
+1.
+
+INTRODUÇÃO
+
+Espécies reativas de oxigênio (ROS, do inglês reactive oxygen species) são um
+grupo de moléculas oxigenadas derivadas de oxigênio molecular e da água que englobam
+•
+espécies radicalares como ânion superóxido (• O−
+2 ), radical hidroxila ( OH) e hidroperoxila
+(• O2 H). Além disso, algumas espécies não radicalares que são facilmente convertidas em
+radicais como peróxido de hidrogênio (H2 O2 ) e oxigênio singleto (1 O2 ) também fazem
+parte desse grupo [1, 2]. A formação dessas espécies radicalares e não radicalares ocorre em
+ambientes oxidantes dentro das células durante processos aeróbicos de metabolismo, seja
+em condições normais ou de estresse [3]. Essas espécies se originam do oxigênio molecular e
+da água, como pode ser observado na Figura 1 que esquematiza a formação das principais
+espécies.
+Figura 1: Esquema da formação das principais espécies reativas de oxigênio (ROS) a partir
+do oxigênio molecular e da água.
+
+Fonte: Adaptado de Mittler et al. (2022) [4].
+A molécula de O2 por apresentar uma configuração de tripleto, que é decorrente
+de seu par de elétrons não pareados, é impedida de oxidar a maior parte das moléculas
+orgânicas estáveis, que tendem a ter configuração singleto. Isso ocorre devido a restrições
+de spin e faz com que O2 tenda a capturar um elétron por vez e formar a espécie • O−
+2.
+No meio biológico essa espécie tende a ser formada principalmente como subproduto no
+processo de transferência reversa de elétrons, presente na cadeia respiratória realizada
+pelas mitocôndrias. A enzima superóxido dismutase atua na regulação dos níveis de • O−
+2,
+convertendo esse radical em H2 O2 [1, 2, 5]. O radical • OH pode ser formado por duas rotas,
+5
+
+sendo elas a via Habber-Weiss [6, 7], que envolve a reação do • O−
+2 com H2 O2 catalisada
+2+
++
+pelos íons Fe ou Cu e a reação de Fenton a partir do H2 O2 também catalisada pelos
+íons Fe2+ ou Cu+ [5, 7, 8]. A elevada reatividade dessas espécies chama atenção na área
+de química verde no desenvolvimento de processos de degradação de poluentes [9] e na
+área da saúde pelo seu potencial biocida [10].
+Em meios biológicos, o aumento da concentração de ROS pode gerar danos em
+componentes celulares, dada a capacidade dessas espécies de reagirem com biomoléculas
+como lipídios, proteínas e até ácidos nucleicos, o que resulta no estresse oxidativo da célula
+e pode ter como consequência a morte da célula [11]. Outros efeitos do elevado nível de
+ROS nas células podem implicar diversos distúrbios neurodegenerativos, envelhecimento,
+diabetes e doenças cardiovasculares [12]. Além disso, as ROS, por poderem reagir de forma
+irreversível com o DNA, podem levar à degradação do material genético ou à modificação
+da sequência de suas bases nitrogenadas, o que pode causar uma mutação na célula e dar
+origem a células cancerígenas [13].
+Contudo, as células de defesa podem se beneficiar com a produção controlada das
+ROS e de sua capacidade de danificar células para eliminar patógenos (agentes infecciosos
+causadores de doenças), como bactérias. Além disso, podem ser utilizadas para destruir
+células cancerígenas que, por mais que possam ser geradas pelas ROS, também são mais
+sensíveis ao estresse oxidativo do que os demais tipos de células [14].
+O sistema imunológico é dividido em duas linhas de defesa: a resposta imunológica
+inata, que corresponde à primeira linha de defesa do organismo, que já existe no organismo
+e, devido a isso, é menos seletiva. A segunda, a resposta imunológica adquirida, surge da
+interação da resposta imunológica inata com um corpo estranho ao organismo e sinaliza a
+necessidade de sua produção. Como essa segunda linha de defesa não existe previamente à
+infecção, sua resposta é mais lenta; em contrapartida, sua seletividade é maior e garante
+um efeito de memória e proteção contra possíveis futuras reinfecções [15, 16]. No caso da
+resposta imunológica inata, um dos mecanismos de defesa envolve a produção de ROS como
+mecanismo de defesa. Células de defesa, como macrófagos, ao identificar a presença de
+patógenos ou células cancerígenas por meio de seus receptores na superfície da membrana
+celular, envolvem esses antígenos (espécies estranhas ao organismo) em um sítio fagocítico
+para aprisioná-los. Após isso, há um aumento na produção de ROS com auxílio de enzimas
+que levam ao estresse oxidativo do antígeno e, como consequência, à sua degradação [17,
+18].
+Tendo em vista a potencialidade que o aumento dos níveis de ROS no organismo
+tem para a eliminação de patógenos e células cancerígenas, diversos estudos visam auxiliar
+no desenvolvimento de tratamentos para doenças causadas por essas células, de forma
+a induzir o aumento controlado nos níveis de ROS no organismo. Esses estudos podem
+envolver a produção de ROS por meio da incidência de luz [19], uso de ultrassom [20] e
+também rotas eletroquímicas [21].
+6
+
+A produção de ROS por meio de fotocatálise é uma opção que chama atenção por
+permitir um processo ambientalmente amigável, por poder utilizar radiação para ativação
+do processo, além disso, permite um maior controle no processo, visto que a reação cessa no
+instante em que o sistema é privado da fonte de radiação [22]. Dentre os possíveis materiais
+a serem utilizados na fotocatálise, os semicondutores despertam bastante interesse por
+interagirem com a radiação para superar a barreira energética para o processo de condução
+e transferência de carga para as reações fotocatalíticas. Além disso, o ajuste da separação
+entre a banda de condução (CB, do inglês conduction band ) e a banda de valência (VB, do
+inglês valence band ), também chamado de band gap, permite o aprimoramento do processo
+catalítico [23]. Sendo assim, o desenvolvimento de novos materiais semicondutores para
+atuarem como fotocatalisadores se mostra muito relevante para aplicação médica.
+Semicondutores são materiais amplamente empregados na área de elétrica e
+eletrônica, na produção de circuitos [24], sensores térmicos [25] e eletroquímicos [26]. Na
+área de óptica, são muito utilizados na produção de lasers [27] e processos fotocatalíticos
+para degradação de poluentes [28], produção de energia por meio da geração de hidrogênio
+[29] e ação biocida por meio da produção de ROS [30].
+O tamanho do band gap desses materiais permite separá-los em duas classes com
+propriedades distintas. Semicondutores que apresentam um band gap inferior a 2,1 eV são
+classificados como semicondutores de banda fina [31] e se caracterizam por apresentar boa
+condutividade elétrica em temperatura ambiente; contudo, são muito influenciados por
+variações na temperatura e podem normalmente ter um aumento de sua condutividade
+ao elevar a temperatura, devido ao pequeno band gap, que facilita a promoção de mais
+elétrons da VB para a CB com o aumento da energia cinética do sistema. Contudo, pode
+haver uma redução na mobilidade devido ao aumento de fenômenos de espalhamento,
+relacionados a fônons, à rugosidade da superfície, à carga da estrutura interna e à carga
+na interface, o que resulta na limitação da corrente elétrica [32].
+Quando o band gap é superior a 2,2 eV, o material é classificado como semicondutor
+de banda larga. Tais semicondutores se caracterizam por suportar e funcionar de forma
+eficiente em condições de elevadas tensões elétricas e temperaturas, visto que necessitam
+de mais energia para suas transições eletrônicas [33, 34]. Esses semicondutores apresentam
+ligações covalentes fortes, o que lhes confere elevada estabilidade e permite que sejam
+utilizados em matrizes biológicas [34]. Óxidos semicondutores de banda larga pertencem
+a uma importante classe de materiais funcionais, principalmente para aplicações em que
+ROS são formadas, como nos processos oxidativos, que incluem a fotocatálise heterogênea
+e processos antimicrobianos.
+No caso da geração fotocatalítica de ROS, o semicondutor é ativado pela absorção de radiação luminosa, com energia suficiente para excitar os elétrons (e− ) da VB
+para a CB, deixando buracos (h+ , do inglês hole) na VB, o chamado na literatura par
+elétron/buraco (e− /h+ ). Esse par migra para a superfície do semicondutor para realizar
+7
+
+processos de recombinação e dissipar sua energia na forma de calor, sendo confinado em
+metaestados estáveis presentes na superfície ou reagindo com aceptores ou doadores de
+elétrons adsorvidos na superfície do semicondutor. Este último caso é o responsável pela
+produção de ROS. Os buracos oxidam a água adsorvida e geram radicais • OH. Já os
+elétrons reduzem o oxigênio adsorvido e formam • O−
+2 . Essas duas espécies atuam então
+no processo de oxidação das espécies alvo, que podem ser tanto um poluente quanto um
+patógeno [35, 36, 37, 38].
+Para que a reação redox responsável pela formação de ROS ocorra, é necessário
+que os níveis de energia sejam adequados, ou seja, que o potencial da reação de redução
+para reduzir a água a radicals • OH seja inferior ao da CB, para que os elétrons excitados
+presentes nessa banda sejam transferidos para a água, reduzindo-a. Já a reação de oxidação
+deve apresentar energia superior à energia da VB para que os buracos sejam recebidos pelo
+• −
+O2 , e, dessa maneira, ocorra a oxidação [23]. A Figura 2 ilustra de forma esquematizada
+o processo de formação de ROS por meio de irradiação em um semicondutor genérico.
+Figura 2: Processo fotocatalítico de geração de ROS com uso de semicondutor para
+degradação de bactérias.
+
+A eficiência fotocatalítica está intimamente relacionada tanto com as condições
+da reação quanto com o pH, concentração e intensidade da fonte de radiação, quanto com
+as características do semicondutor, como área superficial, cristalinidade e defeitos, por
+exemplo [39]. O método de síntese e as condições experimentais têm papel fundamental no
+controle do tamanho, morfologia, carga superficial e defeitos na estrutura e na superfície
+[36]. O tamanho do band gap está intimamente ligado à capacidade de absorção de radiação
+do semicondutor e à distância energética entre o par e− /h+ e as reações redox desejadas.
+Seu ajuste pode ser realizado por meio da adição de elementos aniônicos como dopantes,
+
+8
+
+junções homogêneas e heterogêneas, além de sistemas de junção para reações em esquema
+Z. Além disso, alterações morfológicas podem influenciar a eficiência catalítica devido à
+sua relação com a área ativa e a exposição de sítios ativos. Defeitos superficiais, sejam
+impurezas ou deformações naturais da estrutura, também favorecem, pois normalmente
+são sítios para elétrons ou buracos livres disponíveis para reagir [23].
+Apesar de óxidos simples não dopados, como TiO2 , ZnO, SnO2 e WO3 [35,
+36], ainda constituírem a principal classe de materiais empregados na geração de ROS,
+compostos multieletrônicos, em particular os tungstatos de metais de transição com fórmula
+geral Mx WO4 (M = Zn, Ni, Co, Fe), têm despertado crescente atenção para essa finalidade
+[37, 38, 40]. Esses tungstatos integram uma família de óxidos com amplo potencial
+tecnológico, destacando-se em aplicações que envolvem processos ópticos e eletroquímicos,
+tais como fotoluminescência, fotocatálise e reações eletroquímicas [41, 42]. No contexto
+nacional, os materiais à base de tungstênio apresentam relevância estratégica, uma vez que
+o Brasil possui reservas expressivas do mineral scheelita (CaWO4 ), fonte primária para
+a extração de tungstênio. Minas ativas localizadas no estado do Rio Grande do Norte
+registraram, segundo dados da Agência Nacional de Mineração (2013), uma produção
+bruta de 68.617 toneladas de minério de tungstênio, com teor médio de 0,76 % de WO3 [43].
+Tal disponibilidade confere um caráter regional às pesquisas com tungstatos, reforçando
+a importância do investimento em sua aplicação tecnológica. Nesse cenário, torna-se
+essencial que a comunidade científica brasileira direcione esforços para a investigação
+e o aproveitamento desses materiais, promovendo a correlação entre suas propriedades
+estruturais, eletrônicas e fotocatalíticas.
+Como já abordado, impurezas e defeitos presentes na estrutura e superfícies de
+semicondutores são objetos de grande interesse na área de materiais, uma vez que esses
+defeitos e impurezas estão intimamente relacionados às propriedades, performance e, consequentemente, à aplicação do semicondutor. Contudo, existe uma grande dificuldade
+em estudar esses defeitos nos semicondutores do ponto de vista experimental, principalmente quando se tenta avaliar esses materiais a nível atômico e eletrônico. Métodos
+computacionais permitem contornar essas dificuldades e também complementar os estudos
+experimentais, o que possibilita uma melhor compreensão desses materiais e o ajuste das
+suas propriedades para melhorar sua performance [44].
+As aplicações de métodos químicos computacionais quânticos são vastas, abrangendo desde o estudo de propriedades eletrônicas de átomos até de macromoléculas
+complexas. Esses métodos permitem analisar tanto a estrutura geométrica quanto a
+eletrônica [45, 46, 47]. Na química do estado sólido, tais abordagens têm sido amplamente
+utilizadas para compreender as propriedades de materiais e impulsionar o desenvolvimento
+de novos compostos, por meio da investigação de estruturas de bulk, superfícies, estabilidade termodinâmica e reatividade [48]. Na área de bioquímica, os métodos quânticos
+computacionais têm auxiliado no entendimento de processos bioquímicos, incluindo si9
+
+mulação de reações, montagem genômica, enovelamento proteico e desenvolvimento de
+fármacos [49].
+Dentre as ferramentas utilizadas na química computacional, a Teoria do Funcional da Densidade (DFT, do inglês Density Functional Theory) destaca-se pelo papel
+fundamental no estudo de materiais sólidos, em especial semicondutores. Essa abordagem
+permite análises estruturais, morfológicas e eletrônicas [50, 51, 52, 53].
+Além de investigar diferentes terminações superficiais e, com isso, avaliar seus
+efeitos na estabilidade, formação de defeitos, nos sítios de adsorção, mudança nas estruturas
+de bandas, no processo de absorção e emissão de luz, aumento ou redução de barreiras
+de potencial ao longo de caminhos reacionais [54, 55, 56, 57]. Essas informações se
+mostram fundamentais na compreensão desses materiais e contribuem diretamente para
+o desenvolvimento de novos materiais voltados a processos eletrocatalíticos [58, 59] e
+fotocatalíticos [60, 61, 62]. Existem inúmeros trabalhos que envolvem o uso da DFT para
+estudo de semicondutores, avaliando materiais com diferentes morfologias, a fim de avaliar
+sua capacidade de geração de ROS [63, 64, 65] e, em especial, sua influência na atividade
+antimicrobiana [66, 67, 68, 69, 70].
+Tendo em vista a relevância do desenvolvimento de novos materiais semicondutores
+aplicáveis como fotocatalisadores para a geração de ROS voltados à atividade antimicrobiana, em especial tungstatos metálicos (Mx WO4 ), ganham mportância estratégica no
+contexto brasileiro devido à presença de reservas naturais de scheelita (CaWO4 ) no estado
+do Rio Grande do Norte. Em paralelo, a química quântica computacional tem se mostrado
+uma ferramenta essencial para a compreensão aprofundada dos processos químicos envolvidos, possibilitando a otimização racional desses materiais. Nesse cenário, este projeto tem
+como objetivo investigar e correlacionar a estrutura e a morfologia de nanopartículas com
+suas propriedades eletrônicas, por meio de modelagem computacional baseada em primeiros
+princípios. Essa abordagem visa contribuir para o desenvolvimento de fotocatalisadores
+mais eficientes, com ênfase na engenharia de superfícies. Adicionalmente, a análise da
+reatividade de moléculas de H2 O e O2 adsorvidas nessas superfícies permitirá elucidar
+os mecanismos de geração de ROS, possibilitando a previsão do desempenho biocida
+e fotocatalítico dos materiais em estudo. No grupo de pesquisa UNICAMP Materials
+Simulation Lab (UMSL), sob a liderança do professor Miguel A. San-Miguel Barrera,
+já vêm sendo conduzidos estudos com semicondutores à base de prata, como Ag3 PO4 ,
+Ag2 MoO4 e Ag2 WO4 [53, 69, 71]. Recentemente, foi proposto um mecanismo no qual a
+presença simultânea de moléculas de H2 O e O2 adsorvidas favorece a geração de ROS [67].
+Com base nesse avanço, o presente projeto de doutorado, que está inserido no projeto
+universal aprovado recentemente (Chamada CNPq/MCTI/FNDCT Nº 44/2024) e conta
+com a participação de pesquisadores nacionais e internacionais altamente qualificados,
+propõe expandir tais investigações para semicondutores baseados em metais distintos da
+prata, com foco nos tungstatos metálicos. A proposta visa aprofundar a compreensão
+10
+
+dos fundamentos físico-químicos que regem a atividade biocida desses materiais ternários,
+avaliando, em especial, o impacto da substituição do cátion modificador da rede (Zn, Ni e
+Co) sobre suas propriedades estruturais e reativas.
+
+11
+
+2.
+
+FUNDAMENTAÇÃO TEÓRICA
+
+2.1 TEORIA DO FUNCIONAL DA DENSIDADE
+2.1.1 Equação de Kohn-Sham
+2.2 TERMODINÂMICA ATOMÍSTICA DE PRIMEIROS PRINCÍPIOS
+Descreva os trabalhos relacionados, teorias e modelos relevantes [72].
+2.2.1 Energia livre de Gibss de superfície
+A energia livre de Gibbs de superfície (γ) é uma propriedade termodinâmica que
+descreve a estabilidade de superfícies em função de variáveis como temperatura (T), pressão
+(P) e composição química (Ni ). Essa propriedade é crucial para entender fenômenos como
+adsorção, reações de superfície e crescimento de cristais [ref]. Uma superfície pode ser
+definida como uma região bidimensional de uma fase sólida que sofre ação tanto da fase
+externa (gás ou líquido) quanto da fase interna (sólido) [ref]. A Figura 3 mostra de forma
+esquemática a separação entre a superfície e as fases interna e externa.
+Figura 3: Esquema da separação entre a superfície e as fases interna e externa.
+
+Fonte: Elaborada pelo autor.
+A partir dessa modelagem é possível expressar a energia livre de Gibbs do sistema
+em termos da contribuição da fase externa (nesse caso um gás, Gg ), fase interna, ou seja,
+a parte sólida (Gs ) e a superfície (Gsurf ), e com isso é possível isolar a contribuição da
+superfície conforme descrito pela Equação 1:
+Gsurf (T, P ) = G(T, P ) − Gs (T, P ) − Gg (T, P )
+12
+
+(1)
+
+Adaptando a equação para um tungstato metálico (Mx WO4 ) e considerando que
+superfície apresenta uma área constante (A), a energia livre de superficie por unidade de
+área (γ) dependente da temperatura (T) e pressão (P) e também que as energias livres
+do sistema, fase sólida (GM e GW ) e gás (GO ) além de dependentes de T e P também
+dependem das quantidades de espécies quimicas (Nx ) presentes em cada fase, sendo assim
+é possivel rescrever a energia livre de acordo com a Equação 2:
+
+1
+[G(T, P, NM , NW , NO ) − GM (T, P, NM ) − GW (T, P, NW ) − GO (T, P, NO )]
+A
+(2)
+Ao modelar a superfície como duas placas (slabs) de terminações equivalentes, podese definir γ para apenas uma terminação simétrica. Além disso considerando um sistema
+suficientemente grande (≈ infinito), tem-se então que o slab, compõe uma parte finita
+desse sistema, conforme se distancia da superfície, seus efeitos passam a ser insignificantes
+para a fase interna e externa. Essa parcela finita presente na energia livre do sistema
+acaba sendo cancelada devido essa parcela estar presente de maneira equivalente na fase
+interna e externa, sendo assim, é possivel descrever γ apenas em termos da parcela finita
+do sistema afetada pela superfície, ou seja, da energia livre de Gibbs do slab (Gslab ) e
+também a parcela finita da energia livre da fase interna e externa, nesse caso, descritas
+em termos de seus respectivos potencias químicos (µ) e composição química. Isso permite
+escrever a Equação 3:
+γ(T, P ) =
+
+1
+[Gslab (T, P, NM , NW , NO ) − NM µM (T, P ) − NW µW (T, P ) − NO µO (T, P )]
+2A
+(3)
+Se o slab for suficientemente grande para que a fase sólida possa ser descrita como
+um reservatório termodinâmico e com isso os potenciais químicos passam a depender um
+do outro e estão relacionados com o bulk e seu potencial químico se aproxima da energia
+livre, o que permite escrever a Equação 4:
+γ(T, P ) =
+
+bulk
+µbulk
+Mx W O4 (T, P ) = xµM (T, P ) + µW (T, P ) + 4µO (T, P ) ≈ gMx W O4 (T, P )
+
+(4)
+
+Para simplificar a Equação 3 pode-se reescrever a Equação 4 para isolar o potencial
+químico do tungstênio, uma vez que, para o fins desse trabalho pretende-se estudar o efeito
+do cátion métalico modificador da rede e com isso gerar a Equação 5:
+bulk
+µW = gM
+(T, P ) − xµM (T, P ) − 4µO (T, P )
+x W O4
+
+(5)
+
+Ao substituir a Equação 5 na Equação 3 é possível reescrever a energia livre de
+13
+
+Gibbs da superfície em função do potencial químico do cátion metálico modificador da
+rede, o que é desejado para esse trabalho, conforme descrito na Equação 6:
+γ(T, P ) =
+
+1 
+Gslab (T, P, NM , NW , NO ) − NM µM (T, P )
+(6)
+2A
+
+bulk
+− NW [gMx W O4 (T, P ) − xµM (T, P ) − 4µO (T, P )] − NO µO (T, P )
+
+Ao agrupar os potenciais químicos obtemos a equação 7:
+γ(T, p) =
+
+1 
+bulk
+Gslab (T, P, NM , NW , NO ) − NW gM
+(T, P ) − (NM − xNW )µM (T, P ) (7)
+x W O4
+2A
+
+− (NO − 4NW )µO (T, P )
+
+Considerando que a as contribuições da entropia e energia vibracional são pequenas
+em relação à energia total do sistema [ref], é possível aproximar a energia livre de Gibbs
+pela energia total obtida por cálculos de primeiros princípios, o que permite reescrever a
+Equação 8:
+γ(T, P ) =
+
+
+1  slab
+bulk
+EMx W O4 − NW EM
+(N
+−
+xN
+)µ
+(T,
+P
+)
+−
+(N
+−
+4N
+)µ
+(T,
+P
+)
+−
+M
+W
+M
+O
+W
+O
+W
+O
+x
+4
+2A
+(8)
+
+Além disso, µO , µM e µW podem ser relacionados com as energias totais das
+espécies moleculares e sólidas de referência, conforme descrito nas Equações 9a, 9b e 9c:
+
+1
+∆µO (T, P ) = µO (T, P ) − EO2
+2
+bulk
+∆µM (T, P ) = µM (T, P ) − EM
+
+(9b)
+
+bulk
+∆µW (T, P ) = µW (T, P ) − EW
+
+(9c)
+
+(9a)
+
+Substituindo as Equações 9a e 9b na Equação 8 e reorganizando a equação é
+obtida a Equação 10:
+
+1
+1
+bulk
+slab
+bulk
+− (NO − 4NW ) EO2
+γ(T, P ) =
+EM
+− NW EM
+− (NM − xNW )EM
+x W O4
+x W O4
+2A
+2
+ (10)
+− (NM − xNW )∆µM (T, P ) − (NO − 4NW )∆µO (T, P )
+Para simplificar a notação, podemos agrupar os termos da Equação 10 a partir
+das Equações 11a, 11b e 11c:
+
+14
+
+∆NM,W = (NM − xNW )
+
+(11a)
+
+∆NO,W = (NO − 4NW )
+
+(11b)
+
+1
+slab
+bulk
+bulk
+ϕ = EM
+− NW EM
+− ∆NM,W EM
+− ∆NO,W EO2
+x W O4
+x W O4
+2
+
+(11c)
+
+Substituindo as Equações 11a, 11b e 11c na Equação 10, obtemos a forma final
+da energia livre de superfície conforme descrito na Equação 12:
+γ(T, P ) =
+
+1
+[ϕ − ∆NM,W ∆µM (T, P ) − ∆NO,W ∆µO (T, P )]
+2A
+
+(12)
+
+Por meio do potencial químico do oxigênio é possível também relacionar a temperatura e pressão do sistema, permitindo assim estabelecer condições experimentais para a
+obtenção de determinadas terminações superficiais. A partir do modelo dos gases ideais
+acossiado a mecânica estatistica [ref], o potencial químico do oxigênio pode ser expresso
+em função da temperatura e pressão conforme descrito na Equação 13:
+1
+1
+µO (T, P ) = EO2 + EOZP2 E + ∆µO (T, P )
+2
+2
+
+(13)
+
+Aplicando a Equação 9a na Equação 13 é possível obter a variação do potencial
+químico do oxigênio em função da temperatura e pressão, conforme descrito na Equação 14:
+ 
+P
+1
+∆µO (T, P ) = − kB T ln
+2
+P0
+( "
+)
+#
+
+
+3/2
+
+
+
+
+1
+2πmO2
+kB T
+h̄ωO
+5/2
+− kB T ln
+(kB T )
++ln
+−ln 1−exp
++ln Ispin
+2
+h2
+σ s BO
+kB T
+(14)
+A partir dessa equação é possível avaliar a estabilidade de diferentes terminações
+superficiais em função dos potenciais químicos do oxigênio e do cátion metálico modificador
+da rede, permitindo assim identificar quais terminações são termodinamicamente mais
+estáveis sob diferentes condições de ambiente químico e também de temperatura e pressão.
+2.3 DINÂMICA MOLECULAR QUÂNTICA
+2.4 MÉTODO NUDGED ELASTIC BAND
+
+15
+
+3.
+
+OBJETIVOS
+
+3.1 OBJETIVO GERAL
+O presente trabalho tem como objetivo empregar cálculos baseados na DFT para
+investigar os aspectos químicos e estruturais dos tungstatos metálicos (ZnWO4 , NiWO4 e
+CoWO4 ). A análise buscará compreender a ativação das moléculas e O2 e H2 O, visando
+elucidar os mecanismos de formação das ROS.
+3.2 OBJETIVOS ESPECÍFICOS
+• Otimizar os parâmetros de cálculo de DFT para os tungstatos estudados;
+• Criar modelos computacionais baseados na termodinâmica ab initio das principais terminações das superfícies expostas dos materiais estudados e determinar as superfícies
+mais estáveis, juntamente de suas energias de clivagem;
+• Avaliar a estabilidade dinâmica dos modelos selecionados a partir da termodinâmica
+ab initio usando simulações de dinâmica molecular quântica, escolhendo os modelos
+mais promissórios para cada orientação de baixo índice de Miller;
+• Estudar as propriedades eletrônicas das terminações por meio de cálculos de estrutura
+de bandas, DOS, função trabalho e carga Bader;
+• Analisar a interação de moléculas de O2 e H2 O com as superfícies definidas, visando
+a ativação dessas moléculas para formação das ROS, elucidando se existem efeitos
+sinérgicos;
+• Determinar os estados de transição que dominam no mecanismo de formação de
+ROS a partir da ativação das moléculas de O2 e H2 O.
+
+16
+
+4.
+
+METODOLOGIA
+
+4.1 PROCEDIMENTO COMPUTACIONAL
+A partir dos cálculos de DFT serão exploradas as propriedades estruturais, morfológicas e eletrônicas dos tungstatos metálicos avaliados (NiWO4 , ZnWO4 e CoWO4 ) com o
+objetivo de investigar as principais terminações expostas em suas superfícies e estabelecer
+correlações com a reatividade frente às moléculas de O2 e H2 O para formação das ROS.
+Esses cálculos serão conduzidos no Vienna Ab Initio Simulation Package (VASP) [73,
+74], empregando a aproximação do gradiente generalizado (GGA, Generalized Gradient
+Approximation) com o funcional de troca e correlação de Perdew–Burke–Ernzerhof (PBE)
+na determinação inicial das estruturas geométricas [75]. Adicionalmente, serão incluídas
+correções para descrever as interações de dispersão entre moléculas adsorvidas e a superfície, bem como avaliados funcionais híbridos em sistemas específicos que demandem uma
+descrição mais acurada da estrutura eletrônica.
+4.2 SIMULAÇÕES DAS PROPRIEDADES ESTRUTURASI E MORFOLÓGICAS
+4.2.1 Otimização das estruturas internas (bulk )
+Para a otimização do bulk dos tungstatos metálicos estudados, serão realizados
+cálculos variando a energia de corte (ENCUT, do inglês energy cutoff ), associada ao
+tamanho da expansão da função de base, até identificar o valor no qual os cálculos de
+relaxação convergem. Em seguida, serão otimizados os pontos de amostragem do espaço
+recíproco (k-points), variando seu número até alcançar a convergência da energia do
+sistema, de forma análoga à otimização do ENCUT. Também serão testados diferentes
+funcionais de troca e correlação no âmbito da GGA, comparando-se as energias livres de
+formação obtidas com valores reportados na literatura, a fim de selecionar o funcional
+que melhor descreve a estrutura eletrônica e que eventualmente será usado em etapas
+posteriores. O funcional de troca e correlação escolhido será empregado na minimização
+estrutural, variando-se o parâmetro de rede e correlacionando a energia total relaxada com
+o volume da célula, de modo a determinar o volume mínimo do bulk. Uma vez definido o
+bulk com menor energia, será possível avançar para o estudo das superfícies, considerando
+que suas propriedades estão intimamente relacionadas à estrutura de bulk.
+4.2.2 Construção das superfícies e estudo de estabilidade
+Os modelos das terminações mais favoráveis para as diferentes superfícies dos
+materiais estudados serão avaliados por meio da termodinâmica atomística de primeiros
+princípios, proposta por Rogal e Reuter [72]. A partir do recorte dos cristais (slabs) em
+17
+
+planos de baixos índices de Miller, serão geradas diferentes terminações superficiais. Para
+cada orientação, será avaliada a espessura dos slabs de modo a garantir que a região
+central preserve as características de bulk, enquanto as faces apresentem propriedades
+de superfície, para garantir a representatividade do modelo de superfície. A energia de
+superfície será analisada em função do número de repetições do bulk para cada espessura
+de slab, a fim de encontrar a espessura em que a energia de superfície comece a convergir.
+Uma vez definida a espessura representativa, será estudada a estabilidade das diferentes
+terminações geradas para cada superfície.
+A estabilidade dessas terminações superficiais será avaliada com o programa
+Predicting Stability of Terminations of Oxides (PS-TEROS), desenvolvido em nosso grupo
+[76]. Por meio de uma plataforma computacional automatizada, o programa calcula a
+energia livre de Gibbs para superfícies de óxidos em função do potencial químico de seus
+constituintes (∆µM, ∆µW e ∆µO). Com o auxílio dos cálculos automatizados do PSTEROS será identificada a terminação mais estável para cada orientação estudada, a partir
+de diagramas de energia e de superfícies que relacionam a energia livre de superfície com
+os potenciais químicos dos elementos que constituem o metal, de acordo com a Equação
+12:
+1
+γ(T, P ) =
+[ϕ − ∆NM,W ∆µM (T, P ) − ∆NO,W ∆µO (T, P )]
+(12)
+2A
+O ∆µO será relacionado à temperatura e pressão do sistema, conforme descrito na
+Equação 14, a fim de estabelecer condições experimentais para a obtenção de determinadas
+terminações superficiais:
+ 
+1
+P
+∆µO (T, P ) = − kB T ln
+2
+P0
+( "
+#
+)
+3/2
+
+
+
+
+
+
+2πmO2
+1
+kB T
+h̄ωO
+5/2
+− kB T ln
+(kB T )
++ln
+−ln 1−exp
++ln Ispin
+2
+h2
+σ s BO
+kB T
+(14)
+Para melhor compreender a estabilidade das superfícies, serão calculadas as
+energias de clivagem e relaxação das terminações geradas.
+4.2.3 Cálculo de energia de relaxação e clivagem das superfícies
+A energia de clivagem (Ec ) corresponde à energia necessária para quebrar um
+cristal e gerar duas superfícies complementares, que ao serem combinadas formam o cristal
+original. A Ec pode ser calculada utilizando a Equação 15:
+Ec (i, j) =
+
+
+1
+Eislab + Ejslab − nE bulk
+2A
+
+(15)
+
+A fim de verificar a estabilização das superfícies após sua clivagem é possível
+calcular a energia de relaxação (Er ), que corresponde à energia liberada quando uma
+18
+
+slab
+superfície clivada (Eslab
+unrelaxed ) é relaxada (Erelaxed ) para sua configuração de menor energia.
+A Er pode ser calculada utilizando a Equação 16:
+
+slab
+slab
+− Eunrelaxed
+Er = Erelaxed
+
+(16)
+
+4.2.4 Dinâmica Molecular Ab Initio
+Para assegurar a estabilidade das terminações selecionadas, serão realizados
+estudos de Dinâmica Molecular ab initio (AIMD, do inglês ab initio Molecular Dynamics).
+Esses cálculos permitirão avaliar possíveis alterações estruturais ao longo do tempo e sob
+diferentes temperaturas, verificando a robustez das superfícies em condições mais próximas
+às experimentais.
+4.3 SIMULAÇÕES DA REATIVIDADE PARA GERAÇÃO DE ESPÉCIES REATIVAS
+DE OXIGÊNIO
+4.3.1 Determinação de sítios de adsorção
+Uma vez definidas as terminações de maior estabilidade, serão avançadas para o
+estudo de suas propriedades eletrônicas e para compreender melhor a reatividade, além
+de identificar possíveis sítios de adsorção das terminações que serão estudadas de forma
+mais aprofundada. Para investigar as propriedades eletrônicas, serão realizados cálculos
+de estrutura de bandas. A trajetória de alta simetria no espaço recíproco, essencial para
+os cálculos de estrutura de bandas, será gerada com a ferramenta SeeK-Path [77, 78]. A
+análise da estrutura de bandas e do DOS (calculada na etapa anterior) permitirá determinar
+o band gap e, com a DOS, será possível calcular a densidade de portadores de carga (ρ),
+com base na distribuição de Fermi-Dirac [79], possibilitando uma comparação direta entre
+as propriedades do material em estado bulk e suas superfícies. Além disso, será calculada
+a função trabalho (Φ), que corresponde à energia mínima necessária para levar um elétron
+do nível de Fermi do material até um ponto no vácuo. Este parâmetro é fundamental
+para compreender a capacidade dos materiais de absorver e emitir radiação [71]. A
+distribuição de densidade eletrônica de cada sistema será investigada a partir da teoria
+topológica de Bader [80], o que permitirá avaliar a distribuição de carga entre os átomos
+das superfícies e identificar regiões com excesso ou deficiência eletrônica, possibilitando
+prever o caráter desses sítios como nucleofílicos ou eletrofílicos, aprimorando a compreensão
+sobre a reatividade de cada superfície.
+4.3.2 Determinação dos sítios de adsorção de O2 e H2 O
+Com base nos resultados obtidos para as propriedades estruturais, morfológicas e
+eletrônicas, serão realizados cálculos teóricos para avaliar a interação das moléculas de O2
+e H2 O com as superfícies dos materiais estudados, visando compreender sua ativação e os
+19
+
+mecanismos envolvidos em sua geração. Nesse estudo, será avaliada independentemente
+a adsorção das moléculas de O2 e H2 O, bem como sua coadsorção, a fim de verificar
+a existência de mecanismos sinérgicos no processo de ativação dessas moléculas para a
+geração de ROS.
+4.3.3 Determinação dos estados de transição
+A identificação dos estados de transição e das barreiras energéticas associadas será
+conduzida por meio do método Nudged Elastic Band (NEB) [81], que traça o caminho
+reacional por meio de imagens intermediárias interpoladas e conectadas por potenciais
+elásticos artificiais. Essas imagens são otimizadas simultaneamente para determinar o
+caminho de menor energia, sendo que, ao final das simulações, identifica-se o estado de
+transição, correspondente ao ponto de maior energia e que atua como barreira de potencial
+para a reação. A amostragem dos sítios de adsorção molecular será realizada utilizando o
+programa UMSLtoolkit, desenvolvido no próprio grupo e previamente aplicado a outros
+sistemas. Com ele, é possível alocar adsorvato na superfície do substrato e refinar a posição
+a fim de determinar os sítios de adsorção e configurações do adsorvato na superfície do
+substrato que garantem a maior estabilidade. Uma vez encontrados os estados de transição
+envolvidos no processo de ativação das moléculas de O2 e H2 O, serão realizados cálculos
+de frequência de fônons, a fim de verificar se há apenas uma frequência imaginária nas
+estruturas dos estados intermediários, e com isso confirmar que o estado de transição
+obtido por meio do NEB seja um estado de transição real. A partir desses resultados, todas
+as terminações serão comparadas, permitindo identificar aquelas com maior potencial
+fotocatalítico para aplicação biocida.
+
+20
+
+5.
+
+RESULTADOS E DISCUSSÃO
+
+5.1 SIMULAÇÕES DAS PROPRIEDADES ESTRUTURAIS E MORFLÓGICAS DO
+ZnWO4
+5.1.1 Otimização da estrutura interna
+Os parametros ENCUT e o k-points são parametros cruciais em cálculos de DFT,
+pois influenciam diretamente a precisão dos resultados e o custo computacional. Sendo
+assim, é necessário realizar uma série de cálculos variando esses parametros para encontrar
+os valores ótimos que garantam um equilíbrio entre precisão e eficiência computacional.
+Esses resultados estão expostos na Figura 4.
+Figura 4: Gráfico de convergência da energia total do sistema em função dos parâmetros
+ENCUT e k-points.
+
+B
+
+A
+
+Fonte: Elaborada pelo autor.
+Primeiramente para a otimização do sistema foi realizada a determinação do
+ENCUT mínimo do sistema, que define o limite da energia cinética das funções de ondas
+planas que contribuirão na descrição da função de onda do sistema e com isso determinação
+da energia total do sistema (E0 ). Esse parametro é de extrema importancia para descriçãoda
+E0 e também não usar utilizar um número excessivo de funções de base que não aumentar
+significativamente a precisão do resultado e aumetaram o tempo de calculo, visto que
+acima de um valor limite a energia total do sistema tende a convergir para um valor limite.
+Sendo assim foram feitos calculos de relaxação do bulk de ZnWO4 variando o ENCUT de
+300 a 600 eV. A partir dos resultados apresentados na Figura 4 A observa-se que o E0 do
+sistema converge para um valor limite a partir de um ENCUT de 450 eV, portanto esse
+valor foi escolhido para os cálculos subsequentes. A partir desse resultado realizou-se a
+determinação do número ótimo de k-points para a amostragem da zona de Brillouin do
+21
+
+sistema. Foram realizados cálculos variando a densidade da malha de k-points (K-MESH)
+com o auxílio do vaspkit foi gerado os k-points, a densidade da malha foi variada de 0,01 a
+0,09. A partir dos resultados apresentados na Figura 4B observa-se que o E0 do sistema
+converge para um valor limite a partir de uma malha de densidade 0.04, que corresponde
+aos k-points de 5x4x5, portanto esse valor foi escolhido para os cálculos subsequentes.
+Feita essa otimização inicial dos parâmetros de cálculo, foi realizado um estudo
+do funcional de troca e correlação mais adequado para descrever o sistema, para isso foi
+utilizada a entalpia de formação do material como parametro de comparação. Foram
+testados os funcionais GGA do tipo PBE (usado até o momento), PBE revisado por
+Zhang e Yang (revPBE) [82] e PBE revisado para sólidos e superfícies (PBEsol) [83]
+e PBE revisado Hammer et. al. (RPBE) [84] que tem como objetivo de aprimorar a
+descrição de energia de adsorção. A Tabela 1 apresenta os valores de entalpia obtidos para
+cada funcional testado, comparados com o valor experimental de -12,78 eV disponível na
+literatura [85].
+Tabela 1: Valores de entalpia de formação do ZnWO4 obtidos com diferentes funcionais de
+troca e correlação comparados com o valor experimental.
+Funcional
+PBE
+revPBE
+PBEsol
+RPBE
+Experimental [85]
+
+Entalpia de Formação (eV mol−1 )
+-11,518
+-10,556
+-11,977
+-10,512
+-12,78
+
+Erro (%)
+9,870
+17,40
+6,280
+17,74
+-
+
+A partir dos resultados apresentados na Tabela 1 observa-se que o funcional
+GGA-PBEsol apresentou os valores de valor de entalpia de formação mais próximos dos
+valores experimentais, com um erro percentual de aproximadamente 5,86%. Portanto, esse
+funcional foi escolhido para os cálculos subsequentes.
+Para terminar a otimização das estrutura do ZnWO4 foi realizados calculos variando
+o fator de escala dos parametros de rede a fim de determinar a estrutura de mínima energia
+do sistema. Para isso foi feito um primeiro estudo variando o fator de escala de 0,800
+a 1,300, a fim de obter uma estimativa inicial dos parametros de rede ótimos. A partir
+desse resultado foi realizado um segundo estudo mais refinado variando o fator de escala
+de 0,960 a 1,020. Os resultados desses cálculos estão apresentados na Figura 5.
+
+22
+
+Figura 5: Curva de Energia total (E0 ) versus volume (V) do ZnWO4 obtida a partir
+variação do fator de escala dos parametros de rede.
+
+B
+
+A
+
+Fonte: Elaborada pelo autor.
+Os resultados preliminares expostos na Figura 5A foi observado que a energia
+total do sistema atinge um valor mínimo para no volume de 132,272 Å3 (fator de escala
+igual a 1,000). Ao realizar um estudo mais refinado com variações menores no fator de
+escala do parametro de rede próximo ao primeiro valor deminimo e fazendo um ajuste não
+linear utilizando a equação de Birch-Murnaghan foi obtida um volume mínimo de 131,480
+Å3 (fator de escala igual a 0,998). Ao utilizar esse fator de escala de rede na estrutura
+do ZnWO4 para obtenção da sua E0 mínima comprovou-se que esse valor de fator de
+escala realmente corresponde ao valor mínimo de energia do sistema. Os parametros de
+rede obtido pela otimização de volume foram comparados com resultados experimentais e
+teóricos da literatura, para averiguar a validade dos resultados obtidos. A Tabela 2 os
+parametros de rede obtidos em comparativo com a literatura para o ZnWO4 .
+Tabela 2: Parametros de rede do ZnWO4 frente ao literatura.
+Natureza do resultado
+a
+Calculado
+4,6674
+Calculado
+4.702
+Calculado
+4.736
+Experimental
+4.6849
+Experimental
+4.691
+
+b
+5,7182
+5.755
+5.746
+5.7172
+5.720
+
+c
+4,9364
+4.917
+4.937
+4.9328
+4.925
+
+Referência
+Presente trabalho
+Hoang (2018) [86]
+Zhang (2023) [87]
+Dkhilalli et. al. (2018) [88]
+Yan et. al. (2019) [89]
+
+Ao comparar os resultados obtidos com a literatura foi observado um elevada
+similaridade entre os resultados. O que serve de indicativo de que o modelo construido
+apresnta boa representatividade estrutural do material.
+Uma vez estabelecida o ENCUT, k-points, funcional de troca correlação e para23
+
+metros de rede que melhor descrevem do ZnWO4 pode-se avançar para construção de
+possíveis terminações superfíciais do material bem como o estudo de suas estabilidade
+segundo a Termodinâmica Atomística de Primeiros Princípios [72, 90].
+5.1.2 Construção das superfícies e estudo de estabilidade
+A partir da estrutura otimizada do ZnWO4 foram construídas as superfícies de
+baixos índices de Miller (001), (010), (011), (100), (101) (110) e (111). Essas superfícies
+foram escolhidas por serem as mais prováveis de serem expostas em cristais do material,
+conforme observado em estudos experimentais [91]. Para cada orientação foram geradas
+diferentes terminações superficiais, de 15 Åde espessura e com um vácuo de 15 Å, totalizando
+50 terminações. A Tabela 3 apresenta o número terminações superficiais geradas para
+cada orientação e suas respectivas identificações.
+Tabela 3: Terminações superficiais geradas para cada orientação do ZnWO4 .
+Orientação
+(001)
+(010)
+(011)
+(100)
+(101)
+(110)
+(111)
+
+Identificação
+ST-A
+ST-B
+ST-C
+ST-D
+ST-E
+ST-F
+ST-G
+
+Número de Terminações
+5
+8
+12
+6
+3
+8
+8
+
+Os slabs referentes as terminações geradas para cada superficies tiveram sua
+estabilidade avaliada por meio do calculo de energia livre de superfície (γ) segundo a
+Equação 12, com o auxílio da plataforma de automatização de calculos PS-TEROS. A
+partir dessa equação é possível avaliar a estabilidade de diferentes terminações de forma
+comparativa de duas maneiras. Primeiro traçando um diagrama de energia em que é
+estabelecida uma condição de potencial químico do cátion metálico modificador de rede
+(neste caso definindo como zero) e calculando a energia livre de superfície em função do
+potencial químico do oxigênio, permitindo assim identificar qual terminação é mais estável
+para uma determinada condição de ambiente químico. A segunda maneira é traçando um
+diagrama de estabilidade das terminações em que varia-se tanto o potencial químico do
+oxigênio quanto o do cátion metálico modificador da rede, permitindo assim identificar
+quais terminações são termodinamicamente mais estáveis sob diferentes condições de
+ambiente químico. Também é posssível relacionar a temperatura e pressão do ambiente
+químico com os potenciais químicos do oxigênio (Equação 14), permitindo assim estabelecer
+condições experimentais para a obtenção de determinadas terminações superficiais.
+
+24
+
+5.1.2.1 Estudo de estabilidade superfície (001)
+Para a orientação (001) foram geradas 5 terminações superficiais diferentes, identificadas como ST-A1 a ST-A5. A Figura 6 apresenta as estruturas das diferentes terminações
+superficiais geradas para essa orientação, antes e após a relaxação das estruturas, bem
+como seus defeitos estruturais.
+Figura 6: Estruturas das diferentes terminações superficiais (001) do ZnWO4 : (A) ST-A1,
+(B) ST-A2, (C) ST-A3, (D) ST-A4 e (E) ST-A5, antes e após a relaxação das estruturas.
+
+Fonte: Elaborada pelo autor.
+A partir dos E0 obtidos para cada terminação superficial, foi possível γ em função
+de ∆µO e também foi possível gerar o diagrama de superfície que relaciona o µO com
+∆µZ n. Os resultados desses cálculos estão apresentados na Figura 7.
+
+25
+
+Figura 7: (A) γ em função de ∆µO para as diferentes terminações superficiais (001) do
+ZnWO4 . (B) Diagrama de estabilidade das terminações superficiais (001) em função dos
+potenciais químicos do oxigênio ∆µO e ∆µZn . (C) Relação de T para diferentes ∆µO e
+pressões parciais de O2 .
+
+A
+
+B
+
+C
+
+Fonte: Elaborada pelo autor.
+5.1.2.2 Estudo de estabilidade superfície (010)
+Para a orientação (010) foram geradas 8 terminações superficiais diferentes, identificadas como ST-B1 a ST-B8. A Figura 8 apresenta as estruturas das diferentes terminações
+superficiais geradas para essa orientação, antes e após a relaxação das estruturas, bem
+como seus defeitos estruturais.
+Figura 8: Estruturas das diferentes terminações superficiais (010) do ZnWO4 : (A) ST-B1,
+(B) ST-B2, (C) ST-B3, (D) ST-B4, (E) ST-B5, (F) ST-B6, (G) ST-B7 e (H) ST-B8, antes
+e após a relaxação das estruturas.
+
+Fonte: Elaborada pelo autor.
+26
+
+A partir dos E0 obtidos para cada terminação superficial, foi possível calcular γ
+em função de ∆µO . Também foi possível gerar o diagrama de superfície que relaciona o
+∆µO com ∆µZn . Os resultados desses cálculos estão apresentados na Figura 9.
+Figura 9: (A) γ em função de ∆µO para as diferentes terminações superficiais (010) do
+ZnWO4 (B) Diagrama de estabilidade das terminações superficiais (010) em função de
+∆µO e ∆µZn . (C) Relação de T para diferentes ∆µO e pressões parciais de O2 .
+
+A
+
+B
+
+C
+
+Fonte: Elaborada pelo autor.
+
+5.1.2.3 Estudo de estabilidade superfície (011)
+Para a orientação (011) foram geradas 12 terminações superficiais diferentes,
+identificadas como ST-C1 a ST-C12. A Figura 10 apresenta as estruturas das diferentes terminações superficiais geradas para essa orientação, antes e após a relaxação das
+estruturas, bem como seus defeitos estruturais.
+
+27
+
+Figura 10: Estruturas das diferentes terminações superficiais (011) do ZnWO4 : (A) ST-C1,
+(B) ST-C2, (C) ST-C3, (D) ST-C4, (E) ST-C5, (F) ST-C6, (G) ST-C7, (H) ST-C8, (I)
+ST-C9, (J) ST-C10, (K) ST-C11 e (L) ST-C12, antes e após a relaxação das estruturas.
+
+Fonte: Elaborada pelo autor.
+5.1.2.4 Estudo de estabilidade superfície (100)
+Para a orientação (100) foram geradas 6 terminações superficiais diferentes, identificadas como ST-D1 a ST-D6. A Figura 11 apresenta as estruturas das diferentes terminações
+superficiais geradas para essa orientação, antes e após a relaxação das estruturas, bem
+como seus defeitos estruturais.
+
+28
+
+Figura 11: Estruturas das diferentes terminações superficiais (100) do ZnWO4 : (A) ST-D1,
+(B) ST-D2, (C) ST-D3, (D) ST-D4, (E) ST-D5 e (F) ST-D6, antes e após a relaxação das
+estruturas, bem como seus defeitos estruturais.
+
+Fonte: Elaborada pelo autor.
+A partir dos E0 obtidos para cada terminação superficial, foi possível calcular γ
+em função de ∆µO . Também foi possível gerar o diagrama de superfície que relaciona o
+∆µO com ∆µZn . Os resultados desses cálculos estão apresentados na Figura 12.
+Figura 12: (A) γ em função de ∆µO para as diferentes terminações superficiais (100) do
+ZnWO4 (B) Diagrama de estabilidade das terminações superficiais (100) em função de
+∆µO e ∆µZn . (C) Relação de T para diferentes ∆µO e pressões parciais de O2 .
+2500
+10,0
+
+T (K)
+
+2000
+
+1500
+
+1000
+
+500
+
+0
+
+-10,0
+
+0,0
+
+Zn (eV)
+-7,5
+-5,0
+-2,5
+
+ln(P/P0)
+0,0
+
+-40
+
+-20
+
+0
+
+0,0
+
+Zn-ST-D5
+
+4
+
+A
+
+-3,0
+
+-1,0
+
+Zn-ST-D6
+
+-1,5
+
+K
+
+-1,5
+K
+
+0
+60
+
+Zn-S
+T-D5
+
+-2,0
+
+-1,0
+
+O (eV)
+
+-2,5
+
+0,0
+
+-3,0
+
+Zn-ST-D2
+
+K
+
+Zn-ST-D6
+
+-2,0
+
+0
+
+-2,0
+
+90
+
+Zn-ST-D1
+T-D2
+Zn-S
+
+-1,0
+
+B
+
+Fonte: Elaborada pelo autor.
+
+29
+
+C
+
+00
+
+2,0
+
+3
+
+0K
+30
+
+-2,5
+
+12
+
+4,0
+
+T-D
+
+-S
+
+Zn
+
+6,0
+
+-0,5
+
+Zn-ST-D1
+
+O (eV)
+
+T-D
+
+O (eV)
+
+(J m 2)
+
+-0,5
+
+Zn
+-S
+
+8,0
+
+-3,0
+
+5.1.2.5 Estudo de estabilidade superfície (101)
+Para a orientação (101) foram geradas 3 terminações superficiais diferentes, identificadas como ST-E1, ST-E2 e ST-E3. A Figura 13 apresenta as estruturas das diferentes
+terminações superficiais geradas para essa orientação, antes e após a relaxação das estruturas, bem como seus defeitos estruturais.
+Figura 13: Estruturas das diferentes terminações superficiais (101) do ZnWO4 : (A) ST-E1,
+(B) ST-E2 e (C) ST-E3, antes e após a relaxação das estruturas.
+
+Fonte: Elaborada pelo autor.
+A partir dos E0 obtidos para cada terminação superficial, foi possível calcular γ
+em função de ∆µO . Também foi possível gerar o diagrama de superfície que relaciona o
+∆µO com ∆µZn . Os resultados desses cálculos estão apresentados na Figura 14.
+
+30
+
+Figura 14: (A) γ em função de ∆µO para as diferentes terminações superficiais (101) do
+ZnWO4 (B) Diagrama de estabilidade das terminações superficiais (101) em função de
+∆µO e ∆µZn . (C) Relação de T para diferentes ∆µO e pressões parciais de O2 .
+
+A
+
+B
+
+C
+
+Fonte: Elaborada pelo autor.
+5.1.2.6 Estudo de estabilidade superfície (110)
+Para a orientação (110) foram geradas 8 terminações superficiais diferentes, identificadas como ST-F1 a ST-F8. A Figura 15 apresenta as estruturas das diferentes terminações
+superficiais geradas para essa orientação, antes e após a relaxação das estruturas, bem
+como seus defeitos estruturais.
+Figura 15: Estruturas das diferentes terminações superficiais (110) do ZnWO4 : (A) ST-F1,
+(B) ST-F2, (C) ST-F3, (D) ST-F4, (E) ST-F5, (F) ST-F6, (G) ST-F7 e (H) ST-F8, antes
+e após a relaxação das estruturas.
+
+Fonte: Elaborada pelo autor.
+
+31
+
+A partir dos E0 obtidos para cada terminação superficial, foi possível calcular γ
+em função de ∆µO . Também foi possível gerar o diagrama de superfície que relaciona o
+∆µO com ∆µZn . Os resultados desses cálculos estão apresentados na Figura 16.
+Figura 16: (A) γ em função de ∆µO para as diferentes terminações superficiais (110) do
+ZnWO4 (B) Diagrama de estabilidade das terminações superficiais (110) em função de
+∆µO e ∆µZn . (C) Relação de T para diferentes ∆µO e pressões parciais de O2 .
+
+A
+
+B
+
+C
+
+Fonte: Elaborada pelo autor.
+
+5.1.2.7 Estudo de estabilidade superfície (111)
+Por fim para a orientação (111) foram geradas 8 terminações superficiais diferentes,
+identificadas como ST-G1 a ST-G8. A Figura 17 apresenta as estruturas das diferentes terminações superficiais geradas para essa orientação, antes e após a relaxação das estruturas,
+bem como seus defeitos estruturais.
+
+32
+
+Figura 17: Estruturas das diferentes terminações superficiais (111) do ZnWO4 : (A) ST-G1,
+(B) ST-G2, (C) ST-G3, (D) ST-G4, (E) ST-G5, (F) ST-G6, (G) ST-G7 e (H) ST-G8,
+antes e após a relaxação das estruturas.
+
+Fonte: Elaborada pelo autor.
+
+33
+
+6.
+
+CONCLUSÃO
+
+Sintetize as principais contribuições do trabalho, tire conclusões a partir dos
+resultados e proponha trabalhos futuros.
+
+34
+
+REFERÊNCIAS
+[1] BAYR, H. Reactive oxygen species. Critical care medicine, LWW, v. 33, n. 12,
+s498–s501, 2005.
+[2] DONG, C.; FANG, W.; YI, Q.; ZHANG, J. A comprehensive review on reactive oxygen species (ROS) in advanced oxidation processes (AOPs). Chemosphere, Elsevier,
+v. 308, p. 136205, 2022.
+[3] SACHDEV, S.; ANSARI, S. A.; ANSARI, M. I. Reactive Oxygen Species in Plants.
+[S.l.: s.n.], 2023. ISBN 9789811998836. DOI: 10.1007/978-981-19-9884-3.
+[4] MITTLER, R.; ZANDALINAS, S. I.; FICHMAN, Y.; VAN BREUSEGEM, F.
+Reactive oxygen species signalling in plant stress responses. Nature reviews Molecular
+cell biology, Nature Publishing Group UK London, v. 23, n. 10, p. 663–679, 2022.
+DOI: 10.1038/s41580-022-00499-2.
+[5] MAILLOUX, R. J. An update on methods and approaches for interrogating mitochondrial reactive oxygen species production. Redox biology, Elsevier, v. 45, p. 102044,
+2021. DOI: 10.1016/j.redox.2021.102044.
+[6] HABER, F.; WEISS, J. The catalytic decomposition of hydrogen peroxide by
+iron salts. Proceedings of the Royal Society of London. Series A-Mathematical and
+Physical Sciences, The Royal Society London, v. 147, n. 861, p. 332–351, 1934. DOI:
+10.1098/rspa.1934.0221.
+[7] LAM, P.-L.; WONG, R.-M.; LAM, K.-H.; HUNG, L.-K.; WONG, M.-M.; YUNG,
+L.-H.; HO, Y.-W.; WONG, W.-Y.; HAU, D.-P.; GAMBARI, R. et al. The role of
+reactive oxygen species in the biological activity of antimicrobial agents: An updated
+mini review. Chemico-biological interactions, Elsevier, v. 320, p. 109023, 2020. DOI:
+10.1016/j.cbi.2020.109023.
+[8] FENTON, H. J. H.; JONES, H. VII.—The oxidation of organic acids in presence of
+ferrous iron. Part I. Journal of the Chemical Society, Transactions, Royal Society of
+Chemistry, v. 77, p. 69–76, 1900. DOI: 10.1039/CT9007700069.
+[9] EL SHARKAWY, H. M.; SHAWKY, A. M.; ELSHYPANY, R.; SELIM, H. Efficient
+photocatalytic degradation of organic pollutants over TiO2 nanoparticles modified
+with nitrogen and MoS2 under visible light irradiation. Scientific Reports, Nature
+Publishing Group UK London, v. 13, n. 1, p. 8845, 2023. DOI: 10.1038/s41598-02335265-7.
+[10] DRYDEN, M. Reactive oxygen species: a novel antimicrobial. International
+journal of antimicrobial agents, Elsevier, v. 51, n. 3, p. 299–303, 2018. DOI:
+10.1016/j.ijantimicag.2017.08.029.
+35
+
+[11] SHAFIQ, M.; CHEN, Y.; HASHIM, R.; HE, C.; MO, X.; ZHOU, X. Reactive
+oxygen species-based biomaterials for regenerative medicine and tissue engineering
+applications. Frontiers in Bioengineering and Biotechnology, Frontiers Media SA,
+v. 9, p. 821288, 2021. DOI: 10.3389/fbioe.2021.821288.
+[12] LIANG, J.; LIU, B. ROS-responsive drug delivery systems. Bioengineering &
+translational medicine, Wiley Online Library, v. 1, n. 3, p. 239–251, 2016. DOI:
+10.1002/btm2.10014.
+[13] YU, Y.; CUI, Y.; NIEDERNHOFER, L. J.; WANG, Y. Occurrence, biological
+consequences, and human health relevance of oxidative stress-induced DNA damage.
+Chemical research in toxicology, ACS Publications, v. 29, n. 12, p. 2008–2039, 2016.
+DOI: 10.1021/acs.chemrestox.6b00265.
+[14] YANG, B.; CHEN, Y.; SHI, J. Reactive oxygen species (ROS)-based nanomedicine. Chemical reviews, ACS Publications, v. 119, n. 8, p. 4881–4985, 2019. DOI:
+10.1021/acs.chemrev.8b00626.
+[15] SPIERING, M. J. Primer on the immune system. Alcohol research: current reviews,
+v. 37, n. 2, p. 171, 2015.
+[16] WANG, R.; LAN, C.; BENLAGHA, K.; CAMARA, N. O. S.; MILLER, H.; KUBO,
+M.; HEEGAARD, S.; LEE, P.; YANG, L.; FORSMAN, H. et al. The interaction
+of innate immune and adaptive immune system. MedComm, Wiley Online Library,
+v. 5, n. 10, e714, 2024. DOI: 10.1002/mco2.714.
+[17] BARDAWEEL, S. K.; GUL, M.; ALZWEIRI, M.; ISHAQAT, A.; ALSALAMAT,
+H. A.; BASHATWAH, R. M. Reactive oxygen species: The dual role in physiological
+and pathological conditions of the human body. The Eurasian journal of medicine,
+v. 50, n. 3, p. 193, 2018. DOI: 10.5152/eurasianjmed.2018.17397.
+[18] GORDON, S. Phagocytosis: an immunobiologic process. Immunity, Elsevier, v. 44,
+n. 3, p. 463–475, 2016. DOI: 10.1016/j.immuni.2016.02.026.
+[19] ZENG, X.; LIU, Y.; XIA, Y.; UDDIN, M. H.; XIA, D.; MCCARTHY, D. T.;
+DELETIC, A.; YU, J.; ZHANG, X. Cooperatively modulating reactive oxygen
+species generation and bacteria-photocatalyst contact over graphitic carbon nitride
+by polyethylenimine for rapid water disinfection. Applied Catalysis B: Environmental,
+Elsevier, v. 274, p. 119095, 2020. DOI: 10.1016/j.apcatb.2020.119095.
+[20] ZHU, Y.; HONG, W.; LIU, X.; TAN, L.; WU, J.; MAO, C.; XIANG, Y.; WU,
+S.; CHEUNG, K. M.; YEUNG, K. W. Rapid bacterial elimination achieved by
+sonodynamic Au@ Cu 2 O hybrid nanocubes. Nanoscale, Royal Society of Chemistry,
+v. 13, n. 37, p. 15699–15710, 2021. DOI: 10.1039/D1NR04512A.
+
+36
+
+[21] LIU, Y.; WANG, L.; MA, Q.; XU, X.; GAO, X.; ZHU, H.; FENG, T.; DOU, X.;
+EGUCHI, M.; YAMAUCHI, Y. et al. Simultaneous generation of residue-free reactive
+oxygen species and bacteria capture for efficient electrochemical water disinfection.
+Nature communications, Nature Publishing Group UK London, v. 15, n. 1, p. 10175,
+2024. DOI: 10.1038/s41467-024-53174-9.
+[22] HE, D.; QU, J. Photocatalytic Degradation of Emerging Contaminants. Toxics,
+MDPI, v. 13, n. 2, p. 80, 2025. DOI: 10.3390/toxics13020080.
+[23] WANG, L.; ZHAO, J.; LIU, H.; HUANG, J. Design, modification and application of
+semiconductor photocatalysts. Journal of the Taiwan Institute of Chemical Engineers,
+Elsevier, v. 93, p. 590–602, 2018. DOI: 10.1016/j.jtice.2018.09.004.
+[24] FAN, D.; LI, W.; QIU, H.; XU, Y.; GAO, S.; LIU, L.; LI, T.; HUANG, F.; MAO, Y.;
+ZHOU, W. et al. Two-dimensional semiconductor integrated circuits operating at
+gigahertz frequencies. Nature Electronics, Nature Publishing Group UK London,
+v. 6, n. 11, p. 879–887, 2023. DOI: 10.1038/s41928-023-01052-5.
+[25] MALITS, M.; NEMIROVSKY, Y. Nanometric integrated temperature and thermal
+sensors in CMOS-SOI technology. Sensors, MDPI, v. 17, n. 8, p. 1739, 2017. DOI:
+10.3390/s17081739.
+[26] CUI, Z.; LI, D.; YANG, W.; FAN, K.; LIU, H.; WEN, F.; LI, L.; DONG, L.; WANG,
+G.; WU, W. An electrochemical biosensor based on few-layer MoS 2 nanosheets
+for highly sensitive detection of tumor marker ctDNA. Analytical Methods, Royal
+Society of Chemistry, v. 14, n. 20, p. 1956–1962, 2022. DOI: 10.1039/D2AY00467D.
+[27] AHN, N.; LIVACHE, C.; PINCHETTI, V.; KLIMOV, V. I. Colloidal semiconductor
+nanocrystal lasers and laser diodes. Chemical Reviews, ACS Publications, v. 123,
+n. 13, p. 8251–8296, 2023. DOI: 10.1021/acs.chemrev.2c00865.
+[28] ZHONG, Q.; LI, Y.; LIU, J.; LI, J.; ZHANG, G. In situ construction of
+Ti3+ self-doped TiO2/Ti3C2 Schottky heterojunctions for highly selective photoFenton-like degradation of organic pollutants: Surface/interface effect and mechanism insight. Applied Surface Science, Elsevier, v. 667, p. 160376, 2024. DOI:
+10.1016/j.apsusc.2024.160376.
+[29] ALFA, I.; HAFEEZ, H. Y.; MOHAMMED, J.; ABDU, S.; SULEIMAN, A. B.;
+NDIKILAR, C. E. A recent progress and advancement on MoS2-based photocatalysts
+for efficient solar fuel (hydrogen) generation via photocatalytic water splitting.
+International Journal of Hydrogen Energy, Elsevier, v. 71, p. 1006–1025, 2024. DOI:
+10.1016/j.ijhydene.2024.05.203.
+
+37
+
+[30] HE, H.; LUO, Z.; YU, C. Multifunctional ZnWO4 nanoparticles for photocatalytic removal of pollutants and disinfection of bacteria. Journal of Photochemistry and Photobiology A: Chemistry, Elsevier, v. 401, p. 112735, 2020. DOI:
+10.1016/j.jphotochem.2020.112735.
+[31] ZHANG, H.; LIU, J.; XU, T.; JI, W.; ZONG, X. Recent advances on small band
+gap semiconductor materials (≤ 2.1 eV) for solar water splitting. Catalysts, MDPI,
+v. 13, n. 4, p. 728, 2023. DOI: 10.3390/catal13040728.
+[32] WOLPERT, D.; AMPADU, P. Managing temperature effects in nanoscale adaptive
+systems. [S.l.]: Springer Science & Business Media, 2011.
+[33] LU, S. A systematic analysis of wide band gap semiconductor used in power electronics. Applied and Computational Engineering, v. 65, n. 1, p. 161–166, 2024. DOI:
+10.54254/2755-2721/65/20240487.
+[34] NGUYEN, N.-K.; NGUYEN, T.; NGUYEN, T.-K.; YADAV, S.; DINH, T.; MASUD,
+M. K.; SINGHA, P.; DO, T. N.; BARTON, M. J.; TA, H. T. et al. Wide-band-gap
+semiconductors for biointegrated electronics: Recent advances and future directions.
+ACS Applied Electronic Materials, ACS Publications, v. 3, n. 5, p. 1959–1981, 2021.
+DOI: 10.1021/acsaelm.0c01122.
+[35] SHAN, A. Y.; GHAZI, T. I. M.; RASHID, S. A. Immobilisation of titanium
+dioxide onto supporting materials in heterogeneous photocatalysis: A review.
+Applied Catalysis A: General, Elsevier, v. 389, n. 1-2, p. 1–8, 2010. DOI:
+10.1016/j.apcata.2010.08.053.
+[36] NASCIMENTO, J. L. A. do; CHANTELLE, L.; SANTOS, I. M. G. dos; MENEZES DE OLIVEIRA, A. L.; ALVES, M. C. F. The Influence of Synthesis Methods
+and Experimental Conditions on the Photocatalytic Properties of SnO2: A Review. Catalysts, v. 12, n. 4, 2022. ISSN 2073-4344. DOI: 10.3390/catal12040428.
+https://www.mdpi.com/2073-4344/12/4/428.
+[37] MACEDO, O. d.; OLIVEIRA, A. d.; SANTOS, I. d. Zinc tungstate: a review on its
+application as heterogeneous photocatalyst. Ceramica, SciELO Brasil, v. 68, n. 387,
+p. 294–315, 2022. DOI: 10.1590/0366-69132022683873265.
+[38] ABUBAKAR, H. L.; TIJANI, J. O.; ABDULKAREEM, S. A.; MANN, A.;
+MUSTAPHA, S. A review on the applications of zinc tungstate (ZnWO4) photocatalyst for wastewater treatment. Heliyon, Elsevier, v. 8, n. 7, 2022. DOI:
+10.1016/j.heliyon.2022.e09964.
+[39] SINGH, G.; UBHI, M. K.; JEET, K.; SINGLA, C.; KAUR, M. A review on impacting
+parameters for photocatalytic degradation of organic effluents by ferrites and their nanocomposites. Processes, MDPI, v. 11, n. 6, p. 1727, 2023. DOI: 10.3390/pr11061727.
+
+38
+
+[40] COSTA, M. J. d. S.; LIMA, A. E. B.; RIBEIRO, E. P.; COSTA, G. d. S.; LONGO,
+E.; LUZ JR, G. E. da; CAVALCANTE, L. S.; SANTOS, R. d. S. Transition metal
+tungstates A WO4 (A 2+= Fe, Co, Ni, and Cu) thin films and their photoelectrochemical behavior as photoanode for photocatalytic applications. Journal of Applied
+Electrochemistry, Springer, v. 53, n. 7, p. 1349–1367, 2023. DOI: 10.1007/s10800-02301851-w.
+[41] SIVAGANESH, D.; SARAVANAKUMAR, S.; SIVAKUMAR, V.; SASIKUMAR, S.;
+NANDHA GOPAL, J.; KALPANA, S.; RAJAJEYAGANTHAN, R. Sm3+ inducedSrWO4 phosphor: analysis of photoluminescence and photocatalytic properties with
+electron density distribution studies. Journal of Materials Science: Materials in
+Electronics, Springer, v. 31, n. 11, p. 8865–8883, 2020. DOI: 10.1007/s10854-02003421-8.
+[42] GAO, C.; LI, D.; WEN, Q.; SONG, F.; ZHOU, J. Synthesis of dual pn heterojunction
+of NiWO4/CdS/ZIF-67 photocatalyst as a highly efficient photo-assisted fenton-like
+catalyst for removal of doxycycline hydrochloride. Applied Surface Science, Elsevier,
+v. 645, p. 158872, 2024. DOI: 10.1016/j.apsusc.2023.158872.
+[43] ANM. Anuário Mineral Estadual – Rio Grande do Norte anos
+base
+2010
+–
+2013.
+14
+jun.
+2017.
+https://www.gov.br/anm/ptbr/assuntos/economiamineral/publicacoes/anuario-mineral/anuario-mineralestadual/anuario-mineralestadual/rio-grande-do-norte. Acesso em: 6 ago. 2025.
+[44] VAN DE WALLE, C. Computational studies of conductivity in wide-band-gap
+semiconductors andoxides. Journal of Physics: Condensed Matter, IOP Publishing,
+v. 20, n. 6, p. 064230, 2008. DOI: 10.1088/0953-8984/20/6/064230.
+[45] LIU, X.; MCKEMMISH, L.; PÉREZ-RÍOS, J. The performance of CCSD (T)
+for the calculation of dipole moments in diatomics. Physical Chemistry Chemical Physics, Royal Society of Chemistry, v. 25, n. 5, p. 4093–4104, 2023. DOI:
+10.1039/D2CP05060A.
+[46] WANG, Y.; ZHAO, Z.; TANG, X.; YANG, D.; SUN, C. Photophysical properties of
+the fluorescent probe NHI for the detection of phosgene based on ESIPT process:
+A DFT/TD-DFT study. Chemical Physics Letters, Elsevier, p. 142349, 2025. DOI:
+10.1016/j.cplett.2025.142349.
+[47] RODRIGUES-PINHEIRO, A.; LONGO, E.; ANDRES, J.; SAN-MIGUEL, M. A.
+Electron Irradiation-Induced Structural and Electronic Transformations in βAg2MoO4: Atomistic Insights into the Formation of Ag Nanoparticles. The Journal
+of Physical Chemistry C, ACS Publications, v. 129, n. 15, p. 7402–7412, 2025. DOI:
+10.1021/acs.jpcc.4c08139.
+
+39
+
+[48] BUTLER, K. T.; FROST, J. M.; SKELTON, J. M.; SVANE, K. L.; WALSH, A.
+Computational materials design of crystalline solids. Chemical Society Reviews, Royal
+Society of Chemistry, v. 45, n. 22, p. 6138–6146, 2016. DOI: 10.1039/C5CS00841G.
+[49] FEDOROV, A. K.; GELFAND, M. S. Towards practical applications in quantum
+computational biology. Nature Computational Science, Nature Publishing Group US
+New York, v. 1, n. 2, p. 114–119, 2021. DOI: 10.1038/s43588-021-00024-z.
+[50] CABRAL, L.; LONGO, E.; SAN-MIGUEL, M. A.; LEITE, E.; SILVA, E. da;
+ANDRÉS, J. Lighting up the structure and electronic properties of α-, β-, γ-Ag 2
+WO 4 polymorphs under laser irradiation: a DFT investigation. Physical Chemistry
+Chemical Physics, Royal Society of Chemistry, v. 27, n. 14, p. 6836–6844, 2025. DOI:
+10.1039/D4CP04349A.
+[51] GOUVEIA, A. F.; ASSIS, M.; CAVALCANTE, L. S.; GRACIA, L.; LONGO, E.; ANDRÉS, J. Reading at exposed surfaces: theoretical insights into photocatalytic activity
+of ZnWO4. Frontier Research Today, v. 1, p. 1005, 2018. DOI: 10.31716/frt.201801005.
+[52] SILVEIRA LACERDA, L. H. da; LONGO, E.; ANDRES, J.; SAN-MIGUEL, M. A. A
+diagnosis approach for semiconductor properties evaluation from ab initio calculations:
+Ag-based materials investigation. Journal of Solid State Chemistry, Elsevier, v. 305,
+p. 122670, 2022. DOI: 10.1016/j.jssc.2021.122670.
+[53] GOUVEIA, A. F.; LIPSKY, F.; SAN-MIGUEL, M. A.; LONGO, E.; ANDRÉS,
+J. What’s behind their various activities? Discerning the importance of surface
+terminations in Ag3PO4 semiconductor from DFT calculations. Computational
+Materials Today, Elsevier, v. 1, p. 100001, 2024. DOI: 10.1021/acsomega.1c01214.
+[54] WU, Y.; ZHANG, J.; LONG, B.; ZHANG, H. The Thermodynamic Stability, Electronic and Photocatalytic Properties of the ZnWO4(100) Surface as Predicted by
+Screened Hybrid Density Functional Theory. ACS Omega, v. 6, n. 23, p. 15057–15067,
+2021. DOI: 10.1021/acsomega.1c01214.
+[55] SILVEIRA LACERDA, L. H. da; SAN-MIGUEL, M. A. DFT approaches unraveling
+the surface and morphological properties of MnMoO4. Applied Surface Science,
+Elsevier, v. 567, p. 150882, 2021. DOI: 10.1016/j.apsusc.2021.150882.
+[56] TEODORO, V.; GOUVEIA, A. F.; MACHADO, T. R.; TRENCH, A. B.; JACOMACI, N.; ASSIS, M.; MARQUES, G. E.; TEODORO, M. D.; SAN-MIGUEL, M. A.;
+ANDRÉS, J. et al. Connecting morphology and photoluminescence emissions in βAg2MoO4 microcrystals. Ceramics International, Elsevier, v. 48, n. 3, p. 3740–3750,
+2022. DOI: 10.1016/j.ceramint.2021.10.156.
+
+40
+
+[57] BARRIONUEVO, M. V. F.; ANDRES, J.; SAN-MIGUEL, M. A. A Theoretical
+Study on the Structural, Electronic, and Magnetic Properties of Bimetallic Pt13nNin (N= 0, 3, 6, 9, 13) Nanoclusters to Unveil the Catalytic Mechanisms for
+the Water-Gas Shift Reaction. Frontiers in chemistry, Frontiers Media SA, v. 10,
+p. 852196, 2022. DOI: 10.3389/fchem.2022.852196.
+[58] BHATI, M.; CHEN, Y.; SENFTLE, T. P. Density functional theory modeling of
+photo-electrochemical reactions on semiconductors: H2 evolution on 3C-SiC. The
+Journal of Physical Chemistry C, ACS Publications, v. 124, n. 49, p. 26625–26639,
+2020. DOI: 10.1021/acs.jpcc.0c07583.
+[59] REN, B.; JIN, Q.; LI, Y.; LI, Y.; CUI, H.; WANG, C. Activating titanium dioxide as a new efficient electrocatalyst: from theory to experiment. ACS Applied
+Materials & Interfaces, ACS Publications, v. 12, n. 10, p. 11607–11615, 2020. DOI:
+10.1021/acsami.9b21575.
+[60] ANDRADE, A. O.; SILVEIRA LACERDA, L. H. da; JÚNIOR, M. L.; SHARMA,
+S. K.; COSTA, M. M. da; ALVES, O. C.; SANTOS, E. C.; SANTOS, C. dos;
+MENEZES, A. de; SAN-MIGUEL, M. A. et al. Enhanced photocatalytic activity of BiOBr/ZnWO4 heterojunction: A combined experimental and DFT-based
+theoretical approach. Optical Materials, Elsevier, v. 138, p. 113701, 2023. DOI:
+10.1016/j.optmat.2023.113701.
+[61] GOUVEIA, A. F.; BELLUCCI, G. V.; RIBEIRO, L. K.; ASSIS, M.; ROSA, I. L. V.;
+LONGO, E.; ANDRÉS, J.; SAN-MIGUEL, M. A. Surfactant effects in the morphology and the photocatalytic activity of the BaMoO4 crystals. Eclética Química,
+Universidade Estadual Paulista Júlio de Mesquita Filho, v. 47, n. 1, p. 80–89, 2022.
+DOI: 10.26850/1678-4618eqj.v47.1SI.2022.p80-89.
+[62] HAN, R.; ZHANG, X.; LIU, M.; GAO, X.; WANG, S.; LU, Q.; GUO, E.; SI, C.;
+CHEN, S.; WEI, M. et al. Combination of theory and experiment achieving onedimensional MWO4 (M= Zn, Ni, and Cu) photocatalysts with broad-spectrum
+degradation. Separation and Purification Technology, Elsevier, v. 324, p. 124604,
+2023. DOI: 10.1016/j.seppur.2023.124604.
+[63] LI, J.; XIAO, C.; WANG, K.; LI, Y.; ZHANG, G. Enhanced generation of reactive
+oxygen species under visible light irradiation by adjusting the exposed facet of
+FeWO4 nanosheets to activate oxalic acid for organic pollutant removal and Cr (VI)
+reduction. Environmental Science & Technology, ACS Publications, v. 53, n. 18,
+p. 11023–11030, 2019. DOI: 10.1021/acs.est.9b00641.
+[64] XU, H.-Y.; ZHANG, S.-Q.; WANG, Y.-F.; XU, Y.; DONG, L.-M.; KOMARNENI,
+S. New insights into the photocatalytic mechanism of pristine ZnO nanocrystals:
+
+41
+
+From experiments to DFT calculations. Applied Surface Science, Elsevier, v. 614,
+p. 156225, 2023. DOI: 10.1016/j.apsusc.2022.156225.
+[65] OLIVEIRA, M. C. de; LONGO, E.; RIBEIRO, R. A.; LEMOS, S. C.; ANDRES,
+J.; GRACIA, L. First-principles study on the stability, electronic structure, and
+band alignment of AgNbO3 surfaces: Understanding the adsorption process of H2O
+and O2. Computational Materials Science, Elsevier, v. 246, p. 113398, 2025. DOI:
+10.1016/j.commatsci.2024.113398.
+[66] ANDRADE NETO, N. F.; OLIVEIRA, M. C.; NASCIMENTO, J. H. O.; LONGO,
+E.; RIBEIRO, R. A. P.; BOMIO, M. R. D.; MOTTA, F. V. Effect of the Cross-Section
+Morphology in the Antimicrobial Properties of α-Ag2WO4 Rods: An Experimental
+and Theoretical Study. Applied Nano, v. 4, n. 3, p. 213–225, 2023. DOI: 10.3390/applnano4030012.
+[67] LIPSKY, F.; LACERDA, L. H. d. S.; GRACIA, L.; FOSCHIANI, B. G.; ASSIS, M.;
+OLIVA, M.; LONGO, E.; ANDRÉS, J.; SAN-MIGUEL, M. A. A Tale of Reactive
+Oxygen Species on the Ag3PO4(110) Surface. The Journal of Physical Chemistry C,
+v. 127, n. 48, p. 23235–23245, 2023. DOI: 10.1021/acs.jpcc.3c06321.
+[68] ASSIS, M.; DE FOGGI, C. C.; TEODORO, V.; DE CAMPOS DA COSTA, J. P.;
+SILVA, C. E.; ROBELDO, T. et al. Surface-dependent photocatalytic and biological
+activities of Ag2CrO4: Integration of experiment and simulation. Applied Surface
+Science, v. 545, p. 148964, 2021. DOI: https://doi.org/10.1016/j.apsusc.2021.148964.
+[69] ALVAREZ-ROCA, R.; GOUVEIA, A. F.; FOGGI, C. C. de; LEMOS, P. S.; GRACIA,
+L.; SILVA, L. F. da; VERGANI, C. E.; SAN-MIGUEL, M.; LONGO, E.; ANDRÉS,
+J. Selective Synthesis of α-, β-, and γ-Ag2WO4 Polymorphs: Promising Platforms
+for Photocatalytic and Antibacterial Materials. Inorganic Chemistry, v. 60, n. 2,
+p. 1062–1079, 2021. DOI: 10.1021/acs.inorgchem.0c03186.
+[70] MACEDO, N. G.; MACHADO, T. R.; ROCA, R. A.; ASSIS, M.; FOGGI,
+C. C.; PUERTO-BELDA, V. et al. Tailoring the Bactericidal Activity of Ag
+Nanoparticles/α-Ag2WO4 Composite Induced by Electron Beam and Femtosecond
+Laser Irradiation: Integration of Experiment and Computational Modeling. ACS
+Applied Bio Materials, v. 2, n. 2, p. 824–837, 2019. DOI: 10.1021/acsabm.8b00673.
+[71] DORINI, T. T.; LIPSKY, F.; RODRIGUES-PINHEIRO, A.; ANDRÉS, J.;
+LONGO, E.; SAN-MIGUEL, M. A. Mapping and characterization of the surface structure and electronic properties of β-Ag2MoO4 from DFT thermodynamic calculations. Surfaces and Interfaces, v. 56, p. 105530, 2025. DOI:
+https://doi.org/10.1016/j.surfin.2024.105530.
+[72] ROGAL, J.; REUTER, K. Ab initio atomistic thermodynamics for surfaces: A
+primer, 2006. https://apps.dtic.mil/sti/html/tr/ADA476575/.
+42
+
+[73] KRESSE, G.; FURTHMÜLLER, J. Efficient iterative schemes for ab initio totalenergy calculations using a plane-wave basis set. Phys. Rev. B, American Physical
+Society, v. 54, p. 11169–11186, 16 1996. DOI: 10.1103/PhysRevB.54.11169.
+[74] KRESSE, G.; FURTHMÜLLER, J. Efficiency of ab-initio total energy calculations
+for metals and semiconductors using a plane-wave basis set. Computational Materials
+Science, v. 6, n. 1, p. 15–50, 1996. ISSN 0927-0256. DOI: 10.1016/0927-0256(96)000080.
+[75] PERDEW, J. P.; BURKE, K.; ERNZERHOF, M. Generalized Gradient Approximation Made Simple. Phys. Rev. Lett., American Physical Society, v. 77, p. 3865–3868,
+18 1996. DOI: 10.1103/PhysRevLett.77.3865.
+[76] DORINI, T.; SAN-MIGUEL, M. Accelerating rational design of oxide surfaces:
+The PS-TEROS workflow for automated surface stability analysis. Applied Surface
+Science, Elsevier, p. 164350, 2025. DOI: 10.1016/j.apsusc.2025.164350.
+[77] HINUMA, Y.; PIZZI, G.; KUMAGAI, Y.; OBA, F.; TANAKA, I. Band structure diagram paths based on crystallography. v. 128, p. 140–184, 2017. DOI:
+https://doi.org/10.1016/j.commatsci.2016.10.015.
+[78] TOGO, A.; SHINOHARA, K.; TANAKA, I. Spglib: a software library for crystal
+symmetry search. Science and Technology of Advanced Materials: Methods, Taylor
+& Francis, v. 4, n. 1, p. 2384822, 2024. DOI: 10.1080/27660400.2024.2384822.
+[79] HAUS, J. W. 11 - Nanophotonic devices. In: FUNDAMENTALS and Applications of
+Nanophotonics. [S.l.]: Woodhead Publishing, 2016. P. 341–395. DOI: 10.1016/B9781-78242-464-2.00011-7.
+[80] BADER, R. F. W.; NGUYEN-DANG, T. T. Quantum Theory of Atoms in Molecules–Dalton Revisited. In: [s.l.]: Academic Press, 1981. v. 14. (Advances in Quantum
+Chemistry). P. 63–124. DOI: 10.1016/S0065-3276(08)60326-3.
+[81] JÓNSSON, H.; MILLS, G.; JACOBSEN, K. W. Nudged elastic band method
+for finding minimum energy paths of transitions. In: CLASSICAL and Quantum
+Dynamics in Condensed Phase Simulations. [S.l.: s.n.], 1998. P. 385–404. DOI:
+10.1142/9789812839664_0016.
+[82] ZHANG, Y.; YANG, W. Comment on “Generalized gradient approximation made
+simple”. Physical Review Letters, APS, v. 80, n. 4, p. 890, 1998. DOI: 10.1103/PhysRevLett.80.890.
+[83] PERDEW, J. P.; RUZSINSZKY, A.; CSONKA, G. I.; VYDROV, O. A.; SCUSERIA,
+G. E.; CONSTANTIN, L. A.; ZHOU, X.; BURKE, K. Restoring the density-gradient
+expansion for exchange in solids and surfaces. Physical review letters, APS, v. 100,
+n. 13, p. 136406, 2008. DOI: 10.1103/PhysRevLett.100.136406.
+43
+
+[84] HAMMER, B.; HANSEN, L. B.; NØRSKOV, J. K. Improved adsorption energetics
+within density-functional theory using revised Perdew-Burke-Ernzerhof functionals.
+Physical review B, APS, v. 59, n. 11, p. 7413, 1999. DOI: 10.1103/PhysRevB.59.7413.
+[85] DELLIEN, I.; HALL, F.; HEPLER, L. G. Chromium, molybdenum, and tungsten:
+thermodynamic properties, chemical equilibriums, and standard potentials. Chemical
+Reviews, ACS Publications, v. 76, n. 3, p. 283–310, 1976.
+[86] HOANG, K.; OH, M.; CHOI, Y. Electronic structure, polaron formation, and
+functional properties in transition-metal tungstates. RSC advances, Royal Society of
+Chemistry, v. 8, n. 8, p. 4191–4196, 2018. DOI: 10.1039/C7RA13436C.
+[87] ZHANG, X.; ZHANG, B. Effect of Pressure on the Structural, Mechanical, and
+Electronic Properties of Monoclinic ZnWO4. Russian Journal of Physical Chemistry
+B, Springer, v. 17, n. 5, p. 1049–1056, 2023. DOI: 10.1134/S1990793123050135.
+[88] DKHILALLI, F.; BORCHANI, S. M.; RASHEED, M.; BARILLE, R.; GUIDARA, K.;
+MEGDICHE, M. Structural, dielectric, and optical properties of the zinc tungstate
+ZnWO4 compound. Journal of Materials Science: Materials in Electronics, Springer,
+v. 29, n. 8, p. 6297–6307, 2018. DOI: 10.1007/s10854-018-8609-z.
+[89] YAN, W.; LIU, X.; HOU, S.; WANG, X. Study on micro-nanocrystalline structure control and performance of ZnWO 4 photocatalysts. Catalysis Science &
+Technology, Royal Society of Chemistry, v. 9, n. 5, p. 1141–1153, 2019. DOI:
+10.1039/C8CY02343C.
+[90] REUTER, K.; STAMPF, C.; SCHEFFLER, M. Ab initio atomistic thermodynamics
+and statistical mechanics of surface properties and functions. In: HANDBOOK of
+Materials Modeling: Methods. [S.l.]: Springer, 2005. P. 149–194.
+[91] PEREIRA, P.; GOUVEIA, A. F.; ASSIS, M. d.; DE OLIVEIRA, R.; PINATTI,
+I. M.; PENHA, M.; GONÇALVES, R.; GRACIA, L.; ANDRES, J.; LONGO, E.
+ZnWO 4 nanocrystals: synthesis, morphology, photoluminescence and photocatalytic
+properties. Physical Chemistry Chemical Physics, Royal Society of Chemistry, v. 20,
+n. 3, p. 1923–1937, 2018. DOI: 10.1039/C7CP07354B.
+
+44
+
+
