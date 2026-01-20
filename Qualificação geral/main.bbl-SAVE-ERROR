@@ -1,0 +1,458 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{bayr2005reactive}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=033ebadd0ca23cb4bb75d3edccdcc8fc}{%
+           family={Bayr},
+           familyi={B\bibinitperiod},
+           given={Hülya},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {LWW}%
+      }
+      \strng{namehash}{033ebadd0ca23cb4bb75d3edccdcc8fc}
+      \strng{fullhash}{033ebadd0ca23cb4bb75d3edccdcc8fc}
+      \strng{bibnamehash}{033ebadd0ca23cb4bb75d3edccdcc8fc}
+      \strng{authorbibnamehash}{033ebadd0ca23cb4bb75d3edccdcc8fc}
+      \strng{authornamehash}{033ebadd0ca23cb4bb75d3edccdcc8fc}
+      \strng{authorfullhash}{033ebadd0ca23cb4bb75d3edccdcc8fc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Critical care medicine}
+      \field{number}{12}
+      \field{title}{Reactive oxygen species}
+      \field{volume}{33}
+      \field{year}{2005}
+      \field{pages}{S498\bibrangedash S501}
+      \range{pages}{-1}
+    \endentry
+    \entry{dong2022comprehensive}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a9d7d8ee1c80e427d7871438edc01921}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Chencheng},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f85b2ecafdc383c6e62c126146a7f554}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Wenzhang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1700712df4b50ac41075ed2bc040bb5}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Qiuying},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=cbfc8ac7f6614b5b2f014db48da8e747}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jinlong},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a3bb36d936e3ba8981a2e82c58f288a6}
+      \strng{fullhash}{a3bb36d936e3ba8981a2e82c58f288a6}
+      \strng{bibnamehash}{f827632f7c7de0a8bbdc615679d61434}
+      \strng{authorbibnamehash}{f827632f7c7de0a8bbdc615679d61434}
+      \strng{authornamehash}{a3bb36d936e3ba8981a2e82c58f288a6}
+      \strng{authorfullhash}{a3bb36d936e3ba8981a2e82c58f288a6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemosphere}
+      \field{title}{A comprehensive review on reactive oxygen species (ROS) in advanced oxidation processes (AOPs)}
+      \field{volume}{308}
+      \field{year}{2022}
+      \field{pages}{136205}
+      \range{pages}{1}
+    \endentry
+    \entry{rogal2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c4e8e1c05abf38ed92de4d87d0ce73d4}{%
+           family={Rogal},
+           familyi={R\bibinitperiod},
+           given={Jutta},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf36b41827088c8b137fa0da9508f7fe}{%
+           family={Reuter},
+           familyi={R\bibinitperiod},
+           given={Karsten},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8a5072c768d08f4fd400de3d6bf43683}
+      \strng{fullhash}{8a5072c768d08f4fd400de3d6bf43683}
+      \strng{bibnamehash}{8a5072c768d08f4fd400de3d6bf43683}
+      \strng{authorbibnamehash}{8a5072c768d08f4fd400de3d6bf43683}
+      \strng{authornamehash}{8a5072c768d08f4fd400de3d6bf43683}
+      \strng{authorfullhash}{8a5072c768d08f4fd400de3d6bf43683}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ab initio atomistic thermodynamics for surfaces: A primer}
+      \field{year}{2006}
+    \endentry
+    \entry{zhang1998comment}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=45023c8ea99aacef7f715942abe597f5}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yingkai},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=78e31d3d482cf462f797d4187a52d247}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Weitao},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{cffc73dbf278243a1ff9713a0a10630c}
+      \strng{fullhash}{cffc73dbf278243a1ff9713a0a10630c}
+      \strng{bibnamehash}{cffc73dbf278243a1ff9713a0a10630c}
+      \strng{authorbibnamehash}{cffc73dbf278243a1ff9713a0a10630c}
+      \strng{authornamehash}{cffc73dbf278243a1ff9713a0a10630c}
+      \strng{authorfullhash}{cffc73dbf278243a1ff9713a0a10630c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{number}{4}
+      \field{title}{Comment on “Generalized gradient approximation made simple”}
+      \field{volume}{80}
+      \field{year}{1998}
+      \field{pages}{890}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.80.890
+      \endverb
+    \endentry
+    \entry{perdew2008restoring}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=49bd2640f858f16dfcddcc404b026f30}{%
+           family={Perdew},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c3a81a7cf7c5ad3cd2a7d8a28d5376e}{%
+           family={Ruzsinszky},
+           familyi={R\bibinitperiod},
+           given={Adrienn},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=363da5a2d4fee75cc83dcc0ae02e7e4d}{%
+           family={Csonka},
+           familyi={C\bibinitperiod},
+           given={Gábor\bibnamedelima I},
+           giveni={G\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=765db8e05b3c1621f1c93379fa404dda}{%
+           family={Vydrov},
+           familyi={V\bibinitperiod},
+           given={Oleg\bibnamedelima A},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b833ff9ec8eab914a2c220f704345e5}{%
+           family={Scuseria},
+           familyi={S\bibinitperiod},
+           given={Gustavo\bibnamedelima E},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10f4ae0b84590c8ece269cd120373c2c}{%
+           family={Constantin},
+           familyi={C\bibinitperiod},
+           given={Lucian\bibnamedelima A},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc92b423f9c91850b061d38c913248ad}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiaolan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33a535778ce96cdd2d59799deeea173d}{%
+           family={Burke},
+           familyi={B\bibinitperiod},
+           given={Kieron},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{490b71e7eb34d888d36edb47b5de2f6a}
+      \strng{fullhash}{490b71e7eb34d888d36edb47b5de2f6a}
+      \strng{bibnamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
+      \strng{authorbibnamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
+      \strng{authornamehash}{490b71e7eb34d888d36edb47b5de2f6a}
+      \strng{authorfullhash}{490b71e7eb34d888d36edb47b5de2f6a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review letters}
+      \field{number}{13}
+      \field{title}{Restoring the density-gradient expansion for exchange in solids and surfaces}
+      \field{volume}{100}
+      \field{year}{2008}
+      \field{pages}{136406}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.100.136406
+      \endverb
+    \endentry
+    \entry{hammer1999improved}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=825c3037051ca4974e34708857641de0}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={BHLB},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e993b818b83f005fe6e4369441dc74c}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={Lars\bibnamedelima Bruno},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4a8a4fb0403a8f9e7458d555e09d784}{%
+           family={N{ø}rskov},
+           familyi={N\bibinitperiod},
+           given={Jens\bibnamedelima Kehlet},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{6794381906c90dc24078349be6ab518e}
+      \strng{fullhash}{6794381906c90dc24078349be6ab518e}
+      \strng{bibnamehash}{6794381906c90dc24078349be6ab518e}
+      \strng{authorbibnamehash}{6794381906c90dc24078349be6ab518e}
+      \strng{authornamehash}{6794381906c90dc24078349be6ab518e}
+      \strng{authorfullhash}{6794381906c90dc24078349be6ab518e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review B}
+      \field{number}{11}
+      \field{title}{Improved adsorption energetics within density-functional theory using revised Perdew-Burke-Ernzerhof functionals}
+      \field{volume}{59}
+      \field{year}{1999}
+      \field{pages}{7413}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.59.7413
+      \endverb
+    \endentry
+    \entry{dellien1976chromium}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ff5e406ed532a2cd619da734308b06de}{%
+           family={Dellien},
+           familyi={D\bibinitperiod},
+           given={Ingemar},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ae5fb044415133bc7628c683cae4639}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={FM},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48398feda114d47a71119f7ead3ebfab}{%
+           family={Hepler},
+           familyi={H\bibinitperiod},
+           given={Loren\bibnamedelima G},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{1d5bbea549f8259615ef35f45ae6def0}
+      \strng{fullhash}{1d5bbea549f8259615ef35f45ae6def0}
+      \strng{bibnamehash}{1d5bbea549f8259615ef35f45ae6def0}
+      \strng{authorbibnamehash}{1d5bbea549f8259615ef35f45ae6def0}
+      \strng{authornamehash}{1d5bbea549f8259615ef35f45ae6def0}
+      \strng{authorfullhash}{1d5bbea549f8259615ef35f45ae6def0}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Reviews}
+      \field{number}{3}
+      \field{title}{Chromium, molybdenum, and tungsten: thermodynamic properties, chemical equilibriums, and standard potentials}
+      \field{volume}{76}
+      \field{year}{1976}
+      \field{pages}{283\bibrangedash 310}
+      \range{pages}{28}
+    \endentry
+    \entry{reuter2005ab}{incollection}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bf36b41827088c8b137fa0da9508f7fe}{%
+           family={Reuter},
+           familyi={R\bibinitperiod},
+           given={Karsten},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d70d6da25a6cb61c505a48c188178ea0}{%
+           family={Stampf},
+           familyi={S\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b39fc67a3375766bfd10f3b489a3d909}{%
+           family={Scheffler},
+           familyi={S\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ecd95bc63a961a69c86e8c06f9ea040d}
+      \strng{fullhash}{ecd95bc63a961a69c86e8c06f9ea040d}
+      \strng{bibnamehash}{ecd95bc63a961a69c86e8c06f9ea040d}
+      \strng{authorbibnamehash}{ecd95bc63a961a69c86e8c06f9ea040d}
+      \strng{authornamehash}{ecd95bc63a961a69c86e8c06f9ea040d}
+      \strng{authorfullhash}{ecd95bc63a961a69c86e8c06f9ea040d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of Materials Modeling: Methods}
+      \field{title}{Ab initio atomistic thermodynamics and statistical mechanics of surface properties and functions}
+      \field{year}{2005}
+      \field{pages}{149\bibrangedash 194}
+      \range{pages}{46}
+    \endentry
+    \entry{pereira2018znwo}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=690e99f443383fb50785337a88e87e5b}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={PFdS},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f702a6b03defeb5e0528b0fbfa943318}{%
+           family={Gouveia},
+           familyi={G\bibinitperiod},
+           given={A\bibnamedelima Fernandes},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ce9768367648fa3e8b43c6dbf5193d0}{%
+           family={Assis},
+           familyi={A\bibinitperiod},
+           given={Marcelo\bibnamedelima de},
+           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bee4407f6603736af4b3017a7fb576d6}{%
+           family={De\bibnamedelima Oliveira},
+           familyi={D\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={RC},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d48531ae37321c000ccf7c488bb29be}{%
+           family={Pinatti},
+           familyi={P\bibinitperiod},
+           given={Ivo\bibnamedelima M},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=add8389a496d65eeaeab939ce94e971b}{%
+           family={Penha},
+           familyi={P\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8b0b7882fadedf646f1ce9d1d79b259}{%
+           family={Gonçalves},
+           familyi={G\bibinitperiod},
+           given={RF},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fc7cc3ce30c77c92139f3b99d22b8b0}{%
+           family={Gracia},
+           familyi={G\bibinitperiod},
+           given={Lourdes},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aafae9a8809e8ce105918dacdf098bb3}{%
+           family={Andres},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2eef40531c7a16bf9d719e6feb31c59}{%
+           family={Longo},
+           familyi={L\bibinitperiod},
+           given={Elson},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{492f46a5dde7aa81d66e72c3ac1a9934}
+      \strng{fullhash}{492f46a5dde7aa81d66e72c3ac1a9934}
+      \strng{bibnamehash}{0c9bfd100513956fa952b424408e434c}
+      \strng{authorbibnamehash}{0c9bfd100513956fa952b424408e434c}
+      \strng{authornamehash}{492f46a5dde7aa81d66e72c3ac1a9934}
+      \strng{authorfullhash}{492f46a5dde7aa81d66e72c3ac1a9934}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Chemistry Chemical Physics}
+      \field{number}{3}
+      \field{title}{ZnWO 4 nanocrystals: synthesis, morphology, photoluminescence and photocatalytic properties}
+      \field{volume}{20}
+      \field{year}{2018}
+      \field{pages}{1923\bibrangedash 1937}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1039/C7CP07354B
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,18 @@
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{\numberline {1}INTRODUÇÃO}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}OBJETIVOS}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}OBJETIVO GERAL}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}OBJETIVOS ESPECÍFICOS}{9}{section.2.2}%
+\contentsline {chapter}{\numberline {3}METODOLOGIA}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}PROCEDIMENTO COMPUTACIONAL}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}SIMULAÇÕES DAS PROPRIEDADES ESTRUTURASI E MORFOLÓGICAS}{10}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Otimização das estruturas internas (\textit {bulk})}{10}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Construção das superfícies e estudo de estabilidade }{10}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Cálculo de energia de relaxação e clivagem das superfícies}{12}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Dinâmica Molecular \textit {Ab Initio}}{12}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}SIMULAÇÕES DA REATIVIDADE PARA GERAÇÃO DE ESPÉCIES REATIVAS DE OXIGÊNIO}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Determinação de sítios de adsorção}{12}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Determinação da energia de adsorção de O$_2$ e H$_2$O}{13}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Determinação dos estados de transição}{13}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {4}RESULTADOS ESPERADOS}{15}{chapter.4}%
+\contentsline {chapter}{REFERÊNCIAS}{16}{chapter*.5}%

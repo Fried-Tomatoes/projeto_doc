@@ -1,0 +1,403 @@
+% main.tex
+% Tese de doutorado - Thomas Antonio Cardozo Martins
+% Tungstatos de metais de transição aplicados como fotocatalisadores e biocidas
+
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% Carregar babel uma vez: definir português (Brasil) como idioma principal e inglês como secundário.
+% O último idioma na lista de opções se torna o idioma principal do documento.
+\usepackage[english,brazil]{babel}
+\usepackage{microtype}
+
+% === Pacotes para escrita acadêmica ===
+% Matemática e símbolos
+\usepackage{amsmath,amssymb,mathtools}
+% Quebra automática de equações longas
+% O pacote breqn permite que equações longas sejam quebradas automaticamente
+% Use \begin{dmath} em vez de \begin{equation} para equações com quebra automática
+% Use \begin{dgroup} para grupos de equações com quebra automática
+\usepackage{breqn}
+% Tratamento melhorado de citações (recomendado com biblatex)
+\usepackage{csquotes}
+
+% Gráficos e objetos flutuantes
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{placeins} % \FloatBarrier
+
+% Tabelas e layout
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+
+% Configurar caption das figuras para ficar no topo
+\captionsetup[figure]{position=top}
+
+% Definir comando para fonte da figura (aparece abaixo)
+\newcommand{\fonte}[1]{%
+  \vspace{0.5\baselineskip}%
+  \par\noindent Fonte: #1\par
+}
+
+% Configurar espaçamento entre texto e figuras/tabelas
+\setlength{\intextsep}{\baselineskip}        % Espaço acima e abaixo de floats no meio do texto
+\setlength{\textfloatsep}{\baselineskip}     % Espaço entre floats no topo/fundo da página e texto
+\setlength{\floatsep}{\baselineskip}         % Espaço entre floats consecutivos
+
+% Configurar espaçamento fixo de equações: sempre uma linha antes e depois
+\makeatletter
+% Para subequations: manter uma linha antes
+\g@addto@macro\subequations{%
+  \setlength{\abovedisplayskip}{\baselineskip}%
+  \setlength{\belowdisplayskip}{\baselineskip}%
+}
+\makeatother
+
+% Ajustar espaçamento para todos os ambientes de equação (equation, align, dmath, etc.)
+\AtBeginDocument{%
+  \setlength{\abovedisplayskip}{\baselineskip}%
+  \setlength{\belowdisplayskip}{\baselineskip}%
+  \setlength{\abovedisplayshortskip}{\baselineskip}%
+  \setlength{\belowdisplayshortskip}{\baselineskip}%
+}
+
+% Unidades e números
+\usepackage{siunitx}
+\sisetup{detect-all=true, output-decimal-marker={,}}
+
+% Espaçamento, indentação e estrutura do documento
+\usepackage{setspace} % \onehalfspacing, \doublespacing
+\usepackage{indentfirst} % indentar primeiro parágrafo das seções
+\setlength{\parindent}{1.5cm} % Definir indentação de parágrafo globalmente
+% fornecer \justifying para justificação completa dentro de minipage
+\usepackage{ragged2e}
+
+% Cores e desenho
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+
+% Notas e marcações editoriais
+% Garantir que marginparwidth seja largo o suficiente para todonotes
+\setlength{\marginparwidth}{2cm}
+\usepackage{todonotes}
+
+% Glossários / acrônimos (requer makeglossaries quando usado)
+\usepackage[acronym]{glossaries}
+\makeglossaries
+
+% Tabelas longas, notas de tabela e ferramentas extras para tabelas
+\usepackage{longtable}
+\usepackage{threeparttable}
+\usepackage{makecell}
+
+% Pacote para escrever fórmulas químicas
+\usepackage[version=4]{mhchem}
+
+% Hiperlinks e referências inteligentes (hyperref deve ser carregado no final)
+\usepackage{hyperref}
+\usepackage[capitalise,noabbrev]{cleveref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	urlcolor=black,
+	pdftitle={Tungstatos de metais de transição},
+	pdfauthor={Thomas A. C. Martins}
+}
+
+% Nota de uso do glossário: para compilar glossários execute `makeglossaries main` após a execução do LaTeX
+\usepackage{geometry}
+\geometry{a4paper, top=3cm, bottom=2cm, left=3cm, right=2cm}
+\usepackage{lipsum}
+% Permitir que seções sejam numeradas sem prefixo de capítulo (então seções são 1,2,3... mesmo na classe report)
+\usepackage{chngcntr}
+
+% Remover numeração de figuras e tabelas vinculada a capítulos
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+\counterwithout{equation}{chapter}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
+\renewcommand{\theequation}{\arabic{equation}}
+
+% Configurar profundidade de numeração e sumário para incluir subsubsections
+\setcounter{secnumdepth}{3}  % Numerar até subsubsection
+\setcounter{tocdepth}{3}      % Incluir subsubsections no sumário
+
+% Fazer cada \section começar em uma nova página
+\usepackage{etoolbox}
+% Controlar aparência de seção/subseção: manter texto de seção em 12pt, fazer subseção não negrito
+\usepackage{titlesec}
+% Formatar capítulos: fonte 14, alinhado à esquerda, negrito, com número seguido de ponto
+\titleformat{\chapter}
+  {\normalfont\fontsize{14}{16}\selectfont\bfseries}
+  {\thechapter.}
+  {1em}
+  {}
+% Seções: não negrito, seguindo numeração de capítulo (1.1)
+\titleformat{\section}
+  {\normalfont\normalsize}
+  {\thesection}
+  {1em}
+  {}
+% Subseções: não negrito (1.1.1)
+\titleformat{\subsection}
+  {\normalfont\normalsize}
+  {\thesubsection}
+  {1em}
+  {}
+% Subsubseções: não negrito (1.1.1.1)
+\titleformat{\subsubsection}
+  {\normalfont\normalsize}
+  {\thesubsubsection}
+  {1em}
+  {}
+
+% Definir numeração de capítulo para usar apenas números
+\renewcommand{\thechapter}{\arabic{chapter}}
+% Definir numeração de seção como capítulo.seção
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+% Definir numeração de subseção como capítulo.seção.subseção
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+% Definir numeração de subsubseção como capítulo.seção.subseção.subsubseção
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+
+% Espaçamento: uma linha antes dos títulos (quando após texto ou outro título do mesmo nível), sem espaço após (texto começa imediatamente)
+% Capítulo: sem espaço extra
+\titlespacing*{\chapter}{0pt}{0pt}{\baselineskip}
+% Seção: uma linha antes (quando após texto), uma linha após (para subsection/subsubsection seguinte)
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip}
+% Subseção: uma linha antes (quando após texto ou outra subsection), sem espaço após
+\titlespacing*{\subsection}{0pt}{\baselineskip}{0pt}
+% Subsubseção: uma linha antes (quando após texto ou outra subsubsection), sem espaço após
+\titlespacing*{\subsubsection}{0pt}{\baselineskip}{0pt}
+
+% Redefinir títulos automáticos removendo a formatação automática e usando manual
+\renewcommand{\contentsname}{}
+\renewcommand{\listfigurename}{}
+\renewcommand{\listtablename}{}
+
+% Garantir que cada \chapter comece em uma página nova adicionando \clearpage antes.
+% Isso é feito *depois* que titlesec é carregado para evitar a redefinição de \chapter.
+\pretocmd{\chapter}{\clearpage}{}{}
+
+% Seleção de fonte: usar fonte padrão do LaTeX (Computer Modern)
+% Comentado: configuração anterior para Arial
+% \usepackage{iftex}
+% \ifPDFTeX
+%   % Fallback pdfLaTeX: usar Helvetica como substituto sans-serif próximo
+%   \usepackage[scaled]{helvet}
+%   \renewcommand{\familydefault}{\sfdefault}
+% \else
+%   \usepackage{fontspec}
+%   \setmainfont{Arial}
+% \fi
+
+% Definir um ambiente `mytext` com tamanho de fonte 12pt,
+% espaçamento de linha 1.5 e indentação de parágrafo usando fonte padrão do LaTeX
+\usepackage{xparse}
+\NewDocumentEnvironment{mytext}{}{
+\par\begingroup
+	\setstretch{1.5}
+	\fontsize{12}{18}\selectfont
+	% garantir indentação de parágrafo e parskip modesto
+	\setlength{\parindent}{1.25em}
+}
+{
+	\par\endgroup
+}
+
+% Definir espaço entre parágrafos padrão como 0pt em todo o documento
+\setlength{\parskip}{0pt}
+
+% Bibliografia: usar biblatex-abnt com estilo numérico para formatação ABNT NBR 6023
+% Isso segue as regras ABNT mas usa rótulos numéricos [1], [2], ... em vez de autor-ano
+% citestyle=numeric-comp ativa a compressão automática de citações consecutivas
+\usepackage[backend=biber,style=abnt-numeric,citestyle=numeric-comp,sorting=none,ittitles,uniquename=init,giveninits,justify,indent,maxbibnames=10,minbibnames=6]{biblatex}
+\addbibresource{references.bib}
+
+% Desabilitar substituição de autores repetidos por traços
+\renewcommand*{\bibnamedash}{\printnames{author}}
+
+% Configurar DOI e URL para usar a mesma fonte do texto (não monoespaçada)
+\renewcommand*{\mkbibacro}[1]{#1}
+\DeclareFieldFormat{doi}{%
+  DOI\addcolon\space
+  \ifhyperref
+    {\href{https://doi.org/#1}{#1}}
+    {#1}}
+\DeclareFieldFormat{url}{%
+  \ifhyperref
+    {\href{#1}{#1}}
+    {#1}}
+
+% Permitir quebra de linha em URLs e DOIs
+\setcounter{biburlnumpenalty}{100}
+\setcounter{biburlucpenalty}{100}
+\setcounter{biburllcpenalty}{100}
+
+% Configurar quebra de linha para todos os campos bibliográficos
+\emergencystretch=1em
+\appto{\bibsetup}{\sloppy}
+
+% Adicionar colchetes ao redor dos números de referência na bibliografia
+\DeclareFieldFormat{labelnumberwidth}{[#1]}
+
+% Configurar compressão de citações: 
+% - citestyle=numeric-comp já ativa compressão automática
+% - 3 ou mais referências consecutivas: [1-5]
+% - 2 referências ou menos: [1, 2]
+
+% Configurar limite mínimo para compressão (padrão é 3)
+\renewcommand*{\citereset}{}
+
+
+
+% Configurar limite para compressão: a partir de 3 citações consecutivas
+\defbibenvironment{bibliography}
+  {\list
+     {\printtext[labelnumberwidth]{%
+        \printfield{labelprefix}%
+        \printfield{labelnumber}}}
+     {\setlength{\labelwidth}{\labelnumberwidth}%
+      \setlength{\leftmargin}{\labelwidth}%
+      \setlength{\labelsep}{\biblabelsep}%
+      \addtolength{\leftmargin}{\labelsep}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}%
+      \renewcommand*{\makelabel}[1]{\hss##1}}
+  {\endlist}
+  {\item}
+
+% Algoritmos e pseudocódigo
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+% Listagens de código (use minted se preferir código com destaque; minted requer -shell-escape)
+\usepackage{listings}
+% \usepackage{minted} % requer pygments e -shell-escape
+
+% Tipografia para química (se necessário)
+\usepackage[version=4]{mhchem}
+% pacotes de química intencionalmente omitidos; adicione chemmacros/chemgreek se necessário
+
+% Metadados
+\title{TUNGSTATOS DE METAIS DE TRANSIÇÃO APLICADOS COMO
+FOTOCATALISADORES E BIOCIDAS: AVALIAÇÃO TEÓRICA DAS ESPÉCIES
+REATIVAS DE OXIGÊNIO}
+\author{THOMAS ANTONIO CARDOZO MARTINS}
+\date{2025y}
+
+% ============================================================
+% CONFIGURAÇÃO DE ELEMENTOS PRÉ-TEXTUAIS
+% Defina como true ou false para incluir/ocultar cada elemento
+% 
+% Para INCLUIR um elemento: use \nomedoelemento + true
+% Para OCULTAR um elemento: use \nomedoelemento + false
+%
+% ============================================================
+\newif\ifincluircapa
+\newif\ifincluirfolhaderosto
+\newif\ifincluirfichacatalografica
+\newif\ifincluirfolhadeaprovado
+\newif\ifincluirepigrafe
+\newif\ifincluiragradecimentos
+\newif\ifincluirresumo
+\newif\ifincluirabstract
+\newif\ifincluirsumario
+\newif\ifincluirlistafiguras
+\newif\ifincluirlistatabelas
+\newif\ifincluirlistaabreviaturas
+
+% Seções principais (true = incluir, false = ocultar)
+\newif\ifincluirintroducao
+\newif\ifincluirfundamentacao
+\newif\ifincluirobjetivos
+\newif\ifincluirmetodologia
+\newif\ifincluirresultados
+\newif\ifincluirconclusao
+\newif\ifincluirreferencias
+\newif\ifincluirapendice
+
+% Configurar quais elementos serão incluídos (true = incluir, false = ocultar)
+\incluircapafalse                  % Capa com logos
+\incluirfolhaderostotrue          % Folha de rosto
+\incluirfichacatalograficafalse    % Ficha catalográfica (imagem digitalizada)
+\incluirfolhadeaprovadofalse       % Folha de aprovação (imagem digitalizada)
+\incluirepigrafefalse              % Epígrafe
+\incluiragradecimentosfalse        % Agradecimentos
+\incluirresumotrue                 % Resumo em português
+\incluirabstractfalse               % Abstract em inglês
+\incluirsumariotrue                % Sumário (índice)
+\incluirlistafigurasfalse          % Lista de figuras
+\incluirlistatabelasfalse          % Lista de tabelas
+\incluirlistaabreviaturasfalse     % Lista de abreviaturas e siglas
+
+\incluirintroducaotrue             % Capítulo: Introdução
+\incluirobjetivostrue              % Capítulo: Objetivos
+\incluirmetodologiatrue            % Capítulo: Metodologia
+\incluirconclusaotrue              % Capítulo: Resultados esperados
+\incluirreferenciastrue            % Seção de referências
+\incluirapendicefalse              % Apêndice (não numerado no sumário)
+
+\begin{document}
+
+% Usar espaçamento de linha 1.5, comum em documentos acadêmicos
+\onehalfspacing
+% Garantir que o alinhamento padrão de parágrafo seja totalmente justificado
+\justifying
+
+% Pré-textuais (numeração romana)
+\pagenumbering{roman}
+% Carregar definições do glossário antes das seções pré-textuais
+\input{sections/glossario.tex}
+\input{sections/0_pre_textuais.tex}
+
+\clearpage
+% Conteúdo principal (numeração arábica continuando da romana)
+% Salvar o contador de páginas atual
+\newcounter{preTextualPages}
+\setcounter{preTextualPages}{\value{page}}
+\pagenumbering{arabic}
+% Continuar a numeração da parte pré-textual
+\setcounter{page}{\value{preTextualPages}}
+
+\ifincluirintroducao
+\input{sections/1_introducao.tex}
+\fi
+\ifincluirobjetivos
+\input{sections/2_objetivos.tex}
+\fi
+\ifincluirmetodologia
+\input{sections/3_metodologia.tex}
+\fi
+\ifincluirconclusao
+\input{sections/4_resultados_esperados.tex}
+\fi
+
+\ifincluirreferencias
+% ===== Referências =====
+\clearpage
+\cleardoublepage
+\phantomsection
+% Definir tamanho da fonte 14 para a seção de referências
+{\fontsize{14}{16}\selectfont
+\printbibliography[title={REFERÊNCIAS},heading=bibintoc]
+}
+\fi
+
+\ifincluirapendice
+% ===== Apêndice =====
+\clearpage
+\cleardoublepage
+% O apêndice é incluído após as referências
+% Os capítulos do apêndice usam \chapter* para não serem numerados
+% e \addcontentsline para aparecerem no sumário sem numeração
+\input{sections/apendice.tex}
+\fi
+
+\end{document}

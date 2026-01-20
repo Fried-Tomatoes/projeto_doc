@@ -1,0 +1,56 @@
+\glsdefs@newdocentry{ros}%
+{%
+name={\acronymfont {\glsentryshort {ros}}},%
+sort={ROS},%
+type={acronym},%
+first={ROS},%
+firstplural={ROSs},%
+text={ROS},%
+plural={ROSs},%
+description={Espécies Reativas de Oxigênio},%
+descriptionplural={Espécies Reativas de Oxigênio},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Espécies Reativas de Oxigênio},%
+longplural={Espécies Reativas de Oxigênios},%
+short={ROS},%
+shortplural={ROSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{dft}%
+{%
+name={\acronymfont {\glsentryshort {dft}}},%
+sort={DFT},%
+type={acronym},%
+first={DFT},%
+firstplural={DFTs},%
+text={DFT},%
+plural={DFTs},%
+description={Teoria do Funcional da Densidade},%
+descriptionplural={Teoria do Funcional da Densidade},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Teoria do Funcional da Densidade},%
+longplural={Teoria do Funcional da Densidades},%
+short={DFT},%
+shortplural={DFTs},%
+counter={page},%
+parent={},%
+%
+}%
+

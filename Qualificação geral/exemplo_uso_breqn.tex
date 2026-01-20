@@ -1,0 +1,60 @@
+% exemplo_uso_breqn.tex
+% Este arquivo demonstra o uso do pacote breqn para quebra automática de equações
+
+% Para testar, copie este conteúdo para uma seção do documento principal
+
+\subsection{Exemplo de Uso do breqn}
+
+\subsubsection{Equação Curta - Use equation Normal}
+
+Para equações curtas, continue usando o ambiente tradicional:
+
+\begin{equation}
+E = mc^2
+\label{eq:einstein_exemplo}
+\end{equation}
+
+\subsubsection{Equação Longa - Use dmath}
+
+Para equações longas que podem ultrapassar a margem, use o ambiente \texttt{dmath}:
+
+\begin{dmath}
+\gamma(T,P) = \frac{1}{2A} \left[ G_{\text{slab}}(T,P,N_{\text{M}},N_{\text{W}},N_{\text{O}}) - N_{\text{M}}\mu_{\text{M}}(T,P) - N_{\text{W}}[g^{bulk}_{M_xWO_4}(T,P) - x\mu_{M}(T,P) - 4\mu_{O}(T,P)] - N_{\text{O}}\mu_{\text{O}}(T,P) \right]
+\label{eq:gibbs_longa_exemplo}
+\end{dmath}
+
+A equação acima será automaticamente quebrada em várias linhas se não couber na largura da página.
+
+\subsubsection{Múltiplas Equações com Quebra}
+
+Use o ambiente \texttt{dgroup} para grupos de equações:
+
+\begin{dgroup}
+\begin{dmath}
+\mu_{W} = g^{bulk}_{M_xWO_4}(T,P) - x\mu_{M}(T,P) - 4\mu_{O}(T,P)
+\label{eq:mu_w_exemplo}
+\end{dmath}
+\begin{dmath}
+\mu^{bulk}_{M_xWO_4}(T,P) = x\mu_{M}(T,P) + \mu_{W}(T,P) + 4\mu_{O}(T,P) \approx g^{bulk}_{M_xWO_4}(T,P)
+\label{eq:mu_bulk_exemplo}
+\end{dmath}
+\end{dgroup}
+
+\subsubsection{Referenciando Equações}
+
+As equações podem ser referenciadas normalmente:
+\begin{itemize}
+    \item A Equação~\ref{eq:einstein_exemplo} mostra a famosa relação energia-massa.
+    \item A Equação~\ref{eq:gibbs_longa_exemplo} descreve a energia livre de Gibbs da superfície.
+    \item As Equações~\ref{eq:mu_w_exemplo} e~\ref{eq:mu_bulk_exemplo} relacionam potenciais químicos.
+\end{itemize}
+
+\subsubsection{Dicas de Uso}
+
+\begin{enumerate}
+    \item Use \texttt{dmath} quando suspeitar que a equação pode ser longa
+    \item Use \texttt{dmath*} se não quiser numeração
+    \item Mantenha \texttt{equation} para equações curtas e simples
+    \item O \texttt{breqn} quebra automaticamente nos operadores (+, -, =, etc.)
+    \item A indentação das linhas seguintes é automática
+\end{enumerate}
